@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import Image from "next/image";
 import type { Core } from "cytoscape";
-import { ChevronRight, ExternalLink, Focus, Loader2, Network, Search } from "lucide-react";
+import { ArrowLeft, ChevronRight, ExternalLink, Focus, Loader2, Network, RotateCcw, Search } from "lucide-react";
 
 import assetsData from "@/data/assets.json";
 import { Badge } from "@/components/ui/badge";
@@ -81,6 +81,8 @@ const evidenceLabels: Record<string, string> = {
   "teaching-simplified": "教学简化",
 };
 
+const INITIAL_CENTER_ID = "cell:t-cell";
+
 function NodeTypeBadge({ type }: { type: string }) {
   return (
     <Badge variant="outline" className="gap-1.5 bg-white font-normal">
@@ -93,7 +95,8 @@ function NodeTypeBadge({ type }: { type: string }) {
 export function KnowledgeGraph() {
   const containerRef = useRef<HTMLDivElement>(null);
   const cyRef = useRef<Core | null>(null);
-  const [centerId, setCenterId] = useState("cell:t-cell");
+  const [centerId, setCenterId] = useState(INITIAL_CENTER_ID);
+  const [centerHistory, setCenterHistory] = useState<string[]>([]);
   const [depth, setDepth] = useState<1 | 2>(1);
   const [graph, setGraph] = useState<GraphResponse | null>(null);
   const [selectedId, setSelectedId] = useState("cell:t-cell");
@@ -106,7 +109,7 @@ export function KnowledgeGraph() {
     let active = true;
     setLoading(true);
     setError("");
-    fetch(`/api/graph?center=${encodeURIComponent(centerId)}&depth=${depth}`)
+    fetch(`/api/graph?center=${encodeURIComponent(centerId)}&depth=${depth}`, { cache: "no-store" })
       .then((response) => {
         if (!response.ok) throw new Error("graph request failed");
         return response.json() as Promise<GraphResponse>;
@@ -131,7 +134,7 @@ export function KnowledgeGraph() {
     }
     const controller = new AbortController();
     const timeout = window.setTimeout(() => {
-      fetch(`/api/concepts?query=${encodeURIComponent(value)}`, { signal: controller.signal })
+      fetch(`/api/concepts?query=${encodeURIComponent(value)}`, { cache: "no-store", signal: controller.signal })
         .then((response) => response.json() as Promise<{ nodes: KnowledgeNode[] }>)
         .then((data) => setResults(data.nodes))
         .catch(() => undefined);
@@ -251,9 +254,34 @@ export function KnowledgeGraph() {
   const assetsById = useMemo(() => Object.fromEntries(assetsData.assets.map((asset) => [asset.id, asset])), []);
   const selectedAsset = selected?.imageId ? assetsById[selected.imageId] : undefined;
 
+  const navigateToCenter = (nodeId: string) => {
+    if (nodeId === centerId) {
+      setSelectedId(nodeId);
+      return;
+    }
+    setCenterHistory((history) => [...history, centerId].slice(-20));
+    setCenterId(nodeId);
+    setSelectedId(nodeId);
+  };
+
+  const goBack = () => {
+    const previous = centerHistory.at(-1);
+    if (!previous) return;
+    setCenterHistory((history) => history.slice(0, -1));
+    setCenterId(previous);
+    setSelectedId(previous);
+  };
+
+  const returnToStart = () => {
+    setCenterHistory([]);
+    setCenterId(INITIAL_CENTER_ID);
+    setSelectedId(INITIAL_CENTER_ID);
+    setQuery("");
+    setResults([]);
+  };
+
   const chooseResult = (node: KnowledgeNode) => {
-    setCenterId(node.id);
-    setSelectedId(node.id);
+    navigateToCenter(node.id);
     setQuery("");
     setResults([]);
   };
@@ -265,7 +293,9 @@ export function KnowledgeGraph() {
           <div className="flex items-center gap-2"><Network className="size-5 text-cyan-800" /><h2 id="knowledge-title" className="text-xl font-bold tracking-tight text-slate-950">免疫知识网络</h2></div>
           <p className="mt-1 text-sm text-slate-500">从一个概念出发查看局部关系。点击节点看证据，再将它设为新的中心。</p>
         </div>
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
+          <Button type="button" size="sm" variant="outline" disabled={centerHistory.length === 0} onClick={goBack} className="gap-1.5"><ArrowLeft className="size-3.5" />返回上一步</Button>
+          <Button type="button" size="sm" variant="outline" disabled={centerId === INITIAL_CENTER_ID} onClick={returnToStart} className="gap-1.5"><RotateCcw className="size-3.5" />回到起点</Button>
           <Button type="button" size="sm" variant={depth === 1 ? "default" : "outline"} onClick={() => setDepth(1)}>一跳关系</Button>
           <Button type="button" size="sm" variant={depth === 2 ? "default" : "outline"} onClick={() => setDepth(2)}>二跳展开</Button>
         </div>
@@ -299,7 +329,8 @@ export function KnowledgeGraph() {
 
         <aside className="border-t border-slate-200 bg-[#fbfcfe] p-5 xl:border-l xl:border-t-0">
           {selected ? <div className="space-y-5">
-            {selectedAsset && <div className="flex h-32 items-center justify-center rounded-2xl border border-slate-200 bg-white"><Image src={selectedAsset.file} alt={`${selected.chineseName}示意图`} width={176} height={112} className="h-28 w-44 object-contain" /></div>}
+            {selectedAsset && <div className="rounded-2xl border border-slate-200 bg-white p-3"><div className="flex h-28 items-center justify-center"><Image src={selectedAsset.file} alt={`${selected.chineseName}示意图`} width={176} height={112} className="h-28 w-44 object-contain" /></div><div className="mt-2 flex flex-wrap items-center justify-between gap-2 border-t border-slate-100 pt-2 text-[11px] text-slate-500"><span>{selectedAsset.name} · {selectedAsset.author}</span><a href={`${assetsData.repository}/blob/main/${selectedAsset.sourcePath}`} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 font-semibold text-cyan-800 hover:underline">{selectedAsset.license}<ExternalLink className="size-3" /></a></div></div>}
+            {!selectedAsset && <div className="flex h-24 items-center justify-center gap-2 rounded-2xl border border-dashed border-slate-300 bg-white text-xs text-slate-500"><Network className="size-4" />Bioicons 暂无可靠匹配图示</div>}
             <div>
               <div className="flex flex-wrap items-center gap-2"><NodeTypeBadge type={selected.nodeType} /><Badge variant="secondary" className="font-normal">{selected.category}</Badge></div>
               <h3 className="mt-3 text-xl font-bold text-slate-950">{selected.abbreviation || selected.chineseName}</h3>
@@ -308,12 +339,13 @@ export function KnowledgeGraph() {
             </div>
             <p className="text-sm leading-6 text-slate-700">{selected.description}</p>
             {selected.imageMode === "shared" && <div className="rounded-xl border border-amber-200 bg-amber-50 p-3 text-xs leading-5 text-amber-950">该亚型复用 Bioicons 家族图示；图形不表示可凭普通形态区分此亚型。</div>}
+            {selected.imageMode === "representative" && <div className="rounded-xl border border-blue-200 bg-blue-50 p-3 text-xs leading-5 text-blue-950">这是用于辅助识别概念类别的代表性图示，不是该分子、疾病或过程的一对一结构图。</div>}
             <div className="rounded-xl border border-slate-200 bg-white p-3 text-xs leading-5 text-slate-600">
               <p className="font-semibold text-slate-800">内容来源</p>
               <p className="mt-1">{selected.sourceRef}</p>
               {selected.sourceUrl && <a href={selected.sourceUrl} target="_blank" rel="noreferrer" className="mt-1 inline-flex items-center gap-1 font-semibold text-cyan-800 hover:underline">查看外部来源 <ExternalLink className="size-3" /></a>}
             </div>
-            {selected.id !== graph?.centerId && <Button type="button" className="w-full gap-2" onClick={() => setCenterId(selected.id)}><Focus className="size-4" />以此概念为中心</Button>}
+            {selected.id !== graph?.centerId && <Button type="button" className="w-full gap-2" onClick={() => navigateToCenter(selected.id)}><Focus className="size-4" />以此概念为中心</Button>}
             <div>
               <h4 className="text-xs font-bold uppercase tracking-[0.14em] text-slate-400">当前邻接关系</h4>
               <div className="mt-2 max-h-64 space-y-2 overflow-y-auto pr-1">

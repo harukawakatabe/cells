@@ -5,7 +5,7 @@
       "cell-atlas.json"
     ],
     "nodeCount": 351,
-    "edgeCount": 785,
+    "edgeCount": 455,
     "countsByType": {
       "category": 18,
       "cell": 38,
@@ -18,6 +18,7 @@
       "technique": 18
     },
     "visualSystem": "Bioicons",
+    "relationPolicy": "Only explicit ontology, source-backed, or expert-curated semantic relations; text co-occurrence is excluded.",
     "evidenceStatuses": [
       "source-explicit",
       "ontology-curated",
@@ -976,8 +977,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #1",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "lymphatic-system",
+      "imageMode": "representative"
     },
     {
       "id": "term:2",
@@ -992,8 +993,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #2",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "bone-marrow",
+      "imageMode": "exact"
     },
     {
       "id": "term:3",
@@ -1024,8 +1025,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #4",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "lymph-node",
+      "imageMode": "exact"
     },
     {
       "id": "term:5",
@@ -1040,8 +1041,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #5",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "spleen",
+      "imageMode": "exact"
     },
     {
       "id": "term:6",
@@ -1056,8 +1057,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #6",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "intestine",
+      "imageMode": "representative"
     },
     {
       "id": "term:7",
@@ -1072,8 +1073,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #7",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "lymphatic-system",
+      "imageMode": "representative"
     },
     {
       "id": "term:8",
@@ -1088,8 +1089,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #8",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "intestine",
+      "imageMode": "representative"
     },
     {
       "id": "term:9",
@@ -1104,8 +1105,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #9",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "lung",
+      "imageMode": "representative"
     },
     {
       "id": "term:10",
@@ -1120,8 +1121,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #10",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "skin",
+      "imageMode": "representative"
     },
     {
       "id": "term:11",
@@ -1136,8 +1137,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #11",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "lymphatic-system",
+      "imageMode": "representative"
     },
     {
       "id": "term:35",
@@ -1168,8 +1169,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #43",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "immunoglobulin",
+      "imageMode": "exact"
     },
     {
       "id": "term:44",
@@ -1184,8 +1185,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #44",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody",
+      "imageMode": "exact"
     },
     {
       "id": "term:45",
@@ -1200,8 +1201,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #45",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody-ligand",
+      "imageMode": "representative"
     },
     {
       "id": "term:46",
@@ -1216,8 +1217,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #46",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "immunoglobulin",
+      "imageMode": "representative"
     },
     {
       "id": "term:47",
@@ -1232,8 +1233,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #47",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "immunoglobulin",
+      "imageMode": "representative"
     },
     {
       "id": "term:48",
@@ -1248,8 +1249,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #48",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "immunoglobulin",
+      "imageMode": "representative"
     },
     {
       "id": "term:49",
@@ -1264,8 +1265,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #49",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "immunoglobulin",
+      "imageMode": "representative"
     },
     {
       "id": "term:50",
@@ -1280,8 +1281,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #50",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "immunoglobulin",
+      "imageMode": "representative"
     },
     {
       "id": "term:51",
@@ -1296,8 +1297,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #51",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "immunoglobulin",
+      "imageMode": "representative"
     },
     {
       "id": "term:52",
@@ -1312,8 +1313,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #52",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "immunoglobulin",
+      "imageMode": "representative"
     },
     {
       "id": "term:53",
@@ -1392,8 +1393,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #57",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody",
+      "imageMode": "representative"
     },
     {
       "id": "term:58",
@@ -1408,8 +1409,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #58",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody",
+      "imageMode": "representative"
     },
     {
       "id": "term:59",
@@ -1424,8 +1425,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #59",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody",
+      "imageMode": "representative"
     },
     {
       "id": "term:60",
@@ -1488,8 +1489,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #63",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody",
+      "imageMode": "representative"
     },
     {
       "id": "term:64",
@@ -1504,8 +1505,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #64",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody",
+      "imageMode": "representative"
     },
     {
       "id": "term:65",
@@ -1520,8 +1521,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #65",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody",
+      "imageMode": "representative"
     },
     {
       "id": "term:66",
@@ -1536,8 +1537,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #66",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody-ligand",
+      "imageMode": "representative"
     },
     {
       "id": "term:67",
@@ -1552,8 +1553,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #67",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody-ligand",
+      "imageMode": "representative"
     },
     {
       "id": "term:68",
@@ -1632,8 +1633,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #72",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:73",
@@ -1696,8 +1697,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #76",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:77",
@@ -1712,8 +1713,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #77",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:78",
@@ -1744,8 +1745,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #79",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:80",
@@ -1760,8 +1761,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #80",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:81",
@@ -1776,8 +1777,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #81",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:82",
@@ -1792,8 +1793,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #82",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:83",
@@ -1808,8 +1809,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #83",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:84",
@@ -1824,8 +1825,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #84",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:85",
@@ -1840,8 +1841,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #85",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:86",
@@ -1856,8 +1857,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #86",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:87",
@@ -1872,8 +1873,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #87",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:88",
@@ -1936,8 +1937,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #91",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:92",
@@ -1952,8 +1953,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #92",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:93",
@@ -1968,8 +1969,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #93",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:94",
@@ -1984,8 +1985,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #94",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:95",
@@ -2000,8 +2001,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #95",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:96",
@@ -2016,8 +2017,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #96",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:97",
@@ -2032,8 +2033,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #97",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:98",
@@ -2048,8 +2049,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #98",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:99",
@@ -2064,8 +2065,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #99",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:100",
@@ -2080,8 +2081,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #100",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:101",
@@ -2096,8 +2097,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #101",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:102",
@@ -2112,8 +2113,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #102",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:103",
@@ -2128,8 +2129,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #103",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:104",
@@ -2144,8 +2145,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #104",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:105",
@@ -2160,8 +2161,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #105",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:106",
@@ -2176,8 +2177,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #106",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:107",
@@ -2192,8 +2193,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #107",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:108",
@@ -2208,8 +2209,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #108",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:109",
@@ -2224,8 +2225,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #109",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:110",
@@ -2240,8 +2241,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #110",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "protein",
+      "imageMode": "representative"
     },
     {
       "id": "term:111",
@@ -2272,8 +2273,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #112",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:113",
@@ -2304,8 +2305,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #114",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:115",
@@ -2320,8 +2321,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #115",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:116",
@@ -2336,8 +2337,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #116",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:117",
@@ -2352,8 +2353,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #117",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:118",
@@ -2368,8 +2369,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #118",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:119",
@@ -2384,8 +2385,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #119",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:120",
@@ -2400,8 +2401,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #120",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:121",
@@ -2416,8 +2417,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #121",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:122",
@@ -2432,8 +2433,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #122",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:123",
@@ -2448,8 +2449,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #123",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:124",
@@ -2464,8 +2465,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #124",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:125",
@@ -2480,8 +2481,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #125",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:126",
@@ -2496,8 +2497,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #126",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:127",
@@ -2512,8 +2513,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #127",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:128",
@@ -2528,8 +2529,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #128",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:129",
@@ -2544,8 +2545,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #129",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:130",
@@ -2560,8 +2561,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #130",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:131",
@@ -2576,8 +2577,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #131",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:132",
@@ -2592,8 +2593,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #132",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:133",
@@ -2608,8 +2609,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #133",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:134",
@@ -2624,8 +2625,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #134",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:135",
@@ -2640,8 +2641,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #135",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:136",
@@ -2656,8 +2657,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #136",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:137",
@@ -2672,8 +2673,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #137",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:138",
@@ -2688,8 +2689,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #138",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:139",
@@ -2704,8 +2705,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #139",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:140",
@@ -2720,8 +2721,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #140",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:141",
@@ -2736,8 +2737,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #141",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:142",
@@ -2752,8 +2753,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #142",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:143",
@@ -2768,8 +2769,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #143",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:144",
@@ -2784,8 +2785,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #144",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:145",
@@ -2800,8 +2801,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #145",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:146",
@@ -2816,8 +2817,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #146",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:147",
@@ -2848,8 +2849,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #148",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:149",
@@ -2864,8 +2865,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #149",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:150",
@@ -2880,8 +2881,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #150",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "mhc-i",
+      "imageMode": "exact"
     },
     {
       "id": "term:151",
@@ -2896,8 +2897,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #151",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "mhc-ii",
+      "imageMode": "exact"
     },
     {
       "id": "term:152",
@@ -2928,8 +2929,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #153",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "tcr-cd3",
+      "imageMode": "exact"
     },
     {
       "id": "term:154",
@@ -2944,8 +2945,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #154",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:155",
@@ -3104,8 +3105,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #164",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:165",
@@ -3152,8 +3153,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #167",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:168",
@@ -3168,8 +3169,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #168",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:169",
@@ -3184,8 +3185,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #169",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:170",
@@ -3200,8 +3201,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #170",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:171",
@@ -4224,8 +4225,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #234",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "hiv-virus",
+      "imageMode": "representative"
     },
     {
       "id": "term:235",
@@ -4240,8 +4241,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #235",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "hiv-virus",
+      "imageMode": "exact"
     },
     {
       "id": "term:236",
@@ -4608,8 +4609,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #258",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "tumor",
+      "imageMode": "representative"
     },
     {
       "id": "term:259",
@@ -4624,8 +4625,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #259",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "tumor",
+      "imageMode": "representative"
     },
     {
       "id": "term:260",
@@ -4640,8 +4641,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #260",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "tumor",
+      "imageMode": "representative"
     },
     {
       "id": "term:261",
@@ -4656,8 +4657,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #261",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "tumor",
+      "imageMode": "representative"
     },
     {
       "id": "term:262",
@@ -4736,8 +4737,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #266",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "tumor",
+      "imageMode": "representative"
     },
     {
       "id": "term:267",
@@ -4752,8 +4753,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #267",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "tumor",
+      "imageMode": "representative"
     },
     {
       "id": "term:268",
@@ -4768,8 +4769,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #268",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "tumor",
+      "imageMode": "representative"
     },
     {
       "id": "term:269",
@@ -4784,8 +4785,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #269",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "tumor",
+      "imageMode": "representative"
     },
     {
       "id": "term:270",
@@ -4800,8 +4801,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #270",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "tumor",
+      "imageMode": "representative"
     },
     {
       "id": "term:271",
@@ -4816,8 +4817,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #271",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "vaccine",
+      "imageMode": "representative"
     },
     {
       "id": "term:272",
@@ -5008,8 +5009,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #283",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "vaccine",
+      "imageMode": "representative"
     },
     {
       "id": "term:284",
@@ -5040,8 +5041,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #285",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "vaccine",
+      "imageMode": "representative"
     },
     {
       "id": "term:286",
@@ -5056,8 +5057,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #286",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "vaccine",
+      "imageMode": "representative"
     },
     {
       "id": "term:287",
@@ -5072,8 +5073,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #287",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "vaccine",
+      "imageMode": "representative"
     },
     {
       "id": "term:288",
@@ -5088,8 +5089,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #288",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "vaccine",
+      "imageMode": "representative"
     },
     {
       "id": "term:289",
@@ -5104,8 +5105,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #289",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "rna",
+      "imageMode": "representative"
     },
     {
       "id": "term:290",
@@ -5120,8 +5121,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #290",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "dna",
+      "imageMode": "representative"
     },
     {
       "id": "term:291",
@@ -5136,8 +5137,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #291",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "vaccine",
+      "imageMode": "representative"
     },
     {
       "id": "term:292",
@@ -5152,8 +5153,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #292",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "vaccine",
+      "imageMode": "representative"
     },
     {
       "id": "term:293",
@@ -5168,8 +5169,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #293",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody",
+      "imageMode": "representative"
     },
     {
       "id": "term:294",
@@ -5184,8 +5185,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #294",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "vaccine",
+      "imageMode": "representative"
     },
     {
       "id": "term:295",
@@ -5216,8 +5217,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #296",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "vaccine",
+      "imageMode": "representative"
     },
     {
       "id": "term:297",
@@ -5248,8 +5249,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #298",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody",
+      "imageMode": "representative"
     },
     {
       "id": "term:299",
@@ -5264,8 +5265,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #299",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody-ligand",
+      "imageMode": "representative"
     },
     {
       "id": "term:300",
@@ -5280,8 +5281,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #300",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody-ligand",
+      "imageMode": "representative"
     },
     {
       "id": "term:301",
@@ -5296,8 +5297,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #301",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "western-blot",
+      "imageMode": "exact"
     },
     {
       "id": "term:302",
@@ -5312,8 +5313,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #302",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "microscope",
+      "imageMode": "representative"
     },
     {
       "id": "term:303",
@@ -5328,8 +5329,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #303",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "microscope",
+      "imageMode": "representative"
     },
     {
       "id": "term:304",
@@ -5344,8 +5345,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #304",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "flow-cytometer",
+      "imageMode": "exact"
     },
     {
       "id": "term:305",
@@ -5360,8 +5361,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #305",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "flow-cytometer",
+      "imageMode": "exact"
     },
     {
       "id": "term:306",
@@ -5408,8 +5409,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #308",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody-ligand",
+      "imageMode": "representative"
     },
     {
       "id": "term:309",
@@ -5424,8 +5425,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #309",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "antibody-ligand",
+      "imageMode": "representative"
     },
     {
       "id": "term:310",
@@ -5440,8 +5441,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #310",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "electrophoresis",
+      "imageMode": "representative"
     },
     {
       "id": "term:311",
@@ -5456,8 +5457,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #311",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "electrophoresis",
+      "imageMode": "representative"
     },
     {
       "id": "term:312",
@@ -5488,8 +5489,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #313",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "microscope",
+      "imageMode": "representative"
     },
     {
       "id": "term:314",
@@ -5504,8 +5505,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #314",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "phage",
+      "imageMode": "exact"
     },
     {
       "id": "term:315",
@@ -5520,8 +5521,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #315",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "receptor",
+      "imageMode": "representative"
     },
     {
       "id": "term:316",
@@ -5536,8 +5537,8 @@
       "sourceKind": "excel",
       "sourceRef": "Excel #316",
       "sourceUrl": "",
-      "imageId": "",
-      "imageMode": "none"
+      "imageId": "dna-sequencer",
+      "imageMode": "representative"
     },
     {
       "id": "term:317",
@@ -10372,4753 +10373,793 @@
     {
       "id": "edge:0390",
       "directed": true,
-      "source": "term:2",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #2",
+      "source": "term:318",
+      "target": "term:317",
+      "predicate": "is_a",
+      "label": "免疫类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0391",
       "directed": true,
-      "source": "term:3",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #3",
+      "source": "term:319",
+      "target": "term:317",
+      "predicate": "is_a",
+      "label": "免疫类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0392",
       "directed": true,
-      "source": "term:4",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #4",
+      "source": "term:323",
+      "target": "term:319",
+      "predicate": "is_a",
+      "label": "适应性应答",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0393",
       "directed": true,
-      "source": "term:6",
-      "target": "term:8",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #6",
+      "source": "term:324",
+      "target": "term:319",
+      "predicate": "is_a",
+      "label": "适应性应答",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0394",
       "directed": true,
-      "source": "term:8",
-      "target": "term:6",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #8",
+      "source": "term:321",
+      "target": "term:319",
+      "predicate": "is_a",
+      "label": "应答阶段",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0395",
       "directed": true,
-      "source": "term:9",
-      "target": "term:1",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #9",
+      "source": "term:322",
+      "target": "term:319",
+      "predicate": "is_a",
+      "label": "应答阶段",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0396",
       "directed": true,
-      "source": "term:10",
-      "target": "cell:langerhans-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #10",
+      "source": "term:46",
+      "target": "term:43",
+      "predicate": "isotype_of",
+      "label": "同种型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0397",
       "directed": true,
-      "source": "term:11",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #11",
+      "source": "term:47",
+      "target": "term:43",
+      "predicate": "isotype_of",
+      "label": "同种型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0398",
       "directed": true,
-      "source": "cell:hsc",
-      "target": "term:141",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #12",
+      "source": "term:49",
+      "target": "term:43",
+      "predicate": "isotype_of",
+      "label": "同种型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0399",
       "directed": true,
-      "source": "cell:clp",
-      "target": "cell:hsc",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #13",
+      "source": "term:50",
+      "target": "term:43",
+      "predicate": "isotype_of",
+      "label": "同种型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0400",
       "directed": true,
-      "source": "cell:cmp",
-      "target": "cell:dendritic-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #14",
+      "source": "term:51",
+      "target": "term:43",
+      "predicate": "isotype_of",
+      "label": "同种型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0401",
       "directed": true,
-      "source": "cell:b-cell",
-      "target": "term:154",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #15",
+      "source": "term:48",
+      "target": "term:47",
+      "predicate": "form_of",
+      "label": "分泌型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0402",
       "directed": true,
-      "source": "cell:b-cell",
-      "target": "term:209",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #15",
+      "source": "term:52",
+      "target": "term:43",
+      "predicate": "form_of",
+      "label": "膜型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0403",
       "directed": true,
-      "source": "cell:t-cell",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #16",
+      "source": "term:57",
+      "target": "term:43",
+      "predicate": "part_of",
+      "label": "结构片段",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0404",
       "directed": true,
-      "source": "cell:t-cell",
-      "target": "term:153",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #16",
+      "source": "term:58",
+      "target": "term:43",
+      "predicate": "part_of",
+      "label": "结构片段",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0405",
       "directed": true,
-      "source": "cell:t-cell",
-      "target": "term:210",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #16",
+      "source": "term:59",
+      "target": "term:43",
+      "predicate": "derived_from",
+      "label": "抗体片段",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0406",
       "directed": true,
-      "source": "cell:th1",
-      "target": "cell:th2",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #17",
+      "source": "term:63",
+      "target": "term:44",
+      "predicate": "is_a",
+      "label": "抗体类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0407",
       "directed": true,
-      "source": "cell:th1",
-      "target": "cell:macrophage",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #17",
+      "source": "term:65",
+      "target": "term:44",
+      "predicate": "is_a",
+      "label": "抗体类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0408",
       "directed": true,
-      "source": "cell:th1",
-      "target": "term:93",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #17",
+      "source": "term:150",
+      "target": "term:148",
+      "predicate": "is_a",
+      "label": "分子类别",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0409",
       "directed": true,
-      "source": "cell:th1",
-      "target": "term:95",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #17",
+      "source": "term:151",
+      "target": "term:148",
+      "predicate": "is_a",
+      "label": "分子类别",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0410",
       "directed": true,
-      "source": "cell:th1",
-      "target": "term:210",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #17",
+      "source": "term:149",
+      "target": "term:148",
+      "predicate": "human_designation_of",
+      "label": "人类MHC命名",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0411",
       "directed": true,
-      "source": "cell:th2",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #18",
+      "source": "term:150",
+      "target": "term:320",
+      "predicate": "participates_in",
+      "label": "参与",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0412",
       "directed": true,
-      "source": "cell:th2",
-      "target": "term:209",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #18",
+      "source": "term:151",
+      "target": "term:320",
+      "predicate": "participates_in",
+      "label": "参与",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0413",
       "directed": true,
-      "source": "cell:th17",
-      "target": "cell:neutrophil",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #19",
+      "source": "term:158",
+      "target": "term:320",
+      "predicate": "is_a",
+      "label": "特殊途径",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0414",
       "directed": true,
-      "source": "cell:th17",
-      "target": "term:238",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #19",
+      "source": "term:163",
+      "target": "term:320",
+      "predicate": "part_of",
+      "label": "关键环节",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0415",
       "directed": true,
-      "source": "cell:tfh",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #20",
+      "source": "term:155",
+      "target": "term:163",
+      "predicate": "participates_in",
+      "label": "参与",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0416",
       "directed": true,
-      "source": "cell:tfh",
-      "target": "term:128",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #20",
+      "source": "term:162",
+      "target": "term:163",
+      "predicate": "participates_in",
+      "label": "参与",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0417",
       "directed": true,
-      "source": "cell:treg",
-      "target": "term:97",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #21",
+      "source": "term:305",
+      "target": "term:304",
+      "predicate": "is_a",
+      "label": "带分选功能",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0418",
       "directed": true,
-      "source": "cell:treg",
-      "target": "term:116",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #21",
+      "source": "term:300",
+      "target": "term:299",
+      "predicate": "derived_from",
+      "label": "衍生技术",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0419",
       "directed": true,
-      "source": "cell:treg",
-      "target": "term:120",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #21",
+      "source": "term:307",
+      "target": "term:306",
+      "predicate": "is_a",
+      "label": "联合免疫沉淀",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0420",
       "directed": true,
-      "source": "cell:treg",
-      "target": "term:199",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #21",
+      "source": "term:127",
+      "target": "term:198",
+      "predicate": "is_a",
+      "label": "免疫检查点",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0421",
       "directed": true,
-      "source": "cell:ctl",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #22",
+      "source": "term:128",
+      "target": "term:198",
+      "predicate": "is_a",
+      "label": "免疫检查点",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0422",
       "directed": true,
-      "source": "cell:ctl",
-      "target": "term:117",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #22",
+      "source": "term:129",
+      "target": "term:128",
+      "predicate": "binds",
+      "label": "配体结合",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0423",
       "directed": true,
-      "source": "cell:ctl",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #23",
+      "source": "term:212",
+      "target": "term:211",
+      "predicate": "is_a",
+      "label": "超敏反应分型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0424",
       "directed": true,
-      "source": "cell:ctl",
-      "target": "term:150",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #23",
+      "source": "term:213",
+      "target": "term:211",
+      "predicate": "is_a",
+      "label": "超敏反应分型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0425",
       "directed": true,
-      "source": "cell:nk",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #24",
+      "source": "term:214",
+      "target": "term:211",
+      "predicate": "is_a",
+      "label": "超敏反应分型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0426",
       "directed": true,
-      "source": "cell:nk",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #24",
+      "source": "term:215",
+      "target": "term:211",
+      "predicate": "is_a",
+      "label": "超敏反应分型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0427",
       "directed": true,
-      "source": "cell:nk",
-      "target": "term:150",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #24",
+      "source": "term:216",
+      "target": "term:215",
+      "predicate": "is_a",
+      "label": "典型形式",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0428",
       "directed": true,
-      "source": "cell:nk",
-      "target": "term:318",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #24",
+      "source": "term:217",
+      "target": "term:212",
+      "predicate": "associated_with",
+      "label": "典型表现",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0429",
       "directed": true,
-      "source": "cell:nkt",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #25",
+      "source": "term:222",
+      "target": "term:214",
+      "predicate": "associated_with",
+      "label": "典型表现",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0430",
       "directed": true,
-      "source": "cell:nkt",
-      "target": "term:319",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #25",
+      "source": "term:223",
+      "target": "term:214",
+      "predicate": "associated_with",
+      "label": "典型表现",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0431",
       "directed": true,
-      "source": "cell:dendritic-cell",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #26",
+      "source": "term:225",
+      "target": "term:224",
+      "predicate": "is_a",
+      "label": "免疫缺陷类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0432",
       "directed": true,
-      "source": "cell:dendritic-cell",
-      "target": "term:35",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #26",
+      "source": "term:227",
+      "target": "term:224",
+      "predicate": "is_a",
+      "label": "免疫缺陷类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0433",
       "directed": true,
-      "source": "cell:dendritic-cell",
-      "target": "term:320",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #26",
+      "source": "term:228",
+      "target": "term:224",
+      "predicate": "is_a",
+      "label": "免疫缺陷类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0434",
       "directed": true,
-      "source": "cell:pdc",
-      "target": "term:93",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #27",
+      "source": "term:229",
+      "target": "term:224",
+      "predicate": "is_a",
+      "label": "免疫缺陷类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0435",
       "directed": true,
-      "source": "cell:cdc",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #28",
+      "source": "term:230",
+      "target": "term:224",
+      "predicate": "is_a",
+      "label": "免疫缺陷类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0436",
       "directed": true,
-      "source": "cell:cdc",
-      "target": "cell:dendritic-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #28",
+      "source": "term:231",
+      "target": "term:224",
+      "predicate": "is_a",
+      "label": "免疫缺陷类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0437",
       "directed": true,
-      "source": "cell:cdc",
-      "target": "cell:pdc",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #28",
+      "source": "term:232",
+      "target": "term:224",
+      "predicate": "is_a",
+      "label": "免疫缺陷类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0438",
       "directed": true,
-      "source": "cell:cdc",
-      "target": "term:320",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #28",
+      "source": "term:233",
+      "target": "term:224",
+      "predicate": "is_a",
+      "label": "免疫缺陷类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0439",
       "directed": true,
-      "source": "cell:monocyte",
-      "target": "cell:dendritic-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #29",
+      "source": "term:234",
+      "target": "term:235",
+      "predicate": "caused_by",
+      "label": "由其导致",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0440",
       "directed": true,
-      "source": "cell:monocyte",
-      "target": "cell:macrophage",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #29",
+      "source": "term:239",
+      "target": "term:238",
+      "predicate": "is_a",
+      "label": "自身免疫病类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0441",
       "directed": true,
-      "source": "cell:macrophage",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #30",
+      "source": "term:240",
+      "target": "term:238",
+      "predicate": "is_a",
+      "label": "自身免疫病类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0442",
       "directed": true,
-      "source": "cell:basophil",
-      "target": "cell:mast-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #33",
+      "source": "term:245",
+      "target": "term:238",
+      "predicate": "is_a",
+      "label": "自身免疫病类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0443",
       "directed": true,
-      "source": "cell:basophil",
-      "target": "term:211",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #33",
+      "source": "term:246",
+      "target": "term:238",
+      "predicate": "is_a",
+      "label": "自身免疫病类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0444",
       "directed": true,
-      "source": "cell:mast-cell",
-      "target": "term:50",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #34",
+      "source": "term:247",
+      "target": "term:238",
+      "predicate": "is_a",
+      "label": "自身免疫病类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0445",
       "directed": true,
-      "source": "term:35",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #35",
+      "source": "term:248",
+      "target": "term:238",
+      "predicate": "is_a",
+      "label": "自身免疫病类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0446",
       "directed": true,
-      "source": "term:35",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #35",
+      "source": "term:249",
+      "target": "term:238",
+      "predicate": "is_a",
+      "label": "自身免疫病类型",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0447",
       "directed": true,
-      "source": "term:35",
-      "target": "cell:macrophage",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #35",
+      "source": "term:285",
+      "target": "term:283",
+      "predicate": "is_a",
+      "label": "主动免疫方式",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0448",
       "directed": true,
-      "source": "cell:plasma-cell",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #36",
+      "source": "term:286",
+      "target": "term:283",
+      "predicate": "is_a",
+      "label": "主动免疫方式",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0449",
       "directed": true,
-      "source": "cell:ilc",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #37",
+      "source": "term:287",
+      "target": "term:283",
+      "predicate": "is_a",
+      "label": "主动免疫方式",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0450",
       "directed": true,
-      "source": "cell:ilc",
-      "target": "term:318",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #37",
+      "source": "term:288",
+      "target": "term:283",
+      "predicate": "is_a",
+      "label": "主动免疫方式",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0451",
       "directed": true,
-      "source": "cell:macrophage",
-      "target": "term:78",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #38",
+      "source": "term:289",
+      "target": "term:283",
+      "predicate": "is_a",
+      "label": "主动免疫方式",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0452",
       "directed": true,
-      "source": "cell:mdsc",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #39",
+      "source": "term:290",
+      "target": "term:283",
+      "predicate": "is_a",
+      "label": "主动免疫方式",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0453",
       "directed": true,
-      "source": "cell:gamma-delta-t",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #40",
+      "source": "term:291",
+      "target": "term:283",
+      "predicate": "is_a",
+      "label": "主动免疫方式",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0454",
       "directed": true,
-      "source": "cell:gamma-delta-t",
-      "target": "term:153",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #40",
+      "source": "term:292",
+      "target": "term:283",
+      "predicate": "is_a",
+      "label": "主动免疫方式",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     },
     {
       "id": "edge:0455",
       "directed": true,
-      "source": "cell:inkt",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #41",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0456",
-      "directed": true,
-      "source": "cell:inkt",
-      "target": "cell:nkt",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #41",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0457",
-      "directed": true,
-      "source": "cell:inkt",
-      "target": "term:153",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #41",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0458",
-      "directed": true,
-      "source": "cell:langerhans-cell",
-      "target": "cell:dendritic-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #42",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0459",
-      "directed": true,
-      "source": "term:44",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #44",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0460",
-      "directed": true,
-      "source": "term:44",
-      "target": "term:43",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #44",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0461",
-      "directed": true,
-      "source": "term:45",
-      "target": "term:1",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #45",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0462",
-      "directed": true,
-      "source": "term:47",
-      "target": "term:48",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #47",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0463",
-      "directed": true,
-      "source": "term:48",
-      "target": "term:47",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #48",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0464",
-      "directed": true,
-      "source": "term:50",
-      "target": "cell:basophil",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #50",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0465",
-      "directed": true,
-      "source": "term:50",
-      "target": "cell:mast-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #50",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0466",
-      "directed": true,
-      "source": "term:50",
-      "target": "term:211",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #50",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0467",
-      "directed": true,
-      "source": "term:51",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #51",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0468",
-      "directed": true,
-      "source": "term:51",
-      "target": "term:43",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #51",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0469",
-      "directed": true,
-      "source": "term:51",
-      "target": "term:52",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #51",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0470",
-      "directed": true,
-      "source": "term:52",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #52",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0471",
-      "directed": true,
-      "source": "term:52",
-      "target": "term:43",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #52",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0472",
-      "directed": true,
-      "source": "term:52",
-      "target": "term:154",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #52",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0473",
-      "directed": true,
-      "source": "term:53",
-      "target": "term:55",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #53",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0474",
-      "directed": true,
-      "source": "term:55",
-      "target": "term:153",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #55",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0475",
-      "directed": true,
-      "source": "term:56",
-      "target": "term:55",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #56",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0476",
-      "directed": true,
-      "source": "term:59",
-      "target": "term:57",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #59",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0477",
-      "directed": true,
-      "source": "term:61",
-      "target": "cell:macrophage",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #61",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0478",
-      "directed": true,
-      "source": "term:62",
-      "target": "term:46",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #62",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0479",
-      "directed": true,
-      "source": "term:62",
-      "target": "term:49",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #62",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0480",
-      "directed": true,
-      "source": "term:62",
-      "target": "term:78",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #62",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0481",
-      "directed": true,
-      "source": "term:63",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #63",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0482",
-      "directed": true,
-      "source": "term:68",
-      "target": "term:153",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #68",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0483",
-      "directed": true,
-      "source": "term:69",
-      "target": "term:43",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #69",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0484",
-      "directed": true,
-      "source": "term:69",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #69",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0485",
-      "directed": true,
-      "source": "term:69",
-      "target": "term:153",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #69",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0486",
-      "directed": true,
-      "source": "term:71",
-      "target": "term:57",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #71",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0487",
-      "directed": true,
-      "source": "term:72",
-      "target": "term:78",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #72",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0488",
-      "directed": true,
-      "source": "term:73",
-      "target": "term:46",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #73",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0489",
-      "directed": true,
-      "source": "term:73",
-      "target": "term:49",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #73",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0490",
-      "directed": true,
-      "source": "term:75",
-      "target": "term:76",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #75",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0491",
-      "directed": true,
-      "source": "term:75",
-      "target": "term:77",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #75",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0492",
-      "directed": true,
-      "source": "term:76",
-      "target": "term:75",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #76",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0493",
-      "directed": true,
-      "source": "term:77",
-      "target": "term:76",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #77",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0494",
-      "directed": true,
-      "source": "term:80",
-      "target": "term:79",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #80",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0495",
-      "directed": true,
-      "source": "term:80",
-      "target": "term:83",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #80",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0496",
-      "directed": true,
-      "source": "term:80",
-      "target": "term:84",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #80",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0497",
-      "directed": true,
-      "source": "term:80",
-      "target": "term:183",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #80",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0498",
-      "directed": true,
-      "source": "term:81",
-      "target": "term:79",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #81",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0499",
-      "directed": true,
-      "source": "term:82",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #82",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0500",
-      "directed": true,
-      "source": "term:83",
-      "target": "cell:macrophage",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #83",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0501",
-      "directed": true,
-      "source": "term:83",
-      "target": "term:78",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #83",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0502",
-      "directed": true,
-      "source": "term:83",
-      "target": "term:80",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #83",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0503",
-      "directed": true,
-      "source": "term:84",
-      "target": "term:80",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #84",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0504",
-      "directed": true,
-      "source": "term:86",
-      "target": "term:79",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #86",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0505",
-      "directed": true,
-      "source": "term:87",
-      "target": "cell:macrophage",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #87",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0506",
-      "directed": true,
-      "source": "term:87",
-      "target": "term:78",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #87",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0507",
-      "directed": true,
-      "source": "term:88",
-      "target": "cell:hsc",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #88",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0508",
-      "directed": true,
-      "source": "term:88",
-      "target": "term:87",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #88",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0509",
-      "directed": true,
-      "source": "term:90",
-      "target": "cell:mast-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #90",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0510",
-      "directed": true,
-      "source": "term:91",
-      "target": "term:326",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #91",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0511",
-      "directed": true,
-      "source": "term:92",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #92",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0512",
-      "directed": true,
-      "source": "term:93",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #93",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0513",
-      "directed": true,
-      "source": "term:94",
-      "target": "cell:pdc",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #94",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0514",
-      "directed": true,
-      "source": "term:95",
-      "target": "cell:th1",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #95",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0515",
-      "directed": true,
-      "source": "term:95",
-      "target": "cell:ctl",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #95",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0516",
-      "directed": true,
-      "source": "term:95",
-      "target": "cell:macrophage",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #95",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0517",
-      "directed": true,
-      "source": "term:97",
-      "target": "cell:treg",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #97",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0518",
-      "directed": true,
-      "source": "term:97",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #97",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0519",
-      "directed": true,
-      "source": "term:97",
-      "target": "term:199",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #97",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0520",
-      "directed": true,
-      "source": "term:98",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #98",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0521",
-      "directed": true,
-      "source": "term:98",
-      "target": "term:99",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #98",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0522",
-      "directed": true,
-      "source": "term:98",
-      "target": "term:100",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #98",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0523",
-      "directed": true,
-      "source": "term:99",
-      "target": "cell:neutrophil",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #99",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0524",
-      "directed": true,
-      "source": "term:100",
-      "target": "cell:dendritic-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #100",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0525",
-      "directed": true,
-      "source": "term:100",
-      "target": "cell:macrophage",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #100",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0526",
-      "directed": true,
-      "source": "term:101",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #101",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0527",
-      "directed": true,
-      "source": "term:102",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #102",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0528",
-      "directed": true,
-      "source": "term:103",
-      "target": "cell:hsc",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #103",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0529",
-      "directed": true,
-      "source": "term:104",
-      "target": "cell:th2",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #104",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0530",
-      "directed": true,
-      "source": "term:104",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #104",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0531",
-      "directed": true,
-      "source": "term:105",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #105",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0532",
-      "directed": true,
-      "source": "term:106",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #106",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0533",
-      "directed": true,
-      "source": "term:107",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #107",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0534",
-      "directed": true,
-      "source": "term:107",
-      "target": "cell:monocyte",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #107",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0535",
-      "directed": true,
-      "source": "term:108",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #108",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0536",
-      "directed": true,
-      "source": "term:108",
-      "target": "cell:monocyte",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #108",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0537",
-      "directed": true,
-      "source": "term:108",
-      "target": "cell:eosinophil",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #108",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0538",
-      "directed": true,
-      "source": "term:109",
-      "target": "cell:neutrophil",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #109",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0539",
-      "directed": true,
-      "source": "term:109",
-      "target": "term:106",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #109",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0540",
-      "directed": true,
-      "source": "term:111",
-      "target": "term:1",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #111",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0541",
-      "directed": true,
-      "source": "term:111",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #111",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0542",
-      "directed": true,
-      "source": "term:112",
-      "target": "term:106",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #112",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0543",
-      "directed": true,
-      "source": "term:113",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #113",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0544",
-      "directed": true,
-      "source": "term:114",
-      "target": "term:63",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #114",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0545",
-      "directed": true,
-      "source": "term:115",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #115",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0546",
-      "directed": true,
-      "source": "term:115",
-      "target": "term:153",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #115",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0547",
-      "directed": true,
-      "source": "term:116",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #116",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0548",
-      "directed": true,
-      "source": "term:116",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #116",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0549",
-      "directed": true,
-      "source": "term:116",
-      "target": "term:151",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #116",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0550",
-      "directed": true,
-      "source": "term:116",
-      "target": "term:235",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #116",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0551",
-      "directed": true,
-      "source": "term:117",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #117",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0552",
-      "directed": true,
-      "source": "term:117",
-      "target": "cell:ctl",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #117",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0553",
-      "directed": true,
-      "source": "term:117",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #117",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0554",
-      "directed": true,
-      "source": "term:117",
-      "target": "term:150",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #117",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0555",
-      "directed": true,
-      "source": "term:118",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #118",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0556",
-      "directed": true,
-      "source": "term:119",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #119",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0557",
-      "directed": true,
-      "source": "term:120",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #120",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0558",
-      "directed": true,
-      "source": "term:120",
-      "target": "cell:treg",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #120",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0559",
-      "directed": true,
-      "source": "term:121",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #121",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0560",
-      "directed": true,
-      "source": "term:121",
-      "target": "term:35",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #121",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0561",
-      "directed": true,
-      "source": "term:121",
-      "target": "term:122",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #121",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0562",
-      "directed": true,
-      "source": "term:122",
-      "target": "term:35",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #122",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0563",
-      "directed": true,
-      "source": "term:122",
-      "target": "term:121",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #122",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0564",
-      "directed": true,
-      "source": "term:122",
-      "target": "term:127",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #122",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0565",
-      "directed": true,
-      "source": "term:123",
-      "target": "term:35",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #123",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0566",
-      "directed": true,
-      "source": "term:123",
-      "target": "term:121",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #123",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0567",
-      "directed": true,
-      "source": "term:123",
-      "target": "term:127",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #123",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0568",
-      "directed": true,
-      "source": "term:124",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #124",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0569",
-      "directed": true,
-      "source": "term:124",
-      "target": "term:35",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #124",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0570",
-      "directed": true,
-      "source": "term:124",
-      "target": "term:125",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #124",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0571",
-      "directed": true,
-      "source": "term:125",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #125",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0572",
-      "directed": true,
-      "source": "term:125",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #125",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0573",
-      "directed": true,
-      "source": "term:125",
-      "target": "term:35",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #125",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0574",
-      "directed": true,
-      "source": "term:125",
-      "target": "term:124",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #125",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0575",
-      "directed": true,
-      "source": "term:126",
-      "target": "term:125",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #126",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0576",
-      "directed": true,
-      "source": "term:127",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #127",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0577",
-      "directed": true,
-      "source": "term:127",
-      "target": "term:198",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #127",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0578",
-      "directed": true,
-      "source": "term:128",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #128",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0579",
-      "directed": true,
-      "source": "term:128",
-      "target": "term:129",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #128",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0580",
-      "directed": true,
-      "source": "term:128",
-      "target": "term:198",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #128",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0581",
-      "directed": true,
-      "source": "term:129",
-      "target": "term:35",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #129",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0582",
-      "directed": true,
-      "source": "term:129",
-      "target": "term:128",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #129",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0583",
-      "directed": true,
-      "source": "term:131",
-      "target": "cell:macrophage",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #131",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0584",
-      "directed": true,
-      "source": "term:131",
-      "target": "term:60",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #131",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0585",
-      "directed": true,
-      "source": "term:132",
-      "target": "cell:macrophage",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #132",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0586",
-      "directed": true,
-      "source": "term:132",
-      "target": "term:46",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #132",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0587",
-      "directed": true,
-      "source": "term:133",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #133",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0588",
-      "directed": true,
-      "source": "term:133",
-      "target": "term:50",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #133",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0589",
-      "directed": true,
-      "source": "term:134",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #134",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0590",
-      "directed": true,
-      "source": "term:134",
-      "target": "term:82",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #134",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0591",
-      "directed": true,
-      "source": "term:135",
-      "target": "term:81",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #135",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0592",
-      "directed": true,
-      "source": "term:136",
-      "target": "cell:macrophage",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #136",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0593",
-      "directed": true,
-      "source": "term:136",
-      "target": "term:78",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #136",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0594",
-      "directed": true,
-      "source": "term:136",
-      "target": "term:83",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #136",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0595",
-      "directed": true,
-      "source": "term:137",
-      "target": "cell:monocyte",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #137",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0596",
-      "directed": true,
-      "source": "term:137",
-      "target": "cell:macrophage",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #137",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0597",
-      "directed": true,
-      "source": "term:139",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #139",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0598",
-      "directed": true,
-      "source": "term:139",
-      "target": "term:138",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #139",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0599",
-      "directed": true,
-      "source": "term:140",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #140",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0600",
-      "directed": true,
-      "source": "term:140",
-      "target": "term:138",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #140",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0601",
-      "directed": true,
-      "source": "term:141",
-      "target": "cell:hsc",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #141",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0602",
-      "directed": true,
-      "source": "term:142",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #142",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0603",
-      "directed": true,
-      "source": "term:142",
-      "target": "term:35",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #142",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0604",
-      "directed": true,
-      "source": "term:142",
-      "target": "term:143",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #142",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0605",
-      "directed": true,
-      "source": "term:143",
-      "target": "term:35",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #143",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0606",
-      "directed": true,
-      "source": "term:143",
-      "target": "term:142",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #143",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0607",
-      "directed": true,
-      "source": "term:144",
-      "target": "term:145",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #144",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0608",
-      "directed": true,
-      "source": "term:145",
-      "target": "term:144",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #145",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0609",
-      "directed": true,
-      "source": "term:146",
-      "target": "term:147",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #146",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0610",
-      "directed": true,
-      "source": "term:148",
-      "target": "term:149",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #148",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0611",
-      "directed": true,
-      "source": "term:149",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #149",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0612",
-      "directed": true,
-      "source": "term:149",
-      "target": "term:320",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #149",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0613",
-      "directed": true,
-      "source": "term:150",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #150",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0614",
-      "directed": true,
-      "source": "term:150",
-      "target": "term:117",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #150",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0615",
-      "directed": true,
-      "source": "term:151",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #151",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0616",
-      "directed": true,
-      "source": "term:151",
-      "target": "term:35",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #151",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0617",
-      "directed": true,
-      "source": "term:151",
-      "target": "term:116",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #151",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0618",
-      "directed": true,
-      "source": "term:152",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #152",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0619",
-      "directed": true,
-      "source": "term:152",
-      "target": "term:150",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #152",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0620",
-      "directed": true,
-      "source": "term:153",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #153",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0621",
-      "directed": true,
-      "source": "term:153",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #153",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0622",
-      "directed": true,
-      "source": "term:154",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #154",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0623",
-      "directed": true,
-      "source": "term:154",
-      "target": "term:43",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #154",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0624",
-      "directed": true,
-      "source": "term:154",
-      "target": "term:52",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #154",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0625",
-      "directed": true,
-      "source": "term:155",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #155",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0626",
-      "directed": true,
-      "source": "term:155",
-      "target": "term:150",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #155",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0627",
-      "directed": true,
-      "source": "term:156",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #156",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0628",
-      "directed": true,
-      "source": "term:156",
-      "target": "term:150",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #156",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0629",
-      "directed": true,
-      "source": "term:157",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #157",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0630",
-      "directed": true,
-      "source": "term:157",
-      "target": "term:151",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #157",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0631",
-      "directed": true,
-      "source": "term:158",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #158",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0632",
-      "directed": true,
-      "source": "term:158",
-      "target": "term:117",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #158",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0633",
-      "directed": true,
-      "source": "term:158",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #158",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0634",
-      "directed": true,
-      "source": "term:158",
-      "target": "term:150",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #158",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0635",
-      "directed": true,
-      "source": "term:158",
-      "target": "term:159",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #158",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0636",
-      "directed": true,
-      "source": "term:158",
-      "target": "term:320",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #158",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0637",
-      "directed": true,
-      "source": "term:159",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #159",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0638",
-      "directed": true,
-      "source": "term:159",
-      "target": "term:117",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #159",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0639",
-      "directed": true,
-      "source": "term:159",
-      "target": "term:158",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #159",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0640",
-      "directed": true,
-      "source": "term:160",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #160",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0641",
-      "directed": true,
-      "source": "term:160",
-      "target": "term:151",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #160",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0642",
-      "directed": true,
-      "source": "term:161",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #161",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0643",
-      "directed": true,
-      "source": "term:161",
-      "target": "term:149",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #161",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0644",
-      "directed": true,
-      "source": "term:161",
-      "target": "term:151",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #161",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0645",
-      "directed": true,
-      "source": "term:161",
-      "target": "term:162",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #161",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0646",
-      "directed": true,
-      "source": "term:162",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #162",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0647",
-      "directed": true,
-      "source": "term:162",
-      "target": "term:151",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #162",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0648",
-      "directed": true,
-      "source": "term:162",
-      "target": "term:161",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #162",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0649",
-      "directed": true,
-      "source": "term:162",
-      "target": "term:163",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #162",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0650",
-      "directed": true,
-      "source": "term:163",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #163",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0651",
-      "directed": true,
-      "source": "term:164",
-      "target": "term:165",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #164",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0652",
-      "directed": true,
-      "source": "term:164",
-      "target": "term:166",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #164",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0653",
-      "directed": true,
-      "source": "term:164",
-      "target": "term:318",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #164",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0654",
-      "directed": true,
-      "source": "term:165",
-      "target": "term:164",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #165",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0655",
-      "directed": true,
-      "source": "term:167",
-      "target": "term:164",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #167",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0656",
-      "directed": true,
-      "source": "term:167",
-      "target": "term:318",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #167",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0657",
-      "directed": true,
-      "source": "term:169",
-      "target": "term:171",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #169",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0658",
-      "directed": true,
-      "source": "term:171",
-      "target": "term:169",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #171",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0659",
-      "directed": true,
-      "source": "term:171",
-      "target": "term:172",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #171",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0660",
-      "directed": true,
-      "source": "term:171",
-      "target": "term:173",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #171",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0661",
-      "directed": true,
-      "source": "term:172",
-      "target": "term:171",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #172",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0662",
-      "directed": true,
-      "source": "term:174",
-      "target": "term:175",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #174",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0663",
-      "directed": true,
-      "source": "term:175",
-      "target": "term:188",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #175",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0664",
-      "directed": true,
-      "source": "term:178",
-      "target": "cell:neutrophil",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #178",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0665",
-      "directed": true,
-      "source": "term:184",
-      "target": "term:318",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #184",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0666",
-      "directed": true,
-      "source": "term:185",
-      "target": "term:1",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #185",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0667",
-      "directed": true,
-      "source": "term:186",
-      "target": "term:166",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #186",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0668",
-      "directed": true,
-      "source": "term:187",
-      "target": "term:171",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #187",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0669",
-      "directed": true,
-      "source": "term:187",
-      "target": "term:173",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #187",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0670",
-      "directed": true,
-      "source": "term:191",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #191",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0671",
-      "directed": true,
-      "source": "term:194",
-      "target": "term:193",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #194",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0672",
-      "directed": true,
-      "source": "term:195",
-      "target": "term:153",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #195",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0673",
-      "directed": true,
-      "source": "term:195",
-      "target": "term:154",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #195",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0674",
-      "directed": true,
-      "source": "term:196",
-      "target": "term:127",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #196",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0675",
-      "directed": true,
-      "source": "term:196",
-      "target": "term:128",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #196",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0676",
-      "directed": true,
-      "source": "term:197",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #197",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0677",
-      "directed": true,
-      "source": "term:197",
-      "target": "term:121",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #197",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0678",
-      "directed": true,
-      "source": "term:197",
-      "target": "term:153",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #197",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0679",
-      "directed": true,
-      "source": "term:198",
-      "target": "term:127",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #198",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0680",
-      "directed": true,
-      "source": "term:198",
-      "target": "term:128",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #198",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0681",
-      "directed": true,
-      "source": "term:199",
-      "target": "term:1",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #199",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0682",
-      "directed": true,
-      "source": "term:202",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #202",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0683",
-      "directed": true,
-      "source": "term:206",
-      "target": "term:1",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #206",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0684",
-      "directed": true,
-      "source": "term:208",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #208",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0685",
-      "directed": true,
-      "source": "term:208",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #208",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0686",
-      "directed": true,
-      "source": "term:208",
-      "target": "term:153",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #208",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0687",
-      "directed": true,
-      "source": "term:210",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #210",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0688",
-      "directed": true,
-      "source": "term:212",
-      "target": "cell:mast-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #212",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0689",
-      "directed": true,
-      "source": "term:212",
-      "target": "term:50",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #212",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0690",
-      "directed": true,
-      "source": "term:212",
-      "target": "term:211",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #212",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0691",
-      "directed": true,
-      "source": "term:213",
-      "target": "term:60",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #213",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0692",
-      "directed": true,
-      "source": "term:215",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #215",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0693",
-      "directed": true,
-      "source": "term:215",
-      "target": "term:211",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #215",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0694",
-      "directed": true,
-      "source": "term:216",
-      "target": "cell:th1",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #216",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0695",
-      "directed": true,
-      "source": "term:216",
-      "target": "cell:macrophage",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #216",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0696",
-      "directed": true,
-      "source": "term:216",
-      "target": "term:211",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #216",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0697",
-      "directed": true,
-      "source": "term:217",
-      "target": "cell:mast-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #217",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0698",
-      "directed": true,
-      "source": "term:217",
-      "target": "term:211",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #217",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0699",
-      "directed": true,
-      "source": "term:218",
-      "target": "term:211",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #218",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0700",
-      "directed": true,
-      "source": "term:219",
-      "target": "term:50",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #219",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0701",
-      "directed": true,
-      "source": "term:220",
-      "target": "term:211",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #220",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0702",
-      "directed": true,
-      "source": "term:221",
-      "target": "term:50",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #221",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0703",
-      "directed": true,
-      "source": "term:222",
-      "target": "term:211",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #222",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0704",
-      "directed": true,
-      "source": "term:223",
-      "target": "term:211",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #223",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0705",
-      "directed": true,
-      "source": "term:225",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #225",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0706",
-      "directed": true,
-      "source": "term:225",
-      "target": "term:224",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #225",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0707",
-      "directed": true,
-      "source": "term:226",
-      "target": "term:225",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #226",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0708",
-      "directed": true,
-      "source": "term:227",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #227",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0709",
-      "directed": true,
-      "source": "term:228",
-      "target": "term:224",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #228",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0710",
-      "directed": true,
-      "source": "term:231",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #231",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0711",
-      "directed": true,
-      "source": "term:232",
-      "target": "term:46",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #232",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0712",
-      "directed": true,
-      "source": "term:232",
-      "target": "term:47",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #232",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0713",
-      "directed": true,
-      "source": "term:232",
-      "target": "term:49",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #232",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0714",
-      "directed": true,
-      "source": "term:232",
-      "target": "term:125",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #232",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0715",
-      "directed": true,
-      "source": "term:234",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #234",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0716",
-      "directed": true,
-      "source": "term:234",
-      "target": "term:116",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #234",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0717",
-      "directed": true,
-      "source": "term:234",
-      "target": "term:235",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #234",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0718",
-      "directed": true,
-      "source": "term:235",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #235",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0719",
-      "directed": true,
-      "source": "term:235",
-      "target": "term:116",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #235",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0720",
-      "directed": true,
-      "source": "term:235",
-      "target": "term:234",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #235",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0721",
-      "directed": true,
-      "source": "term:236",
-      "target": "term:234",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #236",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0722",
-      "directed": true,
-      "source": "term:237",
-      "target": "term:234",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #237",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0723",
-      "directed": true,
-      "source": "term:238",
-      "target": "term:1",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #238",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0724",
-      "directed": true,
-      "source": "term:238",
-      "target": "term:240",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #238",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0725",
-      "directed": true,
-      "source": "term:239",
-      "target": "term:238",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #239",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0726",
-      "directed": true,
-      "source": "term:240",
-      "target": "term:238",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #240",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0727",
-      "directed": true,
-      "source": "term:240",
-      "target": "term:242",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #240",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0728",
-      "directed": true,
-      "source": "term:241",
-      "target": "term:46",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #241",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0729",
-      "directed": true,
-      "source": "term:242",
-      "target": "term:240",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #242",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0730",
-      "directed": true,
-      "source": "term:243",
-      "target": "term:240",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #243",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0731",
-      "directed": true,
-      "source": "term:244",
-      "target": "term:240",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #244",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0732",
-      "directed": true,
-      "source": "term:245",
-      "target": "term:238",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #245",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0733",
-      "directed": true,
-      "source": "term:248",
-      "target": "term:238",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #248",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0734",
-      "directed": true,
-      "source": "term:250",
-      "target": "term:238",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #250",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0735",
-      "directed": true,
-      "source": "term:251",
-      "target": "term:149",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #251",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0736",
-      "directed": true,
-      "source": "term:251",
-      "target": "term:256",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #251",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0737",
-      "directed": true,
-      "source": "term:252",
-      "target": "term:253",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #252",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0738",
-      "directed": true,
-      "source": "term:253",
-      "target": "term:252",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #253",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0739",
-      "directed": true,
-      "source": "term:256",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #256",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0740",
-      "directed": true,
-      "source": "term:256",
-      "target": "term:150",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #256",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0741",
-      "directed": true,
-      "source": "term:256",
-      "target": "term:251",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #256",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0742",
-      "directed": true,
-      "source": "term:257",
-      "target": "term:239",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #257",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0743",
-      "directed": true,
-      "source": "term:258",
-      "target": "term:260",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #258",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0744",
-      "directed": true,
-      "source": "term:258",
-      "target": "term:261",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #258",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0745",
-      "directed": true,
-      "source": "term:260",
-      "target": "term:258",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #260",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0746",
-      "directed": true,
-      "source": "term:263",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #263",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0747",
-      "directed": true,
-      "source": "term:264",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #264",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0748",
-      "directed": true,
-      "source": "term:264",
-      "target": "term:153",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #264",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0749",
-      "directed": true,
-      "source": "term:265",
-      "target": "term:127",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #265",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0750",
-      "directed": true,
-      "source": "term:265",
-      "target": "term:128",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #265",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0751",
-      "directed": true,
-      "source": "term:265",
-      "target": "term:129",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #265",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0752",
-      "directed": true,
-      "source": "term:266",
-      "target": "term:129",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #266",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0753",
-      "directed": true,
-      "source": "term:266",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #266",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0754",
-      "directed": true,
-      "source": "term:267",
-      "target": "term:1",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #267",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0755",
-      "directed": true,
-      "source": "term:270",
-      "target": "term:259",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #270",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0756",
-      "directed": true,
-      "source": "term:271",
-      "target": "cell:dendritic-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #271",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0757",
-      "directed": true,
-      "source": "term:272",
-      "target": "cell:hsc",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #272",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0758",
-      "directed": true,
-      "source": "term:273",
-      "target": "term:272",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #273",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0759",
-      "directed": true,
-      "source": "term:274",
-      "target": "term:1",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #274",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0760",
-      "directed": true,
-      "source": "term:275",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #275",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0761",
-      "directed": true,
-      "source": "term:275",
-      "target": "term:210",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #275",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0762",
-      "directed": true,
-      "source": "term:276",
-      "target": "term:209",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #276",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0763",
-      "directed": true,
-      "source": "term:280",
-      "target": "term:149",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #280",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0764",
-      "directed": true,
-      "source": "term:282",
-      "target": "term:199",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #282",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0765",
-      "directed": true,
-      "source": "term:284",
-      "target": "term:43",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #284",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0766",
-      "directed": true,
-      "source": "term:292",
-      "target": "term:283",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #292",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0767",
-      "directed": true,
       "source": "term:293",
       "target": "term:284",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #293",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0768",
-      "directed": true,
-      "source": "term:296",
-      "target": "term:207",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #296",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0769",
-      "directed": true,
-      "source": "term:300",
-      "target": "term:91",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #300",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0770",
-      "directed": true,
-      "source": "term:300",
-      "target": "term:210",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #300",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0771",
-      "directed": true,
-      "source": "term:305",
-      "target": "term:304",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #305",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0772",
-      "directed": true,
-      "source": "term:312",
-      "target": "term:149",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #312",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0773",
-      "directed": true,
-      "source": "term:313",
-      "target": "cell:b-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #313",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0774",
-      "directed": true,
-      "source": "term:313",
-      "target": "term:63",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #313",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0775",
-      "directed": true,
-      "source": "term:315",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #315",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0776",
-      "directed": true,
-      "source": "term:315",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #315",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0777",
-      "directed": true,
-      "source": "term:319",
-      "target": "term:210",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #319",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0778",
-      "directed": true,
-      "source": "term:320",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #320",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0779",
-      "directed": true,
-      "source": "term:320",
-      "target": "term:35",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #320",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0780",
-      "directed": true,
-      "source": "term:320",
-      "target": "term:148",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #320",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0781",
-      "directed": true,
-      "source": "term:322",
-      "target": "term:46",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #322",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0782",
-      "directed": true,
-      "source": "term:322",
-      "target": "term:207",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #322",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0783",
-      "directed": true,
-      "source": "term:324",
-      "target": "cell:t-cell",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #324",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0784",
-      "directed": true,
-      "source": "term:325",
-      "target": "term:1",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #325",
-      "sourceUrl": ""
-    },
-    {
-      "id": "edge:0785",
-      "directed": true,
-      "source": "term:326",
-      "target": "term:1",
-      "predicate": "mentions",
-      "label": "释义提及",
-      "evidenceStatus": "source-explicit",
-      "sourceKind": "excel",
-      "sourceRef": "Excel #326",
+      "predicate": "is_a",
+      "label": "被动免疫制剂",
+      "evidenceStatus": "curated",
+      "sourceKind": "expert-curation",
+      "sourceRef": "免疫学标准概念关系策展",
       "sourceUrl": ""
     }
   ]

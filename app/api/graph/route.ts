@@ -16,6 +16,6 @@ export async function GET(request: Request) {
         visualSystem: snapshot.meta.visualSystem,
       },
     },
-    { headers: { "Cache-Control": "public, max-age=300" } },
+    { headers: { "Cache-Control": "no-store" } },
   );
 }

@@ -25,6 +25,51 @@ const categoryTypes = {
   "肿瘤免疫": "process",
 };
 
+const exactVisuals = new Map(Object.entries({
+  BM: ["bone-marrow", "exact"],
+  LN: ["lymph-node", "exact"],
+  Spl: ["spleen", "exact"],
+  Ig: ["immunoglobulin", "exact"],
+  Ab: ["antibody", "exact"],
+  "MHC-I": ["mhc-i", "exact"],
+  "MHC-II": ["mhc-ii", "exact"],
+  TCR: ["tcr-cd3", "exact"],
+  HIV: ["hiv-virus", "exact"],
+  FCM: ["flow-cytometer", "exact"],
+  FACS: ["flow-cytometer", "exact"],
+  WB: ["western-blot", "exact"],
+  "Phage display": ["phage", "exact"],
+}));
+
+const representativeVisuals = new Map();
+function mapRepresentative(abbreviations, imageId) {
+  for (const abbreviation of abbreviations) representativeVisuals.set(abbreviation, [imageId, "representative"]);
+}
+
+mapRepresentative(["IS", "MALT", "TDA"], "lymphatic-system");
+mapRepresentative(["PP", "GALT"], "intestine");
+mapRepresentative(["BALT"], "lung");
+mapRepresentative(["SALT"], "skin");
+mapRepresentative(["IgG", "IgA", "sIgA", "IgM", "IgE", "IgD", "mIg"], "immunoglobulin");
+mapRepresentative(["Fab", "Fc", "F(ab')2", "mAb", "scFv", "BsAb", "Antitoxin", "Titer"], "antibody");
+mapRepresentative(["Ag", "Hapten", "Epitope", "ELISA", "ELISPOT", "RIA", "SRID"], "antibody-ligand");
+mapRepresentative(["MHC", "HLA", "BCR", "Tetramer"], "receptor");
+mapRepresentative(["CD", "CD3", "CD4", "CD8", "CD19", "CD20", "CD25", "CD28", "CD80", "CD86", "CD40", "CD40L", "CD154", "CTLA-4", "PD-1", "PD-L1", "CD56", "CD16", "CD64", "CD23", "CD21", "CD35", "CD11b", "CD14", "CD45", "CD45RA", "CD45RO", "CD34", "LFA-1", "ICAM-1", "VCAM-1", "VLA-4", "L-Selectin", "PRR", "TLR", "RLR", "NLR", "CLR", "ChemR", "CR1", "CR2", "CR3", "CR4"], "receptor");
+mapRepresentative(["CK", "IL", "IFN", "IFN-α/β", "IFN-γ", "TNF", "TGF-β", "CSF", "G-CSF", "GM-CSF", "EPO", "TPO", "SCF", "TSLP", "LIF", "Chemokine", "MCP-1", "RANTES", "IL-8", "SDF-1", "C1-C9", "MBL", "MASP", "C3b", "iC3b", "DAF", "MCP", "CD59"], "protein");
+mapRepresentative(["IHC", "IF", "Hybridoma"], "microscope");
+mapRepresentative(["IEP", "CIE"], "electrophoresis");
+mapRepresentative(["Single-cell RNA-seq"], "dna-sequencer");
+mapRepresentative(["Active immunization", "Attenuated vaccine", "Inactivated vaccine", "Subunit vaccine", "Conjugate vaccine", "Vector vaccine", "Toxoid", "Adjuvant", "Booster", "Cancer vaccine"], "vaccine");
+mapRepresentative(["mRNA vaccine"], "rna");
+mapRepresentative(["DNA vaccine"], "dna");
+mapRepresentative(["TAA", "TSA", "CEA", "AFP", "Tumor escape", "Immunoediting", "TMB", "MSI", "Neoantigen"], "tumor");
+mapRepresentative(["AIDS"], "hiv-virus");
+
+function termVisual(record) {
+  const visual = exactVisuals.get(record.abbreviation) ?? representativeVisuals.get(record.abbreviation);
+  return visual ? { imageId: visual[0], imageMode: visual[1] } : { imageId: "", imageMode: "none" };
+}
+
 const categoryIds = new Map(
   glossary.categories.map((category, index) => [category, `category:${String(index + 1).padStart(2, "0")}`]),
 );
@@ -111,6 +156,7 @@ for (const record of glossary.records) {
   const cellId = sourceSerialToCell.get(String(record.serial));
   if (cellId) continue;
   const id = `term:${record.serial}`;
+  const visual = termVisual(record);
   addNode({
     id,
     abbreviation: record.abbreviation,
@@ -124,8 +170,8 @@ for (const record of glossary.records) {
     sourceKind: "excel",
     sourceRef: `Excel #${record.serial}`,
     sourceUrl: "",
-    imageId: "",
-    imageMode: "none",
+    imageId: visual.imageId,
+    imageMode: visual.imageMode,
   });
   addEdge({
     source: id,
@@ -230,45 +276,89 @@ for (const [source, predicate, abbreviation, label] of curatedTermRelations) {
   });
 }
 
-const searchableTerms = [];
-for (const record of glossary.records) {
-  const nodeId = sourceSerialToCell.has(String(record.serial))
-    ? `cell:${sourceSerialToCell.get(String(record.serial))}`
-    : `term:${record.serial}`;
-  if (record.abbreviation.length >= 3) {
-    searchableTerms.push({ nodeId, value: record.abbreviation, mode: "token" });
-  }
-  if (record.chineseName.length >= 4) searchableTerms.push({ nodeId, value: record.chineseName, mode: "includes" });
-}
+const expertRelations = [
+  ["Innate immunity", "is_a", "Immunity", "免疫类型"],
+  ["Adaptive immunity", "is_a", "Immunity", "免疫类型"],
+  ["Humoral response", "is_a", "Adaptive immunity", "适应性应答"],
+  ["Cellular response", "is_a", "Adaptive immunity", "适应性应答"],
+  ["Primary response", "is_a", "Adaptive immunity", "应答阶段"],
+  ["Secondary response", "is_a", "Adaptive immunity", "应答阶段"],
+  ["IgG", "isotype_of", "Ig", "同种型"],
+  ["IgA", "isotype_of", "Ig", "同种型"],
+  ["IgM", "isotype_of", "Ig", "同种型"],
+  ["IgE", "isotype_of", "Ig", "同种型"],
+  ["IgD", "isotype_of", "Ig", "同种型"],
+  ["sIgA", "form_of", "IgA", "分泌型"],
+  ["mIg", "form_of", "Ig", "膜型"],
+  ["Fab", "part_of", "Ig", "结构片段"],
+  ["Fc", "part_of", "Ig", "结构片段"],
+  ["F(ab')2", "derived_from", "Ig", "抗体片段"],
+  ["mAb", "is_a", "Ab", "抗体类型"],
+  ["BsAb", "is_a", "Ab", "抗体类型"],
+  ["MHC-I", "is_a", "MHC", "分子类别"],
+  ["MHC-II", "is_a", "MHC", "分子类别"],
+  ["HLA", "human_designation_of", "MHC", "人类MHC命名"],
+  ["MHC-I", "participates_in", "Antigen presentation", "参与"],
+  ["MHC-II", "participates_in", "Antigen presentation", "参与"],
+  ["Cross-presentation", "is_a", "Antigen presentation", "特殊途径"],
+  ["Peptide loading", "part_of", "Antigen presentation", "关键环节"],
+  ["TAP", "participates_in", "Peptide loading", "参与"],
+  ["HLA-DM", "participates_in", "Peptide loading", "参与"],
+  ["FACS", "is_a", "FCM", "带分选功能"],
+  ["ELISPOT", "derived_from", "ELISA", "衍生技术"],
+  ["Co-IP", "is_a", "IP", "联合免疫沉淀"],
+  ["CTLA-4", "is_a", "Checkpoint", "免疫检查点"],
+  ["PD-1", "is_a", "Checkpoint", "免疫检查点"],
+  ["PD-L1", "binds", "PD-1", "配体结合"],
+  ["Type I", "is_a", "HS", "超敏反应分型"],
+  ["Type II", "is_a", "HS", "超敏反应分型"],
+  ["Type III", "is_a", "HS", "超敏反应分型"],
+  ["Type IV", "is_a", "HS", "超敏反应分型"],
+  ["DTH", "is_a", "Type IV", "典型形式"],
+  ["Anaphylaxis", "associated_with", "Type I", "典型表现"],
+  ["Arthus", "associated_with", "Type III", "典型表现"],
+  ["Serum sickness", "associated_with", "Type III", "典型表现"],
+  ["SCID", "is_a", "PID", "免疫缺陷类型"],
+  ["XLA", "is_a", "PID", "免疫缺陷类型"],
+  ["CVID", "is_a", "PID", "免疫缺陷类型"],
+  ["CGD", "is_a", "PID", "免疫缺陷类型"],
+  ["WAS", "is_a", "PID", "免疫缺陷类型"],
+  ["DGS", "is_a", "PID", "免疫缺陷类型"],
+  ["HIGM", "is_a", "PID", "免疫缺陷类型"],
+  ["LAD", "is_a", "PID", "免疫缺陷类型"],
+  ["AIDS", "caused_by", "HIV", "由其导致"],
+  ["RA", "is_a", "AID", "自身免疫病类型"],
+  ["SLE", "is_a", "AID", "自身免疫病类型"],
+  ["MS", "is_a", "AID", "自身免疫病类型"],
+  ["T1DM", "is_a", "AID", "自身免疫病类型"],
+  ["MG", "is_a", "AID", "自身免疫病类型"],
+  ["GD", "is_a", "AID", "自身免疫病类型"],
+  ["HT", "is_a", "AID", "自身免疫病类型"],
+  ["Attenuated vaccine", "is_a", "Active immunization", "主动免疫方式"],
+  ["Inactivated vaccine", "is_a", "Active immunization", "主动免疫方式"],
+  ["Subunit vaccine", "is_a", "Active immunization", "主动免疫方式"],
+  ["Conjugate vaccine", "is_a", "Active immunization", "主动免疫方式"],
+  ["mRNA vaccine", "is_a", "Active immunization", "主动免疫方式"],
+  ["DNA vaccine", "is_a", "Active immunization", "主动免疫方式"],
+  ["Vector vaccine", "is_a", "Active immunization", "主动免疫方式"],
+  ["Toxoid", "is_a", "Active immunization", "主动免疫方式"],
+  ["Antitoxin", "is_a", "Passive immunization", "被动免疫制剂"],
+];
 
-function escapeRegExp(value) {
-  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
-}
-
-for (const record of glossary.records) {
-  const source = sourceSerialToCell.has(String(record.serial))
-    ? `cell:${sourceSerialToCell.get(String(record.serial))}`
-    : `term:${record.serial}`;
-  const text = `${record.definition} ${record.notes}`;
-  let matches = 0;
-  for (const candidate of searchableTerms) {
-    if (candidate.nodeId === source || matches >= 6) continue;
-    const found = candidate.mode === "includes"
-      ? text.includes(candidate.value)
-      : new RegExp(`(^|[^A-Za-z0-9])${escapeRegExp(candidate.value)}(?=$|[^A-Za-z0-9])`, "i").test(text);
-    if (!found) continue;
-    addEdge({
-      source,
-      target: candidate.nodeId,
-      predicate: "mentions",
-      label: "释义提及",
-      evidenceStatus: "source-explicit",
-      sourceKind: "excel",
-      sourceRef: `Excel #${record.serial}`,
-      sourceUrl: "",
-    });
-    matches += 1;
-  }
+for (const [sourceAbbreviation, predicate, targetAbbreviation, label] of expertRelations) {
+  const source = abbreviationToNode.get(sourceAbbreviation.toLocaleLowerCase("en"));
+  const target = abbreviationToNode.get(targetAbbreviation.toLocaleLowerCase("en"));
+  if (!source || !target) continue;
+  addEdge({
+    source,
+    target,
+    predicate,
+    label,
+    evidenceStatus: "curated",
+    sourceKind: "expert-curation",
+    sourceRef: "免疫学标准概念关系策展",
+    sourceUrl: "",
+  });
 }
 
 const countsByType = Object.fromEntries(
@@ -282,6 +372,7 @@ const output = {
     edgeCount: edges.length,
     countsByType,
     visualSystem: "Bioicons",
+    relationPolicy: "Only explicit ontology, source-backed, or expert-curated semantic relations; text co-occurrence is excluded.",
     evidenceStatuses: ["source-explicit", "ontology-curated", "curated", "teaching-simplified"],
   },
   nodes,

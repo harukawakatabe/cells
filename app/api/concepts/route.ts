@@ -27,5 +27,5 @@ export async function GET(request: Request) {
     })
     .slice(0, 12);
 
-  return Response.json({ nodes }, { headers: { "Cache-Control": "public, max-age=300" } });
+  return Response.json({ nodes }, { headers: { "Cache-Control": "no-store" } });
 }
