@@ -28,7 +28,7 @@ npm start
 - 容器端口：`127.0.0.1:28100`
 - 部署命令：`bash scripts/deploy-mainland.sh main`
 - 容器构建默认使用 `registry.npmmirror.com`；可通过 `NPM_REGISTRY` 覆盖，依赖版本仍由 `package-lock.json` 锁定。
-- 自动更新：mainland 上的 `cells-update.timer` 每两分钟检查 GitHub `main`；发现新提交后进行快进更新、Docker 构建、启动和健康检查。
+- 自动更新：mainland 上的 `cells-update.timer` 每两分钟检查 GitHub `main`；拉取步骤会对公网瞬断进行有限重试，发现新提交后进行快进更新、Docker 构建、启动和健康检查。
 
 GitHub Actions 负责验证数据生成结果和生产构建；实际发布由 mainland 主动拉取完成，因此不需要把 mainland 私钥存入 GitHub。
 

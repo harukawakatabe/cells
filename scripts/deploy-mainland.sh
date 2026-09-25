@@ -19,7 +19,19 @@ if [[ -n "$(git status --porcelain)" ]]; then
   exit 1
 fi
 
-git fetch --prune origin "$BRANCH"
+fetch_branch() {
+  for attempt in 1 2 3 4; do
+    if git -c http.version=HTTP/1.1 fetch --prune origin "$BRANCH"; then
+      return 0
+    fi
+    echo "GitHub fetch attempt $attempt failed; retrying" >&2
+    sleep $((attempt * 5))
+  done
+  echo "GitHub fetch failed after 4 attempts" >&2
+  return 1
+}
+
+fetch_branch
 CURRENT_SHA="$(git rev-parse HEAD)"
 TARGET_SHA="$(git rev-parse "origin/$BRANCH")"
 RUNNING="$(docker compose -f "$COMPOSE_FILE" ps --status running --services 2>/dev/null || true)"
