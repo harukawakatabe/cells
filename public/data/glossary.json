@@ -1,0 +1,2963 @@
+{
+  "meta": {
+    "sourceFile": "免疫学核心术语与缩写速查表.xlsx",
+    "sheet": "术语总表",
+    "recordCount": 326,
+    "categoryCount": 17
+  },
+  "categories": [
+    "MHC/HLA与抗原提呈",
+    "信号通路与免疫调节",
+    "免疫器官与组织",
+    "免疫学技术",
+    "免疫球蛋白与抗体",
+    "免疫细胞",
+    "免疫缺陷",
+    "分化群(CD)与表面分子",
+    "固有免疫分子与受体",
+    "基础概念与综合",
+    "疫苗与免疫防治",
+    "移植免疫",
+    "细胞因子与趋化因子",
+    "肿瘤免疫",
+    "自身免疫病",
+    "补体系统",
+    "超敏反应"
+  ],
+  "records": [
+    {
+      "serial": "1",
+      "abbreviation": "IS",
+      "englishName": "Immune System",
+      "chineseName": "免疫系统",
+      "definition": "由免疫器官、免疫细胞和免疫分子组成的防御系统，识别并清除病原体与异常细胞。",
+      "category": "免疫器官与组织",
+      "notes": "三大组成：器官+细胞+分子"
+    },
+    {
+      "serial": "2",
+      "abbreviation": "BM",
+      "englishName": "Bone Marrow",
+      "chineseName": "骨髓",
+      "definition": "造血器官，B 淋巴细胞发育成熟的场所，也是免疫细胞的来源。",
+      "category": "免疫器官与组织",
+      "notes": "B 细胞「B」取自 Bone Marrow"
+    },
+    {
+      "serial": "3",
+      "abbreviation": "Thy",
+      "englishName": "Thymus",
+      "chineseName": "胸腺",
+      "definition": "T 淋巴细胞发育、分化、成熟的中央免疫器官，位于胸腔前纵隔。",
+      "category": "免疫器官与组织",
+      "notes": "T 细胞「T」取自 Thymus"
+    },
+    {
+      "serial": "4",
+      "abbreviation": "LN",
+      "englishName": "Lymph Node",
+      "chineseName": "淋巴结",
+      "definition": "外周免疫器官，T、B 细胞聚集并发生免疫应答的部位。",
+      "category": "免疫器官与组织",
+      "notes": "全身浅深部均有分布"
+    },
+    {
+      "serial": "5",
+      "abbreviation": "Spl",
+      "englishName": "Spleen",
+      "chineseName": "脾",
+      "definition": "人体最大的外周免疫器官，含红髓与白髓，滤血并启动对血源性抗原的应答。",
+      "category": "免疫器官与组织",
+      "notes": "白髓含淋巴滤泡"
+    },
+    {
+      "serial": "6",
+      "abbreviation": "PP",
+      "englishName": "Peyer's Patch",
+      "chineseName": "派氏集合淋巴结",
+      "definition": "小肠黏膜中的淋巴组织，肠道免疫应答的重要诱导部位。",
+      "category": "免疫器官与组织",
+      "notes": "属 GALT"
+    },
+    {
+      "serial": "7",
+      "abbreviation": "MALT",
+      "englishName": "Mucosa-Associated Lymphoid Tissue",
+      "chineseName": "黏膜相关淋巴组织",
+      "definition": "分布于呼吸道、消化道、泌尿生殖道黏膜的淋巴组织，是局部黏膜免疫的基础。",
+      "category": "免疫器官与组织",
+      "notes": "构成机体第一道免疫屏障"
+    },
+    {
+      "serial": "8",
+      "abbreviation": "GALT",
+      "englishName": "Gut-Associated Lymphoid Tissue",
+      "chineseName": "肠相关淋巴组织",
+      "definition": "肠道黏膜相关的淋巴组织，包括派氏集合淋巴结、肠系膜淋巴结等。",
+      "category": "免疫器官与组织",
+      "notes": "黏膜免疫的关键组成"
+    },
+    {
+      "serial": "9",
+      "abbreviation": "BALT",
+      "englishName": "Bronchus-Associated Lymphoid Tissue",
+      "chineseName": "支气管相关淋巴组织",
+      "definition": "呼吸道黏膜相关的淋巴组织，参与肺部局部免疫。",
+      "category": "免疫器官与组织",
+      "notes": "黏膜免疫系统一部分"
+    },
+    {
+      "serial": "10",
+      "abbreviation": "SALT",
+      "englishName": "Skin-Associated Lymphoid Tissue",
+      "chineseName": "皮肤相关淋巴组织",
+      "definition": "皮肤中的免疫相关组织，含朗格汉斯细胞等，构成皮肤免疫屏障。",
+      "category": "免疫器官与组织",
+      "notes": "皮肤第一道屏障"
+    },
+    {
+      "serial": "11",
+      "abbreviation": "TDA",
+      "englishName": "Thymus-Dependent Area",
+      "chineseName": "胸腺依赖区",
+      "definition": "淋巴结皮质深区和脾动脉周围淋巴鞘，T 细胞聚集区，其发育依赖胸腺。",
+      "category": "免疫器官与组织",
+      "notes": "区别于非胸腺依赖区"
+    },
+    {
+      "serial": "12",
+      "abbreviation": "HSC",
+      "englishName": "Hematopoietic Stem Cell",
+      "chineseName": "造血干细胞",
+      "definition": "骨髓中能自我更新并分化为各系血细胞的干细胞，是一切免疫细胞的共同源头。",
+      "category": "免疫器官与组织",
+      "notes": "CD34+"
+    },
+    {
+      "serial": "13",
+      "abbreviation": "CLP",
+      "englishName": "Common Lymphoid Progenitor",
+      "chineseName": "共同淋巴样祖细胞",
+      "definition": "由造血干细胞分化而来，可进一步分化为 T、B、NK 等淋巴细胞。",
+      "category": "免疫器官与组织",
+      "notes": "淋巴谱系祖细胞"
+    },
+    {
+      "serial": "14",
+      "abbreviation": "CMP",
+      "englishName": "Common Myeloid Progenitor",
+      "chineseName": "共同髓样祖细胞",
+      "definition": "可分化为单核/巨噬、中性粒、树突状细胞等髓系免疫细胞。",
+      "category": "免疫器官与组织",
+      "notes": "髓系祖细胞"
+    },
+    {
+      "serial": "15",
+      "abbreviation": "B cell",
+      "englishName": "B Lymphocyte",
+      "chineseName": "B 细胞",
+      "definition": "在骨髓发育成熟，表面表达 BCR，可分泌抗体，是体液免疫的主要效应细胞。",
+      "category": "免疫细胞",
+      "notes": "抗体产生细胞"
+    },
+    {
+      "serial": "16",
+      "abbreviation": "T cell",
+      "englishName": "T Lymphocyte",
+      "chineseName": "T 细胞",
+      "definition": "在胸腺发育成熟，通过 TCR 识别抗原肽-MHC 复合物，介导细胞免疫。",
+      "category": "免疫细胞",
+      "notes": "细胞免疫主力"
+    },
+    {
+      "serial": "17",
+      "abbreviation": "Th1",
+      "englishName": "T helper type 1",
+      "chineseName": "1型辅助性T细胞",
+      "definition": "分泌 IFN-γ 等，促进细胞免疫，激活巨噬细胞抗胞内病原体。",
+      "category": "免疫细胞",
+      "notes": "与 Th2 相互拮抗"
+    },
+    {
+      "serial": "18",
+      "abbreviation": "Th2",
+      "englishName": "T helper type 2",
+      "chineseName": "2型辅助性T细胞",
+      "definition": "分泌 IL-4、IL-5、IL-13 等，促进体液免疫，介导抗蠕虫及过敏反应。",
+      "category": "免疫细胞",
+      "notes": "辅助 B 细胞产生抗体"
+    },
+    {
+      "serial": "19",
+      "abbreviation": "Th17",
+      "englishName": "T helper 17",
+      "chineseName": "17型辅助性T细胞",
+      "definition": "分泌 IL-17，募集中性粒细胞抗胞外菌和真菌，与自身免疫病相关。",
+      "category": "免疫细胞",
+      "notes": "与炎症和自身免疫有关"
+    },
+    {
+      "serial": "20",
+      "abbreviation": "Tfh",
+      "englishName": "T follicular helper cell",
+      "chineseName": "滤泡辅助性T细胞",
+      "definition": "定位于淋巴滤泡，辅助 B 细胞生发中心反应与抗体亲和力成熟。",
+      "category": "免疫细胞",
+      "notes": "表达 CXCR5、PD-1"
+    },
+    {
+      "serial": "21",
+      "abbreviation": "Treg",
+      "englishName": "Regulatory T cell",
+      "chineseName": "调节性T细胞",
+      "definition": "分泌 IL-10、TGF-β，抑制免疫应答，维持免疫耐受和自身耐受。",
+      "category": "免疫细胞",
+      "notes": "CD4+CD25+Foxp3+"
+    },
+    {
+      "serial": "22",
+      "abbreviation": "CTL",
+      "englishName": "Cytotoxic T Lymphocyte",
+      "chineseName": "细胞毒性T细胞",
+      "definition": "即 CD8+ 杀伤性 T 细胞，通过穿孔素/颗粒酶等杀伤靶细胞。",
+      "category": "免疫细胞",
+      "notes": "Tc/CTL 抗病毒抗肿瘤"
+    },
+    {
+      "serial": "23",
+      "abbreviation": "Tc",
+      "englishName": "Cytotoxic T cell",
+      "chineseName": "杀伤性T细胞",
+      "definition": "见 CTL，主要识别 MHC-I 类分子提呈的内源性抗原。",
+      "category": "免疫细胞",
+      "notes": "即CTL"
+    },
+    {
+      "serial": "24",
+      "abbreviation": "NK",
+      "englishName": "Natural Killer Cell",
+      "chineseName": "自然杀伤细胞",
+      "definition": "固有免疫的淋巴细胞，无需抗原预先致敏即可杀伤靶细胞并分泌细胞因子。",
+      "category": "免疫细胞",
+      "notes": "识别MHC-I缺失细胞"
+    },
+    {
+      "serial": "25",
+      "abbreviation": "NKT",
+      "englishName": "Natural Killer T cell",
+      "chineseName": "自然杀伤T细胞",
+      "definition": "兼具 T 细胞与 NK 细胞特性，识别 CD1d 提呈的脂类抗原。",
+      "category": "免疫细胞",
+      "notes": "桥接固有与适应性免疫"
+    },
+    {
+      "serial": "26",
+      "abbreviation": "DC",
+      "englishName": "Dendritic Cell",
+      "chineseName": "树突状细胞",
+      "definition": "功能最强的专职抗原提呈细胞，启动初始 T 细胞活化。",
+      "category": "免疫细胞",
+      "notes": "最强的 APC"
+    },
+    {
+      "serial": "27",
+      "abbreviation": "pDC",
+      "englishName": "Plasmacytoid Dendritic Cell",
+      "chineseName": "浆细胞样树突状细胞",
+      "definition": "能大量分泌 I 型干扰素，在抗病毒感染中起关键作用。",
+      "category": "免疫细胞",
+      "notes": "IFN-α 主要来源"
+    },
+    {
+      "serial": "28",
+      "abbreviation": "cDC",
+      "englishName": "Conventional Dendritic Cell",
+      "chineseName": "经典树突状细胞",
+      "definition": "主要承担抗原提呈与 T 细胞激活的常规树突状细胞。",
+      "category": "免疫细胞",
+      "notes": "区别于 pDC"
+    },
+    {
+      "serial": "29",
+      "abbreviation": "Mo",
+      "englishName": "Monocyte",
+      "chineseName": "单核细胞",
+      "definition": "血液中的单核吞噬细胞，进入组织后分化为巨噬细胞或树突状细胞。",
+      "category": "免疫细胞",
+      "notes": "血液内循环"
+    },
+    {
+      "serial": "30",
+      "abbreviation": "Mac",
+      "englishName": "Macrophage",
+      "chineseName": "巨噬细胞",
+      "definition": "组织中的吞噬细胞，吞噬病原、提呈抗原、分泌细胞因子并杀伤肿瘤。",
+      "category": "免疫细胞",
+      "notes": "Mφ"
+    },
+    {
+      "serial": "31",
+      "abbreviation": "Neu",
+      "englishName": "Neutrophil",
+      "chineseName": "中性粒细胞",
+      "definition": "血液中数量最多的白细胞，吞噬并杀灭细菌，是急性炎症的主要细胞。",
+      "category": "免疫细胞",
+      "notes": "第一反应吞噬细胞"
+    },
+    {
+      "serial": "32",
+      "abbreviation": "Eos",
+      "englishName": "Eosinophil",
+      "chineseName": "嗜酸性粒细胞",
+      "definition": "抗寄生虫感染的主要细胞，也参与过敏反应。",
+      "category": "免疫细胞",
+      "notes": "碱性染料不着色，染成红"
+    },
+    {
+      "serial": "33",
+      "abbreviation": "Bas",
+      "englishName": "Basophil",
+      "chineseName": "嗜碱性粒细胞",
+      "definition": "释放组胺等介质，参与速发型超敏反应。",
+      "category": "免疫细胞",
+      "notes": "与肥大细胞类似"
+    },
+    {
+      "serial": "34",
+      "abbreviation": "Mast",
+      "englishName": "Mast Cell",
+      "chineseName": "肥大细胞",
+      "definition": "分布于组织中的含组胺颗粒细胞，IgE 交联后脱颗粒引起过敏。",
+      "category": "免疫细胞",
+      "notes": "过敏反应关键效应细胞"
+    },
+    {
+      "serial": "35",
+      "abbreviation": "APC",
+      "englishName": "Antigen Presenting Cell",
+      "chineseName": "抗原提呈细胞",
+      "definition": "能加工并提呈抗原给 T 细胞的细胞，包括 DC、巨噬细胞、B 细胞等。",
+      "category": "免疫细胞",
+      "notes": "专职 APC：DC/Mφ/B"
+    },
+    {
+      "serial": "36",
+      "abbreviation": "PC",
+      "englishName": "Plasma Cell",
+      "chineseName": "浆细胞",
+      "definition": "终末分化的 B 细胞，大量分泌抗体。",
+      "category": "免疫细胞",
+      "notes": "抗体工厂"
+    },
+    {
+      "serial": "37",
+      "abbreviation": "ILC",
+      "englishName": "Innate Lymphoid Cell",
+      "chineseName": "固有淋巴样细胞",
+      "definition": "固有免疫中的淋巴样细胞，不表达重排抗原受体，分泌细胞因子发挥保护作用。",
+      "category": "免疫细胞",
+      "notes": "固有免疫的「T/B样」细胞"
+    },
+    {
+      "serial": "38",
+      "abbreviation": "Mφ",
+      "englishName": "Macrophage",
+      "chineseName": "巨噬细胞(符号)",
+      "definition": "巨噬细胞的符号表示，同 Mac。",
+      "category": "免疫细胞",
+      "notes": "即Mac"
+    },
+    {
+      "serial": "39",
+      "abbreviation": "MDSC",
+      "englishName": "Myeloid-Derived Suppressor Cell",
+      "chineseName": "髓源性抑制细胞",
+      "definition": "骨髓来源的抑制性细胞，抑制 T 细胞抗肿瘤免疫，与免疫逃逸相关。",
+      "category": "免疫细胞",
+      "notes": "肿瘤微环境中常见"
+    },
+    {
+      "serial": "40",
+      "abbreviation": "γδT",
+      "englishName": "γδ T Cell",
+      "chineseName": "γδT细胞",
+      "definition": "TCR 由 γ、δ 链组成的 T 细胞，主要分布于黏膜上皮，识别非肽类抗原。",
+      "category": "免疫细胞",
+      "notes": "桥接固有与适应性"
+    },
+    {
+      "serial": "41",
+      "abbreviation": "iNKT",
+      "englishName": "Invariant NKT cell",
+      "chineseName": "恒定自然杀伤T细胞",
+      "definition": "表达恒定 TCRα 链的 NKT 细胞，识别 CD1d-脂类复合物。",
+      "category": "免疫细胞",
+      "notes": "NKT 亚群"
+    },
+    {
+      "serial": "42",
+      "abbreviation": "LC",
+      "englishName": "Langerhans Cell",
+      "chineseName": "朗格汉斯细胞",
+      "definition": "皮肤表皮中的树突状细胞，捕获皮肤抗原后迁移至淋巴结提呈。",
+      "category": "免疫细胞",
+      "notes": "皮肤内 DC"
+    },
+    {
+      "serial": "43",
+      "abbreviation": "Ig",
+      "englishName": "Immunoglobulin",
+      "chineseName": "免疫球蛋白",
+      "definition": "具有抗体活性或化学结构与抗体相似的球蛋白，即抗体分子。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "抗体=免疫球蛋白"
+    },
+    {
+      "serial": "44",
+      "abbreviation": "Ab",
+      "englishName": "Antibody",
+      "chineseName": "抗体",
+      "definition": "B 细胞/浆细胞产生的、能特异性结合抗原的免疫球蛋白。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "Ag-Ab 特异性结合"
+    },
+    {
+      "serial": "45",
+      "abbreviation": "Ag",
+      "englishName": "Antigen",
+      "chineseName": "抗原",
+      "definition": "能被免疫系统识别并诱导免疫应答的物质（蛋白质、多糖等）。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "抗体/受体的配体"
+    },
+    {
+      "serial": "46",
+      "abbreviation": "IgG",
+      "englishName": "Immunoglobulin G",
+      "chineseName": "免疫球蛋白G",
+      "definition": "血清含量最高的抗体，是再次应答的主要抗体，可通过胎盘、激活补体。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "占血清Ig约75%"
+    },
+    {
+      "serial": "47",
+      "abbreviation": "IgA",
+      "englishName": "Immunoglobulin A",
+      "chineseName": "免疫球蛋白A",
+      "definition": "主要存在于黏膜分泌液（sIgA）和血清，是黏膜局部免疫的主要抗体。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "黏膜抗体"
+    },
+    {
+      "serial": "48",
+      "abbreviation": "sIgA",
+      "englishName": "Secretory IgA",
+      "chineseName": "分泌型IgA",
+      "definition": "由 J 链和分泌片组成的二聚体 IgA，分布于乳汁、唾液、肠液等。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "母乳中的重要抗体"
+    },
+    {
+      "serial": "49",
+      "abbreviation": "IgM",
+      "englishName": "Immunoglobulin M",
+      "chineseName": "免疫球蛋白M",
+      "definition": "五聚体，初次应答最早出现的抗体，激活补体能力强，是很好的凝集素。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "最早出现、最早消失"
+    },
+    {
+      "serial": "50",
+      "abbreviation": "IgE",
+      "englishName": "Immunoglobulin E",
+      "chineseName": "免疫球蛋白E",
+      "definition": "介导 I 型超敏反应，与肥大细胞、嗜碱性粒细胞表面的 FcεR 结合。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "过敏相关抗体"
+    },
+    {
+      "serial": "51",
+      "abbreviation": "IgD",
+      "englishName": "Immunoglobulin D",
+      "chineseName": "免疫球蛋白D",
+      "definition": "成熟 B 细胞表面重要的膜型免疫球蛋白，功能尚不明确。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "膜表面标志"
+    },
+    {
+      "serial": "52",
+      "abbreviation": "mIg",
+      "englishName": "Membrane Immunoglobulin",
+      "chineseName": "膜型免疫球蛋白",
+      "definition": "B 细胞表面作为 BCR 一部分的膜结合型免疫球蛋白。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "BCR 组成"
+    },
+    {
+      "serial": "53",
+      "abbreviation": "VH/VL",
+      "englishName": "Variable Heavy/Light chain",
+      "chineseName": "重链/轻链可变区",
+      "definition": "抗体分子的可变区，决定抗原结合特异性，含 CDR。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "多样性来源"
+    },
+    {
+      "serial": "54",
+      "abbreviation": "CH/CL",
+      "englishName": "Constant Heavy/Light chain",
+      "chineseName": "重链/轻链恒定区",
+      "definition": "抗体分子的恒定区，决定类别和效应功能。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "介导Fc效应"
+    },
+    {
+      "serial": "55",
+      "abbreviation": "CDR",
+      "englishName": "Complementarity Determining Region",
+      "chineseName": "互补决定区",
+      "definition": "抗体或 TCR 可变区中与抗原表位直接结合的高变区，共3个。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "抗原结合位点核心"
+    },
+    {
+      "serial": "56",
+      "abbreviation": "FR",
+      "englishName": "Framework Region",
+      "chineseName": "骨架区",
+      "definition": "可变区中 CDR 之外的区域，维持结构框架。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "相对保守"
+    },
+    {
+      "serial": "57",
+      "abbreviation": "Fab",
+      "englishName": "Fragment antigen binding",
+      "chineseName": "抗原结合片段",
+      "definition": "抗体经木瓜蛋白酶水解产生的片段，保留抗原结合活性。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "与抗原结合"
+    },
+    {
+      "serial": "58",
+      "abbreviation": "Fc",
+      "englishName": "Fragment crystallizable",
+      "chineseName": "可结晶片段",
+      "definition": "抗体经木瓜蛋白酶水解产生的片段，介导补体激活、Fc 受体结合等效应。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "效应功能段"
+    },
+    {
+      "serial": "59",
+      "abbreviation": "F(ab')2",
+      "englishName": "Fragment antigen binding (dimer)",
+      "chineseName": "双价抗原结合片段",
+      "definition": "抗体经胃蛋白酶水解产生的双价抗原结合片段，无 Fc。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "胃蛋白酶水解产物"
+    },
+    {
+      "serial": "60",
+      "abbreviation": "ADCC",
+      "englishName": "Antibody-Dependent Cell-mediated Cytotoxicity",
+      "chineseName": "抗体依赖性细胞介导的细胞毒作用",
+      "definition": "抗体包被靶细胞后，经 Fc 受体被 NK 等效应细胞识别并杀伤。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "NK 杀伤肿瘤的重要机制"
+    },
+    {
+      "serial": "61",
+      "abbreviation": "ADCP",
+      "englishName": "Antibody-Dependent Cellular Phagocytosis",
+      "chineseName": "抗体依赖性细胞吞噬作用",
+      "definition": "抗体包被的靶细胞被巨噬细胞等经 Fc 受体识别吞噬。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "调理吞噬的一种"
+    },
+    {
+      "serial": "62",
+      "abbreviation": "CDC",
+      "englishName": "Complement-Dependent Cytotoxicity",
+      "chineseName": "补体依赖的细胞毒作用",
+      "definition": "抗体与靶细胞结合后激活补体，形成膜攻击复合物溶解靶细胞。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "IgG/IgM 触发"
+    },
+    {
+      "serial": "63",
+      "abbreviation": "mAb",
+      "englishName": "Monoclonal Antibody",
+      "chineseName": "单克隆抗体",
+      "definition": "由单一 B 细胞克隆产生的、只针对单一表位的同源抗体。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "杂交瘤技术产生"
+    },
+    {
+      "serial": "64",
+      "abbreviation": "scFv",
+      "englishName": "Single-chain Variable Fragment",
+      "chineseName": "单链可变区片段",
+      "definition": "由 VH 与 VL 经连接肽连接而成的最小抗原结合单位。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "工程抗体"
+    },
+    {
+      "serial": "65",
+      "abbreviation": "BsAb",
+      "englishName": "Bispecific Antibody",
+      "chineseName": "双特异性抗体",
+      "definition": "能同时结合两种不同抗原的工程抗体，用于桥接细胞与靶标。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "肿瘤免疫治疗"
+    },
+    {
+      "serial": "66",
+      "abbreviation": "Hapten",
+      "englishName": "Hapten",
+      "chineseName": "半抗原",
+      "definition": "单独不能诱导免疫应答，但与载体结合后可诱导抗体产生的小分子物质。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "需与载体偶联"
+    },
+    {
+      "serial": "67",
+      "abbreviation": "Epitope",
+      "englishName": "Epitope",
+      "chineseName": "表位/抗原决定簇",
+      "definition": "抗原分子中被抗体或受体识别的特定部位，是特异性的分子基础。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "抗原决定簇"
+    },
+    {
+      "serial": "68",
+      "abbreviation": "Id",
+      "englishName": "Idiotype",
+      "chineseName": "独特型",
+      "definition": "抗体或 TCR 可变区上由独特决定簇构成的结构，可诱导抗独特型抗体。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "独特型网络基础"
+    },
+    {
+      "serial": "69",
+      "abbreviation": "IgSF",
+      "englishName": "Immunoglobulin Superfamily",
+      "chineseName": "免疫球蛋白超家族",
+      "definition": "结构上含免疫球蛋白样结构域的一大类分子，包括抗体、TCR、MHC、CD 分子等。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "结构相似的大家族"
+    },
+    {
+      "serial": "70",
+      "abbreviation": "Av",
+      "englishName": "Avidity",
+      "chineseName": "亲合力",
+      "definition": "抗体分子与多价抗原结合的总结合强度，取决于亲和力与抗体价数。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "区别于亲和力"
+    },
+    {
+      "serial": "71",
+      "abbreviation": "Aff",
+      "englishName": "Affinity",
+      "chineseName": "亲和力",
+      "definition": "单个抗体 Fab 与单个表位之间的结合强度。",
+      "category": "免疫球蛋白与抗体",
+      "notes": "单位点结合强度"
+    },
+    {
+      "serial": "72",
+      "abbreviation": "C1-C9",
+      "englishName": "Complement components 1-9",
+      "chineseName": "补体成分1-9",
+      "definition": "补体系统的9个固有成分，经级联激活形成膜攻击复合物。",
+      "category": "补体系统",
+      "notes": "C3 含量最高"
+    },
+    {
+      "serial": "73",
+      "abbreviation": "CP",
+      "englishName": "Classical Pathway",
+      "chineseName": "补体经典激活途径",
+      "definition": "由抗体(IgG/IgM)与抗原结合后激活 C1，依次活化 C4、C2、C3 的途径。",
+      "category": "补体系统",
+      "notes": "依赖抗体"
+    },
+    {
+      "serial": "74",
+      "abbreviation": "AP",
+      "englishName": "Alternative Pathway",
+      "chineseName": "补体替代激活途径",
+      "definition": "不经 C1、C4、C2，由 C3 在微生物表面自发激活的途径。",
+      "category": "补体系统",
+      "notes": "无需抗体"
+    },
+    {
+      "serial": "75",
+      "abbreviation": "LP",
+      "englishName": "Lectin Pathway",
+      "chineseName": "补体凝集素途径",
+      "definition": "由 MBL 识别微生物甘露糖后激活 MASP，活化 C4、C2、C3 的途径。",
+      "category": "补体系统",
+      "notes": "MBL 启动"
+    },
+    {
+      "serial": "76",
+      "abbreviation": "MBL",
+      "englishName": "Mannose-Binding Lectin",
+      "chineseName": "甘露糖结合凝集素",
+      "definition": "血清中的凝集素，识别细菌表面甘露糖，启动补体凝集素途径。",
+      "category": "补体系统",
+      "notes": "急性期蛋白"
+    },
+    {
+      "serial": "77",
+      "abbreviation": "MASP",
+      "englishName": "MBL-Associated Serine Protease",
+      "chineseName": "MBL相关丝氨酸蛋白酶",
+      "definition": "MBL 结合的丝氨酸蛋白酶，在凝集素途径中切割 C4、C2。",
+      "category": "补体系统",
+      "notes": "类似 C1s"
+    },
+    {
+      "serial": "78",
+      "abbreviation": "MAC",
+      "englishName": "Membrane Attack Complex",
+      "chineseName": "膜攻击复合物",
+      "definition": "由 C5b-C9 组成的复合体，插入靶细胞膜形成孔道导致细胞溶解。",
+      "category": "补体系统",
+      "notes": "细胞裂解最终阶段"
+    },
+    {
+      "serial": "79",
+      "abbreviation": "C3b",
+      "englishName": "Complement C3b",
+      "chineseName": "补体C3b",
+      "definition": "C3 裂解产生的大片段，可调理吞噬、参与形成 C5 转化酶。",
+      "category": "补体系统",
+      "notes": "调理素"
+    },
+    {
+      "serial": "80",
+      "abbreviation": "iC3b",
+      "englishName": "Inactivated C3b",
+      "chineseName": "失活C3b",
+      "definition": "C3b 进一步裂解的片段，与 CR3/CR4 结合介导调理吞噬。",
+      "category": "补体系统",
+      "notes": "调理作用"
+    },
+    {
+      "serial": "81",
+      "abbreviation": "CR1",
+      "englishName": "Complement Receptor 1",
+      "chineseName": "补体受体1(CD35)",
+      "definition": "结合 C3b/C4b，介导吞噬和清除免疫复合物。",
+      "category": "补体系统",
+      "notes": "红细胞上清除IC"
+    },
+    {
+      "serial": "82",
+      "abbreviation": "CR2",
+      "englishName": "Complement Receptor 2",
+      "chineseName": "补体受体2(CD21)",
+      "definition": "结合 C3d，参与 B 细胞活化与记忆，也是 EB 病毒受体。",
+      "category": "补体系统",
+      "notes": "B 细胞共受体"
+    },
+    {
+      "serial": "83",
+      "abbreviation": "CR3",
+      "englishName": "Complement Receptor 3",
+      "chineseName": "补体受体3(CD11b/CD18)",
+      "definition": "结合 iC3b，介导吞噬细胞吞噬。",
+      "category": "补体系统",
+      "notes": "Mac-1"
+    },
+    {
+      "serial": "84",
+      "abbreviation": "CR4",
+      "englishName": "Complement Receptor 4",
+      "chineseName": "补体受体4(CD11c/CD18)",
+      "definition": "结合 iC3b，介导吞噬。",
+      "category": "补体系统",
+      "notes": "p150,95"
+    },
+    {
+      "serial": "85",
+      "abbreviation": "DAF",
+      "englishName": "Decay-Accelerating Factor",
+      "chineseName": "衰变加速因子(CD55)",
+      "definition": "加速 C3/C5 转化酶衰变，保护自身细胞免遭补体攻击。",
+      "category": "补体系统",
+      "notes": "膜保护蛋白"
+    },
+    {
+      "serial": "86",
+      "abbreviation": "MCP",
+      "englishName": "Membrane Cofactor Protein",
+      "chineseName": "膜辅因子蛋白(CD46)",
+      "definition": "作为 I 因子的辅因子降解 C3b，保护自身细胞。",
+      "category": "补体系统",
+      "notes": "膜保护蛋白"
+    },
+    {
+      "serial": "87",
+      "abbreviation": "CD59",
+      "englishName": "CD59/HRF",
+      "chineseName": "同源限制因子(CD59)",
+      "definition": "抑制 MAC 插入自身细胞膜，保护细胞免遭补体溶解。",
+      "category": "补体系统",
+      "notes": "膜保护蛋白"
+    },
+    {
+      "serial": "88",
+      "abbreviation": "PNH",
+      "englishName": "Paroxysmal Nocturnal Hemoglobinuria",
+      "chineseName": "阵发性睡眠性血红蛋白尿",
+      "definition": "造血干细胞 PIG-A 基因突变导致 GPI 锚蛋白(CD55/CD59)缺失，红细胞易被补体溶解。",
+      "category": "补体系统",
+      "notes": "补体调控缺陷病"
+    },
+    {
+      "serial": "89",
+      "abbreviation": "CH50",
+      "englishName": "50% Hemolytic Complement",
+      "chineseName": "总补体溶血活性",
+      "definition": "测定血清总补体经典途径活性的指标，以半数溶血单位表示。",
+      "category": "补体系统",
+      "notes": "补体功能检测"
+    },
+    {
+      "serial": "90",
+      "abbreviation": "Anaphylatoxin",
+      "englishName": "Anaphylatoxin",
+      "chineseName": "过敏毒素",
+      "definition": "C3a、C4a、C5a 等补体裂解片段，可致肥大细胞脱颗粒、趋化炎症细胞。",
+      "category": "补体系统",
+      "notes": "C5a 活性最强"
+    },
+    {
+      "serial": "91",
+      "abbreviation": "CK",
+      "englishName": "Cytokine",
+      "chineseName": "细胞因子",
+      "definition": "免疫细胞等分泌的小分子蛋白，介导细胞间通讯、调节免疫应答。",
+      "category": "细胞因子与趋化因子",
+      "notes": "免疫调节信号"
+    },
+    {
+      "serial": "92",
+      "abbreviation": "IL",
+      "englishName": "Interleukin",
+      "chineseName": "白细胞介素",
+      "definition": "由白细胞等产生、在白细胞间传递信号的细胞因子家族。",
+      "category": "细胞因子与趋化因子",
+      "notes": "IL-1~IL-38等"
+    },
+    {
+      "serial": "93",
+      "abbreviation": "IFN",
+      "englishName": "Interferon",
+      "chineseName": "干扰素",
+      "definition": "抗病毒并调节免疫的细胞因子，分 I 型(α/β)和 II 型(γ)。",
+      "category": "细胞因子与趋化因子",
+      "notes": "抗病毒关键"
+    },
+    {
+      "serial": "94",
+      "abbreviation": "IFN-α/β",
+      "englishName": "Interferon-alpha/beta",
+      "chineseName": "I型干扰素",
+      "definition": "I 型干扰素，由病毒感染细胞大量产生，诱导抗病毒状态。",
+      "category": "细胞因子与趋化因子",
+      "notes": "pDC 主要来源"
+    },
+    {
+      "serial": "95",
+      "abbreviation": "IFN-γ",
+      "englishName": "Interferon-gamma",
+      "chineseName": "干扰素γ",
+      "definition": "II 型干扰素，主要由 Th1、NK、CTL 产生，激活巨噬细胞抗胞内病原。",
+      "category": "细胞因子与趋化因子",
+      "notes": "活化巨噬细胞"
+    },
+    {
+      "serial": "96",
+      "abbreviation": "TNF",
+      "englishName": "Tumor Necrosis Factor",
+      "chineseName": "肿瘤坏死因子",
+      "definition": "TNF-α 等，可杀伤肿瘤、介导炎症和恶病质。",
+      "category": "细胞因子与趋化因子",
+      "notes": "TNF-α 促炎"
+    },
+    {
+      "serial": "97",
+      "abbreviation": "TGF-β",
+      "englishName": "Transforming Growth Factor-beta",
+      "chineseName": "转化生长因子β",
+      "definition": "抑制免疫、促进组织修复和 Treg 分化，参与免疫耐受。",
+      "category": "细胞因子与趋化因子",
+      "notes": "抑炎细胞因子"
+    },
+    {
+      "serial": "98",
+      "abbreviation": "CSF",
+      "englishName": "Colony-Stimulating Factor",
+      "chineseName": "集落刺激因子",
+      "definition": "刺激造血细胞增殖分化的细胞因子，如 G-CSF、GM-CSF。",
+      "category": "细胞因子与趋化因子",
+      "notes": "造血调控"
+    },
+    {
+      "serial": "99",
+      "abbreviation": "G-CSF",
+      "englishName": "Granulocyte CSF",
+      "chineseName": "粒细胞集落刺激因子",
+      "definition": "促进中性粒细胞生成，临床用于升白细胞。",
+      "category": "细胞因子与趋化因子",
+      "notes": "粒细胞生成"
+    },
+    {
+      "serial": "100",
+      "abbreviation": "GM-CSF",
+      "englishName": "Granulocyte-Macrophage CSF",
+      "chineseName": "粒-巨噬细胞集落刺激因子",
+      "definition": "促进粒细胞和单核/巨噬细胞生成及树突状细胞分化。",
+      "category": "细胞因子与趋化因子",
+      "notes": "造血+DC分化"
+    },
+    {
+      "serial": "101",
+      "abbreviation": "EPO",
+      "englishName": "Erythropoietin",
+      "chineseName": "促红细胞生成素",
+      "definition": "刺激红细胞生成的细胞因子，由肾产生。",
+      "category": "细胞因子与趋化因子",
+      "notes": "红细胞生成"
+    },
+    {
+      "serial": "102",
+      "abbreviation": "TPO",
+      "englishName": "Thrombopoietin",
+      "chineseName": "促血小板生成素",
+      "definition": "刺激巨核细胞和血小板生成的细胞因子。",
+      "category": "细胞因子与趋化因子",
+      "notes": "血小板生成"
+    },
+    {
+      "serial": "103",
+      "abbreviation": "SCF",
+      "englishName": "Stem Cell Factor",
+      "chineseName": "干细胞因子",
+      "definition": "与 c-Kit 结合，维持造血干细胞自我更新。",
+      "category": "细胞因子与趋化因子",
+      "notes": "造血微环境"
+    },
+    {
+      "serial": "104",
+      "abbreviation": "TSLP",
+      "englishName": "Thymic Stromal Lymphopoietin",
+      "chineseName": "胸腺基质淋巴细胞生成素",
+      "definition": "上皮来源细胞因子，促进 Th2 反应，参与过敏。",
+      "category": "细胞因子与趋化因子",
+      "notes": "Th2 极化"
+    },
+    {
+      "serial": "105",
+      "abbreviation": "LIF",
+      "englishName": "Leukemia Inhibitory Factor",
+      "chineseName": "白血病抑制因子",
+      "definition": "多功能细胞因子，参与造血和炎症调节。",
+      "category": "细胞因子与趋化因子",
+      "notes": "多效性"
+    },
+    {
+      "serial": "106",
+      "abbreviation": "Chemokine",
+      "englishName": "Chemotactic Cytokine",
+      "chineseName": "趋化因子",
+      "definition": "能吸引白细胞定向迁移的细胞因子，分 C、CC、CXC、CX3C 等家族。",
+      "category": "细胞因子与趋化因子",
+      "notes": "引导细胞迁移"
+    },
+    {
+      "serial": "107",
+      "abbreviation": "MCP-1",
+      "englishName": "Monocyte Chemoattractant Protein-1",
+      "chineseName": "单核细胞趋化蛋白1(CCL2)",
+      "definition": "趋化单核细胞和记忆 T 细胞至炎症部位。",
+      "category": "细胞因子与趋化因子",
+      "notes": "CCL2"
+    },
+    {
+      "serial": "108",
+      "abbreviation": "RANTES",
+      "englishName": "Regulated upon Activation, Normal T cell Expressed and Secreted",
+      "chineseName": "正常T细胞表达和分泌的活化调节蛋白(CCL5)",
+      "definition": "趋化 T 细胞、单核细胞、嗜酸性粒细胞。",
+      "category": "细胞因子与趋化因子",
+      "notes": "CCL5"
+    },
+    {
+      "serial": "109",
+      "abbreviation": "IL-8",
+      "englishName": "Interleukin-8",
+      "chineseName": "白细胞介素8(CXCL8)",
+      "definition": "趋化和激活中性粒细胞的趋化因子。",
+      "category": "细胞因子与趋化因子",
+      "notes": "CXCL8"
+    },
+    {
+      "serial": "110",
+      "abbreviation": "SDF-1",
+      "englishName": "Stromal Cell-Derived Factor-1",
+      "chineseName": "基质细胞衍生因子1(CXCL12)",
+      "definition": "趋化造血细胞，与 CXCR4 结合，参与归巢。",
+      "category": "细胞因子与趋化因子",
+      "notes": "CXCL12"
+    },
+    {
+      "serial": "111",
+      "abbreviation": "Cytokine storm",
+      "englishName": "Cytokine Storm",
+      "chineseName": "细胞因子风暴",
+      "definition": "免疫系统过度激活导致大量促炎细胞因子释放，引起多器官损伤。",
+      "category": "细胞因子与趋化因子",
+      "notes": "免疫过激"
+    },
+    {
+      "serial": "112",
+      "abbreviation": "ChemR",
+      "englishName": "Chemokine Receptor",
+      "chineseName": "趋化因子受体",
+      "definition": "表达于白细胞表面的趋化因子受体，介导细胞迁移。",
+      "category": "细胞因子与趋化因子",
+      "notes": "七次跨膜受体"
+    },
+    {
+      "serial": "113",
+      "abbreviation": "JS-STAT",
+      "englishName": "JAK-STAT pathway",
+      "chineseName": "JAK-STAT信号通路",
+      "definition": "多数细胞因子受体通过 JAK 磷酸化 STAT 传导信号的通路。",
+      "category": "细胞因子与趋化因子",
+      "notes": "细胞因子经典通路"
+    },
+    {
+      "serial": "114",
+      "abbreviation": "CD",
+      "englishName": "Cluster of Differentiation",
+      "chineseName": "分化群",
+      "definition": "用单克隆抗体鉴定的、用于识别和分类白细胞表面分子的命名体系。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "全球统一命名"
+    },
+    {
+      "serial": "115",
+      "abbreviation": "CD3",
+      "englishName": "Cluster of Differentiation 3",
+      "chineseName": "CD3分子",
+      "definition": "T 细胞表面的信号转导复合物，与 TCR 共同组成 T 细胞受体复合体。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "泛T细胞标志"
+    },
+    {
+      "serial": "116",
+      "abbreviation": "CD4",
+      "englishName": "CD4 molecule",
+      "chineseName": "CD4分子",
+      "definition": "辅助性 T 细胞的标志，也是 MHC-II 类分子受体和 HIV 受体。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "Th 细胞标志"
+    },
+    {
+      "serial": "117",
+      "abbreviation": "CD8",
+      "englishName": "CD8 molecule",
+      "chineseName": "CD8分子",
+      "definition": "细胞毒性 T 细胞的标志，识别 MHC-I 类分子。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "CTL 标志"
+    },
+    {
+      "serial": "118",
+      "abbreviation": "CD19",
+      "englishName": "CD19 molecule",
+      "chineseName": "CD19分子",
+      "definition": "B 细胞谱系的标志分子，参与 B 细胞活化。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "泛B细胞标志"
+    },
+    {
+      "serial": "119",
+      "abbreviation": "CD20",
+      "englishName": "CD20 molecule",
+      "chineseName": "CD20分子",
+      "definition": "成熟 B 细胞表面分子，是利妥昔单抗等治疗靶点。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "B 细胞治疗靶点"
+    },
+    {
+      "serial": "120",
+      "abbreviation": "CD25",
+      "englishName": "CD25 (IL-2Rα)",
+      "chineseName": "CD25分子",
+      "definition": "IL-2 受体 α 链，活化 T 细胞和 Treg 高表达。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "Treg 标志之一"
+    },
+    {
+      "serial": "121",
+      "abbreviation": "CD28",
+      "englishName": "CD28 molecule",
+      "chineseName": "CD28分子",
+      "definition": "T 细胞上的共刺激受体，与 APC 的 B7(CD80/86) 结合提供第二信号。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "共刺激信号"
+    },
+    {
+      "serial": "122",
+      "abbreviation": "CD80",
+      "englishName": "CD80 (B7-1)",
+      "chineseName": "CD80分子",
+      "definition": "APC 表面共刺激分子，与 CD28/CTLA-4 结合。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "B7-1"
+    },
+    {
+      "serial": "123",
+      "abbreviation": "CD86",
+      "englishName": "CD86 (B7-2)",
+      "chineseName": "CD86分子",
+      "definition": "APC 表面共刺激分子，与 CD28/CTLA-4 结合，静息 APC 即表达。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "B7-2"
+    },
+    {
+      "serial": "124",
+      "abbreviation": "CD40",
+      "englishName": "CD40 molecule",
+      "chineseName": "CD40分子",
+      "definition": "APC 和 B 细胞表面的共刺激分子，与其配体 CD40L 结合激活 APC。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "APC 活化"
+    },
+    {
+      "serial": "125",
+      "abbreviation": "CD40L",
+      "englishName": "CD40 Ligand",
+      "chineseName": "CD40配体(CD154)",
+      "definition": "活化 T 细胞表面的配体，与 B 细胞/APC 的 CD40 结合，促进抗体类别转换。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "T-B 细胞协作"
+    },
+    {
+      "serial": "126",
+      "abbreviation": "CD154",
+      "englishName": "CD154 (CD40L)",
+      "chineseName": "CD154分子",
+      "definition": "即 CD40L。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "即CD40L"
+    },
+    {
+      "serial": "127",
+      "abbreviation": "CTLA-4",
+      "englishName": "Cytotoxic T-Lymphocyte Antigen-4",
+      "chineseName": "细胞毒性T淋巴细胞抗原4(CD152)",
+      "definition": "T 细胞表面的抑制性受体，与 B7 结合抑制 T 细胞活化，是免疫检查点。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "免疫检查点"
+    },
+    {
+      "serial": "128",
+      "abbreviation": "PD-1",
+      "englishName": "Programmed Death-1",
+      "chineseName": "程序性死亡受体1(CD279)",
+      "definition": "活化 T 细胞表面的抑制性受体，与其配体 PD-L1 结合抑制 T 细胞。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "免疫检查点"
+    },
+    {
+      "serial": "129",
+      "abbreviation": "PD-L1",
+      "englishName": "Programmed Death-Ligand 1",
+      "chineseName": "程序性死亡配体1(CD274)",
+      "definition": "表达于肿瘤细胞和 APC 的配体，与 PD-1 结合抑制免疫。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "肿瘤逃逸关键"
+    },
+    {
+      "serial": "130",
+      "abbreviation": "CD56",
+      "englishName": "CD56 (NCAM)",
+      "chineseName": "CD56分子",
+      "definition": "NK 细胞的重要标志分子。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "NK 标志"
+    },
+    {
+      "serial": "131",
+      "abbreviation": "CD16",
+      "englishName": "CD16 (FcγRIII)",
+      "chineseName": "CD16分子",
+      "definition": "NK 细胞和巨噬细胞上的 Fcγ 受体，介导 ADCC。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "ADCC 受体"
+    },
+    {
+      "serial": "132",
+      "abbreviation": "CD64",
+      "englishName": "CD64 (FcγRI)",
+      "chineseName": "CD64分子",
+      "definition": "高亲和力 IgG Fc 受体，表达于巨噬细胞等。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "高亲和FcγR"
+    },
+    {
+      "serial": "133",
+      "abbreviation": "CD23",
+      "englishName": "CD23 (FcεRII)",
+      "chineseName": "CD23分子",
+      "definition": "低亲和力 IgE 受体，表达于 B 细胞等。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "IgE 低亲和受体"
+    },
+    {
+      "serial": "134",
+      "abbreviation": "CD21",
+      "englishName": "CD21 (CR2)",
+      "chineseName": "CD21分子",
+      "definition": "补体受体 2，B 细胞共受体组成之一。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "即CR2"
+    },
+    {
+      "serial": "135",
+      "abbreviation": "CD35",
+      "englishName": "CD35 (CR1)",
+      "chineseName": "CD35分子",
+      "definition": "补体受体 1。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "即CR1"
+    },
+    {
+      "serial": "136",
+      "abbreviation": "CD11b",
+      "englishName": "CD11b (Mac-1α)",
+      "chineseName": "CD11b分子",
+      "definition": "整合素 CR3 的 α 链，与 CD18 组成 Mac-1。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "髓系细胞标志"
+    },
+    {
+      "serial": "137",
+      "abbreviation": "CD14",
+      "englishName": "CD14 molecule",
+      "chineseName": "CD14分子",
+      "definition": "单核/巨噬细胞表面 LPS 受体组分(与TLR4协作)。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "单核细胞标志"
+    },
+    {
+      "serial": "138",
+      "abbreviation": "CD45",
+      "englishName": "CD45 (LCA)",
+      "chineseName": "CD45分子/白细胞共同抗原",
+      "definition": "所有白细胞表达的蛋白酪氨酸磷酸酶，参与信号转导。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "白细胞共同抗原"
+    },
+    {
+      "serial": "139",
+      "abbreviation": "CD45RA",
+      "englishName": "CD45RA isoform",
+      "chineseName": "CD45RA分子",
+      "definition": "初始 T 细胞表达的 CD45 亚型。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "初始T细胞"
+    },
+    {
+      "serial": "140",
+      "abbreviation": "CD45RO",
+      "englishName": "CD45RO isoform",
+      "chineseName": "CD45RO分子",
+      "definition": "记忆 T 细胞表达的 CD45 亚型。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "记忆T细胞"
+    },
+    {
+      "serial": "141",
+      "abbreviation": "CD34",
+      "englishName": "CD34 molecule",
+      "chineseName": "CD34分子",
+      "definition": "造血干细胞和祖细胞标志。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "造血干细胞标志"
+    },
+    {
+      "serial": "142",
+      "abbreviation": "LFA-1",
+      "englishName": "Lymphocyte Function-associated Antigen-1",
+      "chineseName": "淋巴细胞功能相关抗原1(CD11a/CD18)",
+      "definition": "T 细胞上的整合素，与 APC 的 ICAM-1 结合，介导黏附。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "细胞黏附"
+    },
+    {
+      "serial": "143",
+      "abbreviation": "ICAM-1",
+      "englishName": "Intercellular Adhesion Molecule-1",
+      "chineseName": "细胞间黏附分子1(CD54)",
+      "definition": "APC/内皮细胞表面的黏附分子，与 LFA-1 结合。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "CD54"
+    },
+    {
+      "serial": "144",
+      "abbreviation": "VCAM-1",
+      "englishName": "Vascular Cell Adhesion Molecule-1",
+      "chineseName": "血管细胞黏附分子1",
+      "definition": "内皮细胞上的黏附分子，与白细胞 VLA-4 结合介导迁移。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "白细胞穿越内皮"
+    },
+    {
+      "serial": "145",
+      "abbreviation": "VLA-4",
+      "englishName": "Very Late Antigen-4",
+      "chineseName": "极迟抗原4(CD49d/CD29)",
+      "definition": "白细胞上的整合素，与 VCAM-1 结合介导迁移。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "α4β1"
+    },
+    {
+      "serial": "146",
+      "abbreviation": "L-Selectin",
+      "englishName": "CD62L",
+      "chineseName": "L选择素",
+      "definition": "淋巴细胞表面的黏附分子，介导穿越高内皮微静脉(归巢)。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "淋巴细胞归巢"
+    },
+    {
+      "serial": "147",
+      "abbreviation": "Homing",
+      "englishName": "Lymphocyte Homing",
+      "chineseName": "淋巴细胞归巢",
+      "definition": "淋巴细胞定向迁移至特定淋巴组织的过程。",
+      "category": "分化群(CD)与表面分子",
+      "notes": "L-选择素参与"
+    },
+    {
+      "serial": "148",
+      "abbreviation": "MHC",
+      "englishName": "Major Histocompatibility Complex",
+      "chineseName": "主要组织相容性复合体",
+      "definition": "编码提呈抗原肽的蛋白、决定移植物排斥的一大簇基因。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "人类称HLA"
+    },
+    {
+      "serial": "149",
+      "abbreviation": "HLA",
+      "englishName": "Human Leukocyte Antigen",
+      "chineseName": "人类白细胞抗原",
+      "definition": "人类的 MHC 分子，与抗原提呈和移植排斥密切相关。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "位于6号染色体"
+    },
+    {
+      "serial": "150",
+      "abbreviation": "MHC-I",
+      "englishName": "MHC Class I",
+      "chineseName": "I类MHC分子",
+      "definition": "由 α 链与 β2-微球蛋白组成，提呈内源性抗原给 CD8+T 细胞。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "CD8识别"
+    },
+    {
+      "serial": "151",
+      "abbreviation": "MHC-II",
+      "englishName": "MHC Class II",
+      "chineseName": "II类MHC分子",
+      "definition": "由 α、β 链组成，提呈外源性抗原给 CD4+T 细胞，表达于 APC。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "CD4识别"
+    },
+    {
+      "serial": "152",
+      "abbreviation": "β2m",
+      "englishName": "β2-Microglobulin",
+      "chineseName": "β2微球蛋白",
+      "definition": "MHC-I 类分子的轻链，为 I 类分子组装和表面表达所必需。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "15号染色体"
+    },
+    {
+      "serial": "153",
+      "abbreviation": "TCR",
+      "englishName": "T Cell Receptor",
+      "chineseName": "T细胞受体",
+      "definition": "T 细胞表面识别抗原肽-MHC 复合物的受体，由 αβ 或 γδ 链组成。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "αβ或γδ"
+    },
+    {
+      "serial": "154",
+      "abbreviation": "BCR",
+      "englishName": "B Cell Receptor",
+      "chineseName": "B细胞受体",
+      "definition": "B 细胞表面的膜型免疫球蛋白，识别天然抗原。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "mIg+Igα/Igβ"
+    },
+    {
+      "serial": "155",
+      "abbreviation": "TAP",
+      "englishName": "Transporter Associated with Antigen Processing",
+      "chineseName": "抗原加工相关转运体",
+      "definition": "将抗原肽从胞质转运进入内质网以装载到 MHC-I 类分子。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "MHC-I 提呈"
+    },
+    {
+      "serial": "156",
+      "abbreviation": "ERAP",
+      "englishName": "Endoplasmic Reticulum Aminopeptidase",
+      "chineseName": "内质网氨肽酶",
+      "definition": "在内质网中修剪抗原肽长度以适配 MHC-I 类分子。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "抗原肽修剪"
+    },
+    {
+      "serial": "157",
+      "abbreviation": "Endosome",
+      "englishName": "Endosome",
+      "chineseName": "内体/内体腔",
+      "definition": "外源性抗原被内吞后经内体加工，装载到 MHC-II 类分子。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "MHC-II 提呈"
+    },
+    {
+      "serial": "158",
+      "abbreviation": "Cross-presentation",
+      "englishName": "Cross-presentation",
+      "chineseName": "交叉提呈",
+      "definition": "DC 将外源性抗原提呈给 CD8+T 细胞的过程，对交叉致敏和抗病毒/肿瘤重要。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "外源→MHC-I"
+    },
+    {
+      "serial": "159",
+      "abbreviation": "Cross-priming",
+      "englishName": "Cross-priming",
+      "chineseName": "交叉致敏",
+      "definition": "经交叉提呈使初始 CD8+T 细胞活化的过程。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "DC 关键作用"
+    },
+    {
+      "serial": "160",
+      "abbreviation": "Invariant chain",
+      "englishName": "Ii chain / CD74",
+      "chineseName": "恒定链(Ii)",
+      "definition": "引导 MHC-II 类分子装载内源肽段、防止内源性肽过早结合，并在内体中降解。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "MHC-II 组装"
+    },
+    {
+      "serial": "161",
+      "abbreviation": "CLIP",
+      "englishName": "Class II-associated Invariant chain Peptide",
+      "chineseName": "II类相关恒定链多肽",
+      "definition": "恒定链降解后留在 MHC-II 类分子槽中的片段，需由 HLA-DM 移除以装载抗原肽。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "MHC-II 装载调控"
+    },
+    {
+      "serial": "162",
+      "abbreviation": "HLA-DM",
+      "englishName": "HLA-DM molecule",
+      "chineseName": "HLA-DM分子",
+      "definition": "催化移除 CLIP、促进抗原肽装载到 MHC-II 类分子的分子。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "肽交换催化"
+    },
+    {
+      "serial": "163",
+      "abbreviation": "Peptide loading",
+      "englishName": "Peptide Loading",
+      "chineseName": "抗原肽装载",
+      "definition": "抗原肽与 MHC 分子结合槽结合并展示于细胞表面的过程。",
+      "category": "MHC/HLA与抗原提呈",
+      "notes": "提呈核心步骤"
+    },
+    {
+      "serial": "164",
+      "abbreviation": "PRR",
+      "englishName": "Pattern Recognition Receptor",
+      "chineseName": "模式识别受体",
+      "definition": "固有免疫细胞表面或胞内识别病原体/损伤相关模式的受体。",
+      "category": "固有免疫分子与受体",
+      "notes": "识别PAMP/DAMP"
+    },
+    {
+      "serial": "165",
+      "abbreviation": "PAMP",
+      "englishName": "Pathogen-Associated Molecular Pattern",
+      "chineseName": "病原体相关分子模式",
+      "definition": "病原体共有的保守结构(如LPS、肽聚糖)，被 PRR 识别。",
+      "category": "固有免疫分子与受体",
+      "notes": "病原体共同特征"
+    },
+    {
+      "serial": "166",
+      "abbreviation": "DAMP",
+      "englishName": "Damage-Associated Molecular Pattern",
+      "chineseName": "损伤相关分子模式",
+      "definition": "受损或坏死细胞释放的内源性分子(如HMGB1、ATP)，激活免疫。",
+      "category": "固有免疫分子与受体",
+      "notes": "危险信号"
+    },
+    {
+      "serial": "167",
+      "abbreviation": "TLR",
+      "englishName": "Toll-Like Receptor",
+      "chineseName": "Toll样受体",
+      "definition": "识别病原体分子模式的跨膜受体，激活炎症和固有免疫(1-13型)。",
+      "category": "固有免疫分子与受体",
+      "notes": "最早发现的PRR"
+    },
+    {
+      "serial": "168",
+      "abbreviation": "RLR",
+      "englishName": "RIG-I-like Receptor",
+      "chineseName": "RIG-I样受体",
+      "definition": "胞质内识别病毒 RNA 的受体，包括 RIG-I、MDA5。",
+      "category": "固有免疫分子与受体",
+      "notes": "抗病毒"
+    },
+    {
+      "serial": "169",
+      "abbreviation": "NLR",
+      "englishName": "NOD-like Receptor",
+      "chineseName": "NOD样受体",
+      "definition": "胞质内识别细菌产物和危险信号的受体，参与炎症小体。",
+      "category": "固有免疫分子与受体",
+      "notes": "炎症小体"
+    },
+    {
+      "serial": "170",
+      "abbreviation": "CLR",
+      "englishName": "C-type Lectin Receptor",
+      "chineseName": "C型凝集素受体",
+      "definition": "识别真菌、糖类的受体，如 Dectin-1。",
+      "category": "固有免疫分子与受体",
+      "notes": "识别真菌"
+    },
+    {
+      "serial": "171",
+      "abbreviation": "Inflammasome",
+      "englishName": "Inflammasome",
+      "chineseName": "炎症小体",
+      "definition": "胞质内由 NLR 等组装的多蛋白复合物，激活 Caspase-1 并促 IL-1β、IL-18 成熟。",
+      "category": "固有免疫分子与受体",
+      "notes": "NLRP3 炎症小体"
+    },
+    {
+      "serial": "172",
+      "abbreviation": "NLRP3",
+      "englishName": "NLR Family Pyrin Domain Containing 3",
+      "chineseName": "NLRP3蛋白",
+      "definition": "组装炎症小体的核心感受器，识别多种危险信号，与痛风等炎症病相关。",
+      "category": "固有免疫分子与受体",
+      "notes": "炎症小体核心"
+    },
+    {
+      "serial": "173",
+      "abbreviation": "Caspase",
+      "englishName": "Cysteine-Aspartic Protease",
+      "chineseName": "半胱天冬酶",
+      "definition": "参与炎症和凋亡的蛋白酶家族，如 Caspase-1、Caspase-3。",
+      "category": "固有免疫分子与受体",
+      "notes": "炎症/凋亡"
+    },
+    {
+      "serial": "174",
+      "abbreviation": "cGAS",
+      "englishName": "Cyclic GMP-AMP Synthase",
+      "chineseName": "环鸟苷酸-腺苷酸合酶",
+      "definition": "胞质 DNA 感受器，催化 cGAMP 激活 STING，诱导 I 型干扰素。",
+      "category": "固有免疫分子与受体",
+      "notes": "胞内DNA识别"
+    },
+    {
+      "serial": "175",
+      "abbreviation": "STING",
+      "englishName": "Stimulator of Interferon Genes",
+      "chineseName": "干扰素基因刺激蛋白",
+      "definition": "cGAMP 的受体，激活 IRF3/NF-κB 诱导 I 型干扰素。",
+      "category": "固有免疫分子与受体",
+      "notes": "抗病毒通路"
+    },
+    {
+      "serial": "176",
+      "abbreviation": "Defensin",
+      "englishName": "Defensin",
+      "chineseName": "防御素",
+      "definition": "具有广谱抗菌活性的阳离子小肽，属抗菌肽。",
+      "category": "固有免疫分子与受体",
+      "notes": "天然抗菌肽"
+    },
+    {
+      "serial": "177",
+      "abbreviation": "AMP",
+      "englishName": "Antimicrobial Peptide",
+      "chineseName": "抗菌肽",
+      "definition": "具有抗菌活性的小分子多肽，如防御素、cathelicidin。",
+      "category": "固有免疫分子与受体",
+      "notes": "第一道防线分子"
+    },
+    {
+      "serial": "178",
+      "abbreviation": "NETs",
+      "englishName": "Neutrophil Extracellular Traps",
+      "chineseName": "中性粒细胞胞外诱捕网",
+      "definition": "中性粒细胞释放的含 DNA 和抗菌蛋白的网状结构，捕获并杀灭病原体。",
+      "category": "固有免疫分子与受体",
+      "notes": "NETosis"
+    },
+    {
+      "serial": "179",
+      "abbreviation": "ROS",
+      "englishName": "Reactive Oxygen Species",
+      "chineseName": "活性氧",
+      "definition": "吞噬细胞在呼吸爆发中产生的杀菌氧化物质。",
+      "category": "固有免疫分子与受体",
+      "notes": "杀菌氧化剂"
+    },
+    {
+      "serial": "180",
+      "abbreviation": "Lysozyme",
+      "englishName": "Lysozyme",
+      "chineseName": "溶菌酶",
+      "definition": "能水解细菌细胞壁肽聚糖的酶，存在于体液和吞噬细胞。",
+      "category": "固有免疫分子与受体",
+      "notes": "杀菌酶"
+    },
+    {
+      "serial": "181",
+      "abbreviation": "CRP",
+      "englishName": "C-Reactive Protein",
+      "chineseName": "C反应蛋白",
+      "definition": "急性期蛋白，识别肺炎球菌C多糖并激活补体，是炎症指标。",
+      "category": "固有免疫分子与受体",
+      "notes": "急性期蛋白"
+    },
+    {
+      "serial": "182",
+      "abbreviation": "SAA",
+      "englishName": "Serum Amyloid A",
+      "chineseName": "血清淀粉样蛋白A",
+      "definition": "急性期蛋白，炎症时迅速升高。",
+      "category": "固有免疫分子与受体",
+      "notes": "急性期蛋白"
+    },
+    {
+      "serial": "183",
+      "abbreviation": "Opsonization",
+      "englishName": "Opsonization",
+      "chineseName": "调理作用",
+      "definition": "抗体或补体(调理素)包被抗原，增强吞噬细胞吞噬的过程。",
+      "category": "固有免疫分子与受体",
+      "notes": "促进吞噬"
+    },
+    {
+      "serial": "184",
+      "abbreviation": "Phagocytosis",
+      "englishName": "Phagocytosis",
+      "chineseName": "吞噬作用",
+      "definition": "吞噬细胞摄取并消化病原体或颗粒的过程。",
+      "category": "固有免疫分子与受体",
+      "notes": "固有免疫核心"
+    },
+    {
+      "serial": "185",
+      "abbreviation": "Apoptosis",
+      "englishName": "Apoptosis",
+      "chineseName": "细胞凋亡",
+      "definition": "程序性细胞死亡，免疫系统清除受损/感染细胞及维持稳态的重要机制。",
+      "category": "固有免疫分子与受体",
+      "notes": "免疫相关细胞死亡"
+    },
+    {
+      "serial": "186",
+      "abbreviation": "Necrosis",
+      "englishName": "Necrosis",
+      "chineseName": "细胞坏死",
+      "definition": "细胞被动死亡并释放 DAMP，引起炎症。",
+      "category": "固有免疫分子与受体",
+      "notes": "区别于凋亡"
+    },
+    {
+      "serial": "187",
+      "abbreviation": "Pyroptosis",
+      "englishName": "Pyroptosis",
+      "chineseName": "焦亡",
+      "definition": "炎症性程序性细胞死亡，由炎症小体激活 Caspase-1/11 介导，释放 IL-1β。",
+      "category": "固有免疫分子与受体",
+      "notes": "促炎性死亡"
+    },
+    {
+      "serial": "188",
+      "abbreviation": "NF-κB",
+      "englishName": "Nuclear Factor κB",
+      "chineseName": "核因子κB",
+      "definition": "重要的转录因子，调控炎症、抗凋亡和免疫相关基因表达。",
+      "category": "信号通路与免疫调节",
+      "notes": "炎症主开关"
+    },
+    {
+      "serial": "189",
+      "abbreviation": "AP-1",
+      "englishName": "Activator Protein-1",
+      "chineseName": "激活蛋白1",
+      "definition": "由 Fos/Jun 组成的转录因子，参与细胞增殖和活化。",
+      "category": "信号通路与免疫调节",
+      "notes": "转录因子"
+    },
+    {
+      "serial": "190",
+      "abbreviation": "MAPK",
+      "englishName": "Mitogen-Activated Protein Kinase",
+      "chineseName": "丝裂原活化蛋白激酶",
+      "definition": "介导细胞增殖、分化、炎症的激酶级联(ERK/JNK/p38)。",
+      "category": "信号通路与免疫调节",
+      "notes": "信号级联"
+    },
+    {
+      "serial": "191",
+      "abbreviation": "NFAT",
+      "englishName": "Nuclear Factor of Activated T cells",
+      "chineseName": "活化T细胞核因子",
+      "definition": "T 细胞活化后入核的转录因子，与 IL-2 等基因转录相关。",
+      "category": "信号通路与免疫调节",
+      "notes": "钙信号依赖"
+    },
+    {
+      "serial": "192",
+      "abbreviation": "IRF",
+      "englishName": "Interferon Regulatory Factor",
+      "chineseName": "干扰素调节因子",
+      "definition": "调控干扰素和炎症基因表达的转录因子(如IRF3、IRF7)。",
+      "category": "信号通路与免疫调节",
+      "notes": "抗病毒转录"
+    },
+    {
+      "serial": "193",
+      "abbreviation": "PI3K",
+      "englishName": "Phosphoinositide 3-Kinase",
+      "chineseName": "磷脂酰肌醇3激酶",
+      "definition": "参与细胞存活、增殖和迁移的信号激酶。",
+      "category": "信号通路与免疫调节",
+      "notes": "信号通路"
+    },
+    {
+      "serial": "194",
+      "abbreviation": "AKT",
+      "englishName": "Protein Kinase B",
+      "chineseName": "蛋白激酶B",
+      "definition": "PI3K 下游的激酶，调控存活和代谢。",
+      "category": "信号通路与免疫调节",
+      "notes": "PI3K-AKT通路"
+    },
+    {
+      "serial": "195",
+      "abbreviation": "ITAM",
+      "englishName": "Immunoreceptor Tyrosine-based Activation Motif",
+      "chineseName": "免疫受体酪氨酸激活基序",
+      "definition": "TCR/BCR/FcR 胞内段的激活信号基序(YxxL/I)。",
+      "category": "信号通路与免疫调节",
+      "notes": "激活信号"
+    },
+    {
+      "serial": "196",
+      "abbreviation": "ITIM",
+      "englishName": "Immunoreceptor Tyrosine-based Inhibition Motif",
+      "chineseName": "免疫受体酪氨酸抑制基序",
+      "definition": "抑制性受体胞内段的抑制信号基序，如 PD-1、CTLA-4。",
+      "category": "信号通路与免疫调节",
+      "notes": "抑制信号"
+    },
+    {
+      "serial": "197",
+      "abbreviation": "Costimulation",
+      "englishName": "Costimulation",
+      "chineseName": "共刺激",
+      "definition": "T 细胞活化除 TCR 第一信号外还需的共刺激信号(如CD28-B7)。",
+      "category": "信号通路与免疫调节",
+      "notes": "T细胞活化第二信号"
+    },
+    {
+      "serial": "198",
+      "abbreviation": "Checkpoint",
+      "englishName": "Immune Checkpoint",
+      "chineseName": "免疫检查点",
+      "definition": "调节免疫应答强度的抑制性分子(如PD-1、CTLA-4)，也是治疗靶点。",
+      "category": "信号通路与免疫调节",
+      "notes": "免疫刹车"
+    },
+    {
+      "serial": "199",
+      "abbreviation": "Tolerance",
+      "englishName": "Immune Tolerance",
+      "chineseName": "免疫耐受",
+      "definition": "免疫系统对特定抗原不产生应答的状态，包括自身耐受。",
+      "category": "信号通路与免疫调节",
+      "notes": "区分自己/非己"
+    },
+    {
+      "serial": "200",
+      "abbreviation": "Central tolerance",
+      "englishName": "Central Tolerance",
+      "chineseName": "中枢耐受",
+      "definition": "在胸腺/骨髓中通过阴性选择清除自身反应性淋巴细胞。",
+      "category": "信号通路与免疫调节",
+      "notes": "胸腺阴性选择"
+    },
+    {
+      "serial": "201",
+      "abbreviation": "Peripheral tolerance",
+      "englishName": "Peripheral Tolerance",
+      "chineseName": "外周耐受",
+      "definition": "在外周通过无能、调节性细胞、凋亡等维持的耐受。",
+      "category": "信号通路与免疫调节",
+      "notes": "外周调节"
+    },
+    {
+      "serial": "202",
+      "abbreviation": "Anergy",
+      "englishName": "Anergy",
+      "chineseName": "免疫无能",
+      "definition": "T/B 细胞在缺乏共刺激信号时对抗原不应答的状态。",
+      "category": "信号通路与免疫调节",
+      "notes": "耐受机制之一"
+    },
+    {
+      "serial": "203",
+      "abbreviation": "AICD",
+      "englishName": "Activation-Induced Cell Death",
+      "chineseName": "活化诱导的细胞死亡",
+      "definition": "活化淋巴细胞在反复刺激后发生的 Fas/FasL 介导的凋亡，限制免疫应答。",
+      "category": "信号通路与免疫调节",
+      "notes": "免疫收缩期"
+    },
+    {
+      "serial": "204",
+      "abbreviation": "Clonal deletion",
+      "englishName": "Clonal Deletion",
+      "chineseName": "克隆清除",
+      "definition": "通过凋亡清除自身反应性或过度活化的淋巴细胞克隆。",
+      "category": "信号通路与免疫调节",
+      "notes": "耐受机制"
+    },
+    {
+      "serial": "205",
+      "abbreviation": "Clonal anergy",
+      "englishName": "Clonal Anergy",
+      "chineseName": "克隆无能",
+      "definition": "自身反应性淋巴细胞因缺乏共刺激而功能失活。",
+      "category": "信号通路与免疫调节",
+      "notes": "耐受机制"
+    },
+    {
+      "serial": "206",
+      "abbreviation": "Homeostasis",
+      "englishName": "Immune Homeostasis",
+      "chineseName": "免疫稳态",
+      "definition": "免疫系统通过激活与调节维持机体内部环境稳定的状态。",
+      "category": "信号通路与免疫调节",
+      "notes": "动态平衡"
+    },
+    {
+      "serial": "207",
+      "abbreviation": "Memory",
+      "englishName": "Immunological Memory",
+      "chineseName": "免疫记忆",
+      "definition": "初次应答后形成的记忆细胞使再次应答更快更强。",
+      "category": "信号通路与免疫调节",
+      "notes": "疫苗接种基础"
+    },
+    {
+      "serial": "208",
+      "abbreviation": "Signal 1/2/3",
+      "englishName": "Signal 1/2/3",
+      "chineseName": "T细胞活化信号1/2/3",
+      "definition": "信号1=TCR-MHC识别；信号2=共刺激；信号3=细胞因子导向分化。",
+      "category": "信号通路与免疫调节",
+      "notes": "T细胞活化三信号"
+    },
+    {
+      "serial": "209",
+      "abbreviation": "Humoral",
+      "englishName": "Humoral Immunity",
+      "chineseName": "体液免疫",
+      "definition": "由抗体介导的免疫应答，主要针对胞外病原。",
+      "category": "信号通路与免疫调节",
+      "notes": "B细胞/抗体"
+    },
+    {
+      "serial": "210",
+      "abbreviation": "CMI",
+      "englishName": "Cell-Mediated Immunity",
+      "chineseName": "细胞免疫",
+      "definition": "由 T 细胞介导的免疫应答，主要针对胞内病原和肿瘤。",
+      "category": "信号通路与免疫调节",
+      "notes": "T细胞效应"
+    },
+    {
+      "serial": "211",
+      "abbreviation": "HS",
+      "englishName": "Hypersensitivity",
+      "chineseName": "超敏反应",
+      "definition": "机体对特定抗原产生过强的免疫应答导致的组织损伤，分 I-IV 型。",
+      "category": "超敏反应",
+      "notes": "过敏反应总称"
+    },
+    {
+      "serial": "212",
+      "abbreviation": "Type I",
+      "englishName": "Type I Hypersensitivity",
+      "chineseName": "I型超敏反应(速发型)",
+      "definition": "由 IgE 介导、肥大细胞脱颗粒引起的速发型超敏反应，如过敏、哮喘。",
+      "category": "超敏反应",
+      "notes": "速发型/过敏"
+    },
+    {
+      "serial": "213",
+      "abbreviation": "Type II",
+      "englishName": "Type II Hypersensitivity",
+      "chineseName": "II型超敏反应(细胞毒型)",
+      "definition": "抗体与细胞表面抗原结合后经补体/ADCC 杀伤靶细胞，如溶血。",
+      "category": "超敏反应",
+      "notes": "抗体细胞毒型"
+    },
+    {
+      "serial": "214",
+      "abbreviation": "Type III",
+      "englishName": "Type III Hypersensitivity",
+      "chineseName": "III型超敏反应(免疫复合物型)",
+      "definition": "免疫复合物沉积引起补体活化和炎症，如血清病、狼疮肾炎。",
+      "category": "超敏反应",
+      "notes": "免疫复合物病"
+    },
+    {
+      "serial": "215",
+      "abbreviation": "Type IV",
+      "englishName": "Type IV Hypersensitivity",
+      "chineseName": "IV型超敏反应(迟发型)",
+      "definition": "由 T 细胞介导、在接触抗原后24-72小时出现的超敏反应。",
+      "category": "超敏反应",
+      "notes": "迟发型/细胞型"
+    },
+    {
+      "serial": "216",
+      "abbreviation": "DTH",
+      "englishName": "Delayed-Type Hypersensitivity",
+      "chineseName": "迟发型超敏反应",
+      "definition": "IV 型超敏反应，主要由 Th1 细胞和巨噬细胞介导。",
+      "category": "超敏反应",
+      "notes": "结核菌素试验"
+    },
+    {
+      "serial": "217",
+      "abbreviation": "Anaphylaxis",
+      "englishName": "Anaphylaxis",
+      "chineseName": "过敏性休克",
+      "definition": "严重速发型超敏反应，全身性肥大细胞脱颗粒导致循环衰竭。",
+      "category": "超敏反应",
+      "notes": "危及生命"
+    },
+    {
+      "serial": "218",
+      "abbreviation": "Allergen",
+      "englishName": "Allergen",
+      "chineseName": "变应原/过敏原",
+      "definition": "引起超敏反应的抗原，如花粉、尘螨、食物蛋白。",
+      "category": "超敏反应",
+      "notes": "过敏原"
+    },
+    {
+      "serial": "219",
+      "abbreviation": "Atopy",
+      "englishName": "Atopy",
+      "chineseName": "特应性",
+      "definition": "个体对常见环境变应原易产生 IgE 反应的遗传倾向。",
+      "category": "超敏反应",
+      "notes": "过敏体质"
+    },
+    {
+      "serial": "220",
+      "abbreviation": "AR",
+      "englishName": "Allergic Rhinitis",
+      "chineseName": "过敏性鼻炎",
+      "definition": "吸入变应原引起的鼻黏膜 I 型超敏反应。",
+      "category": "超敏反应",
+      "notes": "花粉症"
+    },
+    {
+      "serial": "221",
+      "abbreviation": "AD",
+      "englishName": "Atopic Dermatitis",
+      "chineseName": "特应性皮炎",
+      "definition": "皮肤慢性过敏性炎症，常见于儿童，与 IgE 相关。",
+      "category": "超敏反应",
+      "notes": "湿疹样皮炎"
+    },
+    {
+      "serial": "222",
+      "abbreviation": "Arthus",
+      "englishName": "Arthus Reaction",
+      "chineseName": "阿瑟斯反应",
+      "definition": "局部 III 型超敏反应，由免疫复合物沉积引起。",
+      "category": "超敏反应",
+      "notes": "实验性局部反应"
+    },
+    {
+      "serial": "223",
+      "abbreviation": "Serum sickness",
+      "englishName": "Serum Sickness",
+      "chineseName": "血清病",
+      "definition": "注射异种血清后产生的系统性 III 型超敏反应。",
+      "category": "超敏反应",
+      "notes": "免疫复合物病"
+    },
+    {
+      "serial": "224",
+      "abbreviation": "PID",
+      "englishName": "Primary Immunodeficiency",
+      "chineseName": "原发性免疫缺陷病",
+      "definition": "由基因缺陷导致的先天免疫缺陷病。",
+      "category": "免疫缺陷",
+      "notes": "遗传性"
+    },
+    {
+      "serial": "225",
+      "abbreviation": "SCID",
+      "englishName": "Severe Combined Immunodeficiency",
+      "chineseName": "重症联合免疫缺陷",
+      "definition": "T、B 细胞功能均严重缺陷的免疫缺陷病，多在婴幼儿期致死。",
+      "category": "免疫缺陷",
+      "notes": "最严重PID"
+    },
+    {
+      "serial": "226",
+      "abbreviation": "ADA",
+      "englishName": "Adenosine Deaminase",
+      "chineseName": "腺苷脱氨酶",
+      "definition": "其缺陷导致 ADA-SCID，嘌呤代谢异常破坏淋巴细胞。",
+      "category": "免疫缺陷",
+      "notes": "SCID病因之一"
+    },
+    {
+      "serial": "227",
+      "abbreviation": "XLA",
+      "englishName": "X-linked Agammaglobulinemia",
+      "chineseName": "X连锁无丙种球蛋白血症",
+      "definition": "BTK 基因缺陷导致 B 细胞发育障碍、抗体缺乏。",
+      "category": "免疫缺陷",
+      "notes": "B细胞缺陷"
+    },
+    {
+      "serial": "228",
+      "abbreviation": "CVID",
+      "englishName": "Common Variable Immunodeficiency",
+      "chineseName": "常见变异型免疫缺陷病",
+      "definition": "以低丙种球蛋白血症和抗体应答缺陷为特征的常见原发性免疫缺陷。",
+      "category": "免疫缺陷",
+      "notes": "成人最常见PID之一"
+    },
+    {
+      "serial": "229",
+      "abbreviation": "CGD",
+      "englishName": "Chronic Granulomatous Disease",
+      "chineseName": "慢性肉芽肿病",
+      "definition": "吞噬细胞呼吸爆发障碍(NADPH氧化酶缺陷)，反复细菌/真菌感染。",
+      "category": "免疫缺陷",
+      "notes": "吞噬缺陷"
+    },
+    {
+      "serial": "230",
+      "abbreviation": "WAS",
+      "englishName": "Wiskott-Aldrich Syndrome",
+      "chineseName": "Wiskott-Aldrich综合征",
+      "definition": "WAS 蛋白缺陷，表现为血小板减少、湿疹、免疫缺陷。",
+      "category": "免疫缺陷",
+      "notes": "X连锁"
+    },
+    {
+      "serial": "231",
+      "abbreviation": "DGS",
+      "englishName": "DiGeorge Syndrome",
+      "chineseName": "DiGeorge综合征",
+      "definition": "胸腺发育不全导致的 T 细胞缺陷，常伴心脏和面部异常(22q11缺失)。",
+      "category": "免疫缺陷",
+      "notes": "胸腺发育缺陷"
+    },
+    {
+      "serial": "232",
+      "abbreviation": "HIGM",
+      "englishName": "Hyper-IgM Syndrome",
+      "chineseName": "高IgM综合征",
+      "definition": "CD40L 等缺陷导致抗体类别转换障碍，IgM 高而 IgG/IgA 低。",
+      "category": "免疫缺陷",
+      "notes": "类别转换障碍"
+    },
+    {
+      "serial": "233",
+      "abbreviation": "LAD",
+      "englishName": "Leukocyte Adhesion Deficiency",
+      "chineseName": "白细胞黏附缺陷",
+      "definition": "整合素缺陷导致白细胞不能黏附迁移、反复感染。",
+      "category": "免疫缺陷",
+      "notes": "黏附缺陷"
+    },
+    {
+      "serial": "234",
+      "abbreviation": "AIDS",
+      "englishName": "Acquired Immunodeficiency Syndrome",
+      "chineseName": "获得性免疫缺陷综合征",
+      "definition": "HIV 感染导致 CD4+T 细胞进行性减少的免疫缺陷病。",
+      "category": "免疫缺陷",
+      "notes": "后天性免疫缺陷"
+    },
+    {
+      "serial": "235",
+      "abbreviation": "HIV",
+      "englishName": "Human Immunodeficiency Virus",
+      "chineseName": "人类免疫缺陷病毒",
+      "definition": "感染 CD4+T 细胞并导致 AIDS 的逆转录病毒。",
+      "category": "免疫缺陷",
+      "notes": "AIDS 病原"
+    },
+    {
+      "serial": "236",
+      "abbreviation": "OI",
+      "englishName": "Opportunistic Infection",
+      "chineseName": "机会性感染",
+      "definition": "免疫功能低下时发生的由低致病力病原体引起的感染。",
+      "category": "免疫缺陷",
+      "notes": "AIDS常见"
+    },
+    {
+      "serial": "237",
+      "abbreviation": "CD4 count",
+      "englishName": "CD4+ T cell Count",
+      "chineseName": "CD4+T细胞计数",
+      "definition": "反映机体免疫状态的关键指标，AIDS 中用于病情分期和监测。",
+      "category": "免疫缺陷",
+      "notes": "免疫状态指标"
+    },
+    {
+      "serial": "238",
+      "abbreviation": "AID",
+      "englishName": "Autoimmune Disease",
+      "chineseName": "自身免疫病",
+      "definition": "免疫系统攻击自身正常组织导致的疾病，如 RA、SLE。",
+      "category": "自身免疫病",
+      "notes": "自身耐受破坏"
+    },
+    {
+      "serial": "239",
+      "abbreviation": "RA",
+      "englishName": "Rheumatoid Arthritis",
+      "chineseName": "类风湿关节炎",
+      "definition": "以慢性滑膜炎和关节破坏为特征的自身免疫病。",
+      "category": "自身免疫病",
+      "notes": "RF、抗CCP阳性"
+    },
+    {
+      "serial": "240",
+      "abbreviation": "SLE",
+      "englishName": "Systemic Lupus Erythematosus",
+      "chineseName": "系统性红斑狼疮",
+      "definition": "系统性自身免疫病，产生多种抗核抗体，累及多器官。",
+      "category": "自身免疫病",
+      "notes": "ANA阳性"
+    },
+    {
+      "serial": "241",
+      "abbreviation": "RF",
+      "englishName": "Rheumatoid Factor",
+      "chineseName": "类风湿因子",
+      "definition": "针对 IgG Fc 段的自身抗体，见于 RA 等。",
+      "category": "自身免疫病",
+      "notes": "RA 相关自身抗体"
+    },
+    {
+      "serial": "242",
+      "abbreviation": "ANA",
+      "englishName": "Antinuclear Antibody",
+      "chineseName": "抗核抗体",
+      "definition": "针对细胞核成分的自身抗体，SLE 等的重要标志。",
+      "category": "自身免疫病",
+      "notes": "狼疮筛查"
+    },
+    {
+      "serial": "243",
+      "abbreviation": "Anti-dsDNA",
+      "englishName": "Anti-double-stranded DNA antibody",
+      "chineseName": "抗双链DNA抗体",
+      "definition": "SLE 特异性自身抗体，与狼疮肾炎相关。",
+      "category": "自身免疫病",
+      "notes": "SLE特异性"
+    },
+    {
+      "serial": "244",
+      "abbreviation": "Anti-Sm",
+      "englishName": "Anti-Smith antibody",
+      "chineseName": "抗Sm抗体",
+      "definition": "SLE 高度特异的自身抗体。",
+      "category": "自身免疫病",
+      "notes": "SLE标志"
+    },
+    {
+      "serial": "245",
+      "abbreviation": "MS",
+      "englishName": "Multiple Sclerosis",
+      "chineseName": "多发性硬化",
+      "definition": "中枢神经系统脱髓鞘性自身免疫病。",
+      "category": "自身免疫病",
+      "notes": "T细胞介导"
+    },
+    {
+      "serial": "246",
+      "abbreviation": "T1DM",
+      "englishName": "Type 1 Diabetes Mellitus",
+      "chineseName": "1型糖尿病",
+      "definition": "自身免疫破坏胰岛 β 细胞导致的胰岛素缺乏性糖尿病。",
+      "category": "自身免疫病",
+      "notes": "胰岛自身免疫"
+    },
+    {
+      "serial": "247",
+      "abbreviation": "MG",
+      "englishName": "Myasthenia Gravis",
+      "chineseName": "重症肌无力",
+      "definition": "针对神经肌肉接头乙酰胆碱受体的自身抗体导致的肌无力。",
+      "category": "自身免疫病",
+      "notes": "抗AChR抗体"
+    },
+    {
+      "serial": "248",
+      "abbreviation": "GD",
+      "englishName": "Graves Disease",
+      "chineseName": "Graves病(毒性弥漫性甲状腺肿)",
+      "definition": "促甲状腺激素受体刺激性抗体导致甲亢的自身免疫病。",
+      "category": "自身免疫病",
+      "notes": "甲亢最常见病因"
+    },
+    {
+      "serial": "249",
+      "abbreviation": "HT",
+      "englishName": "Hashimoto's Thyroiditis",
+      "chineseName": "桥本甲状腺炎",
+      "definition": "自身免疫性甲状腺炎，抗甲状腺过氧化物酶抗体阳性。",
+      "category": "自身免疫病",
+      "notes": "甲减最常见病因"
+    },
+    {
+      "serial": "250",
+      "abbreviation": "SS",
+      "englishName": "Sjögren's Syndrome",
+      "chineseName": "干燥综合征",
+      "definition": "累及外分泌腺的自身免疫病，表现为口干、眼干。",
+      "category": "自身免疫病",
+      "notes": "抗SSA/SSB抗体"
+    },
+    {
+      "serial": "251",
+      "abbreviation": "AS",
+      "englishName": "Ankylosing Spondylitis",
+      "chineseName": "强直性脊柱炎",
+      "definition": "累及中轴关节的炎症性自身免疫相关疾病，与 HLA-B27 强相关。",
+      "category": "自身免疫病",
+      "notes": "HLA-B27关联"
+    },
+    {
+      "serial": "252",
+      "abbreviation": "IBD",
+      "englishName": "Inflammatory Bowel Disease",
+      "chineseName": "炎症性肠病",
+      "definition": "肠道的慢性炎症性自身免疫相关疾病，包括 UC 和 CD。",
+      "category": "自身免疫病",
+      "notes": "克罗恩+溃疡性结肠炎"
+    },
+    {
+      "serial": "253",
+      "abbreviation": "UC",
+      "englishName": "Ulcerative Colitis",
+      "chineseName": "溃疡性结肠炎",
+      "definition": "累及结肠黏膜的慢性炎症性肠病。",
+      "category": "自身免疫病",
+      "notes": "IBD之一"
+    },
+    {
+      "serial": "254",
+      "abbreviation": "AIHA",
+      "englishName": "Autoimmune Hemolytic Anemia",
+      "chineseName": "自身免疫性溶血性贫血",
+      "definition": "自身抗体破坏红细胞导致的溶血性贫血，II型超敏。",
+      "category": "自身免疫病",
+      "notes": "II型超敏病"
+    },
+    {
+      "serial": "255",
+      "abbreviation": "ITP",
+      "englishName": "Immune Thrombocytopenia",
+      "chineseName": "免疫性血小板减少症",
+      "definition": "自身抗体破坏血小板导致的血小板减少。",
+      "category": "自身免疫病",
+      "notes": "II型超敏病"
+    },
+    {
+      "serial": "256",
+      "abbreviation": "HLA-B27",
+      "englishName": "Human Leukocyte Antigen B27",
+      "chineseName": "HLA-B27抗原",
+      "definition": "与强直性脊柱炎等脊柱关节病强相关的 MHC-I 类分子。",
+      "category": "自身免疫病",
+      "notes": "AS关联标志"
+    },
+    {
+      "serial": "257",
+      "abbreviation": "ACPA",
+      "englishName": "Anti-Citrullinated Protein Antibody",
+      "chineseName": "抗瓜氨酸化蛋白抗体",
+      "definition": "类风湿关节炎(RA)的高特异性自身抗体，临床亦常称为抗环瓜氨酸肽抗体(ACCP)，可早期诊断。",
+      "category": "自身免疫病",
+      "notes": "RA特异性"
+    },
+    {
+      "serial": "258",
+      "abbreviation": "TAA",
+      "englishName": "Tumor-Associated Antigen",
+      "chineseName": "肿瘤相关抗原",
+      "definition": "肿瘤细胞高表达、正常细胞也低表达(表达量差异)的抗原，如CEA、AFP。",
+      "category": "肿瘤免疫",
+      "notes": "表达量差异"
+    },
+    {
+      "serial": "259",
+      "abbreviation": "TSA",
+      "englishName": "Tumor-Specific Antigen",
+      "chineseName": "肿瘤特异性抗原",
+      "definition": "仅在肿瘤细胞表达的抗原(如突变新抗原)，免疫原性强。",
+      "category": "肿瘤免疫",
+      "notes": "突变新抗原"
+    },
+    {
+      "serial": "260",
+      "abbreviation": "CEA",
+      "englishName": "Carcinoembryonic Antigen",
+      "chineseName": "癌胚抗原",
+      "definition": "消化道等肿瘤的肿瘤相关抗原，用于监测。",
+      "category": "肿瘤免疫",
+      "notes": "肿瘤标志"
+    },
+    {
+      "serial": "261",
+      "abbreviation": "AFP",
+      "englishName": "Alpha-Fetoprotein",
+      "chineseName": "甲胎蛋白",
+      "definition": "肝细胞癌的重要肿瘤标志物。",
+      "category": "肿瘤免疫",
+      "notes": "肝癌标志"
+    },
+    {
+      "serial": "262",
+      "abbreviation": "TIL",
+      "englishName": "Tumor-Infiltrating Lymphocyte",
+      "chineseName": "肿瘤浸润淋巴细胞",
+      "definition": "浸润到肿瘤组织中的淋巴细胞，可扩增后用于过继细胞治疗。",
+      "category": "肿瘤免疫",
+      "notes": "抗肿瘤细胞"
+    },
+    {
+      "serial": "263",
+      "abbreviation": "CAR-T",
+      "englishName": "Chimeric Antigen Receptor T cell",
+      "chineseName": "嵌合抗原受体T细胞",
+      "definition": "基因工程改造的、表达识别肿瘤抗原嵌合受体的 T 细胞，用于肿瘤治疗。",
+      "category": "肿瘤免疫",
+      "notes": "过继细胞治疗"
+    },
+    {
+      "serial": "264",
+      "abbreviation": "TCR-T",
+      "englishName": "TCR-engineered T cell",
+      "chineseName": "TCR工程T细胞",
+      "definition": "转入肿瘤特异性 TCR 的 T 细胞治疗。",
+      "category": "肿瘤免疫",
+      "notes": "过继细胞治疗"
+    },
+    {
+      "serial": "265",
+      "abbreviation": "ICI",
+      "englishName": "Immune Checkpoint Inhibitor",
+      "chineseName": "免疫检查点抑制剂",
+      "definition": "阻断 PD-1/PD-L1、CTLA-4 等抑制信号的肿瘤免疫治疗药物。",
+      "category": "肿瘤免疫",
+      "notes": "免疫治疗"
+    },
+    {
+      "serial": "266",
+      "abbreviation": "Tumor escape",
+      "englishName": "Tumor Immune Escape",
+      "chineseName": "肿瘤免疫逃逸",
+      "definition": "肿瘤通过下调MHC、表达PD-L1等机制逃避免疫杀伤。",
+      "category": "肿瘤免疫",
+      "notes": "肿瘤免疫失败机制"
+    },
+    {
+      "serial": "267",
+      "abbreviation": "Immunoediting",
+      "englishName": "Cancer Immunoediting",
+      "chineseName": "肿瘤免疫编辑",
+      "definition": "免疫系统与肿瘤相互作用的三阶段过程：清除、平衡、逃逸。",
+      "category": "肿瘤免疫",
+      "notes": "3E理论"
+    },
+    {
+      "serial": "268",
+      "abbreviation": "TMB",
+      "englishName": "Tumor Mutational Burden",
+      "chineseName": "肿瘤突变负荷",
+      "definition": "肿瘤基因组的突变数量，高 TMB 者对免疫治疗反应更佳。",
+      "category": "肿瘤免疫",
+      "notes": "免疫治疗生物标志"
+    },
+    {
+      "serial": "269",
+      "abbreviation": "MSI",
+      "englishName": "Microsatellite Instability",
+      "chineseName": "微卫星不稳定",
+      "definition": "DNA 修复缺陷导致的微卫星重复序列不稳定，相关肿瘤对免疫治疗敏感。",
+      "category": "肿瘤免疫",
+      "notes": "免疫治疗标志"
+    },
+    {
+      "serial": "270",
+      "abbreviation": "Neoantigen",
+      "englishName": "Neoantigen",
+      "chineseName": "新抗原",
+      "definition": "肿瘤突变产生的、不被自身耐受的抗原，是肿瘤免疫的关键靶点。",
+      "category": "肿瘤免疫",
+      "notes": "TSA的主要形式"
+    },
+    {
+      "serial": "271",
+      "abbreviation": "Cancer vaccine",
+      "englishName": "Cancer Vaccine",
+      "chineseName": "肿瘤疫苗",
+      "definition": "通过递呈肿瘤抗原激活抗肿瘤免疫的疫苗，如树突状细胞疫苗。",
+      "category": "肿瘤免疫",
+      "notes": "治疗性疫苗"
+    },
+    {
+      "serial": "272",
+      "abbreviation": "GvHD",
+      "englishName": "Graft-versus-Host Disease",
+      "chineseName": "移植物抗宿主病",
+      "definition": "移植物中的免疫细胞攻击受者组织导致的疾病，多见于造血干细胞移植。",
+      "category": "移植免疫",
+      "notes": "移植物攻击宿主"
+    },
+    {
+      "serial": "273",
+      "abbreviation": "GVHR",
+      "englishName": "Graft-versus-Host Reaction",
+      "chineseName": "移植物抗宿主反应",
+      "definition": "移植免疫细胞识别并攻击受者的反应，是 GvHD 的基础。",
+      "category": "移植免疫",
+      "notes": "→GvHD"
+    },
+    {
+      "serial": "274",
+      "abbreviation": "HVGR",
+      "englishName": "Host-versus-Graft Reaction",
+      "chineseName": "宿主抗移植物反应",
+      "definition": "受者免疫系统排斥移植物的反应，即排斥反应。",
+      "category": "移植免疫",
+      "notes": "排斥反应"
+    },
+    {
+      "serial": "275",
+      "abbreviation": "ACR",
+      "englishName": "Acute Cellular Rejection",
+      "chineseName": "急性细胞性排斥",
+      "definition": "由 T 细胞介导的急性排斥，是实体器官移植的主要排斥形式。",
+      "category": "移植免疫",
+      "notes": "细胞免疫介导"
+    },
+    {
+      "serial": "276",
+      "abbreviation": "AMR",
+      "englishName": "Antibody-Mediated Rejection",
+      "chineseName": "抗体介导的排斥",
+      "definition": "由供者特异性抗体介导的排斥，可致移植物功能丧失。",
+      "category": "移植免疫",
+      "notes": "体液免疫介导"
+    },
+    {
+      "serial": "277",
+      "abbreviation": "Allograft",
+      "englishName": "Allograft",
+      "chineseName": "同种异基因移植",
+      "definition": "同种不同个体间的移植，是临床最常见的移植类型。",
+      "category": "移植免疫",
+      "notes": "个体间遗传差异"
+    },
+    {
+      "serial": "278",
+      "abbreviation": "Xenograft",
+      "englishName": "Xenograft",
+      "chineseName": "异种移植",
+      "definition": "不同物种间的移植，如猪到人。",
+      "category": "移植免疫",
+      "notes": "跨物种"
+    },
+    {
+      "serial": "279",
+      "abbreviation": "Isograft",
+      "englishName": "Isograft",
+      "chineseName": "同基因移植",
+      "definition": "遗传背景相同个体间的移植(如同卵双生)。",
+      "category": "移植免疫",
+      "notes": "无排斥"
+    },
+    {
+      "serial": "280",
+      "abbreviation": "HLA matching",
+      "englishName": "HLA Typing & Matching",
+      "chineseName": "HLA配型",
+      "definition": "供受者 HLA 分型比对，配型相合度越高排斥越低。",
+      "category": "移植免疫",
+      "notes": "移植前关键"
+    },
+    {
+      "serial": "281",
+      "abbreviation": "Immunosuppressant",
+      "englishName": "Immunosuppressant",
+      "chineseName": "免疫抑制剂",
+      "definition": "抑制免疫应答的药物(如他克莫司、环孢素)，用于抗排斥。",
+      "category": "移植免疫",
+      "notes": "抗排斥治疗"
+    },
+    {
+      "serial": "282",
+      "abbreviation": "Graft tolerance",
+      "englishName": "Transplant Tolerance",
+      "chineseName": "移植耐受",
+      "definition": "受者对移植物特异性不产生排斥的免疫耐受状态，是移植理想目标。",
+      "category": "移植免疫",
+      "notes": "免疫耐受应用"
+    },
+    {
+      "serial": "283",
+      "abbreviation": "Active immunization",
+      "englishName": "Active Immunization",
+      "chineseName": "主动免疫",
+      "definition": "通过接种疫苗(抗原)使机体自身产生免疫应答和记忆。",
+      "category": "疫苗与免疫防治",
+      "notes": "产生记忆"
+    },
+    {
+      "serial": "284",
+      "abbreviation": "Passive immunization",
+      "englishName": "Passive Immunization",
+      "chineseName": "被动免疫",
+      "definition": "直接输注抗体(免疫球蛋白)获得暂时免疫，无记忆。",
+      "category": "疫苗与免疫防治",
+      "notes": "抗毒素、Ig"
+    },
+    {
+      "serial": "285",
+      "abbreviation": "Attenuated vaccine",
+      "englishName": "Live Attenuated Vaccine",
+      "chineseName": "减毒活疫苗",
+      "definition": "使用减毒活病原制成的疫苗，免疫原性强、持效长。",
+      "category": "疫苗与免疫防治",
+      "notes": "如麻疹、卡介苗"
+    },
+    {
+      "serial": "286",
+      "abbreviation": "Inactivated vaccine",
+      "englishName": "Inactivated Vaccine",
+      "chineseName": "灭活疫苗",
+      "definition": "使用灭活的完整病原制成的疫苗，安全性好、免疫原性较弱。",
+      "category": "疫苗与免疫防治",
+      "notes": "如狂犬病疫苗"
+    },
+    {
+      "serial": "287",
+      "abbreviation": "Subunit vaccine",
+      "englishName": "Subunit Vaccine",
+      "chineseName": "亚单位疫苗",
+      "definition": "仅含病原体特定抗原成分的疫苗，副作用小。",
+      "category": "疫苗与免疫防治",
+      "notes": "如乙肝疫苗(表面抗原)"
+    },
+    {
+      "serial": "288",
+      "abbreviation": "Conjugate vaccine",
+      "englishName": "Conjugate Vaccine",
+      "chineseName": "结合疫苗",
+      "definition": "将多糖抗原与载体蛋白偶联以增强免疫原性，用于婴儿(如Hib、肺炎球菌)。",
+      "category": "疫苗与免疫防治",
+      "notes": "多糖-蛋白偶联"
+    },
+    {
+      "serial": "289",
+      "abbreviation": "mRNA vaccine",
+      "englishName": "mRNA Vaccine",
+      "chineseName": "mRNA疫苗",
+      "definition": "递送编码抗原的 mRNA 使机体合成抗原并诱导免疫，如新冠疫苗。",
+      "category": "疫苗与免疫防治",
+      "notes": "核酸疫苗"
+    },
+    {
+      "serial": "290",
+      "abbreviation": "DNA vaccine",
+      "englishName": "DNA Vaccine",
+      "chineseName": "DNA疫苗",
+      "definition": "递送编码抗原的质粒 DNA 诱导免疫应答的疫苗。",
+      "category": "疫苗与免疫防治",
+      "notes": "核酸疫苗"
+    },
+    {
+      "serial": "291",
+      "abbreviation": "Vector vaccine",
+      "englishName": "Vector Vaccine",
+      "chineseName": "载体疫苗",
+      "definition": "以病毒或细菌为载体表达抗原基因的疫苗，如腺病毒载体疫苗。",
+      "category": "疫苗与免疫防治",
+      "notes": "重组载体"
+    },
+    {
+      "serial": "292",
+      "abbreviation": "Toxoid",
+      "englishName": "Toxoid",
+      "chineseName": "类毒素",
+      "definition": "经处理的失去毒性但保留免疫原性的细菌毒素，用于主动免疫(如破伤风类毒素)。",
+      "category": "疫苗与免疫防治",
+      "notes": "抗毒素的诱导剂"
+    },
+    {
+      "serial": "293",
+      "abbreviation": "Antitoxin",
+      "englishName": "Antitoxin",
+      "chineseName": "抗毒素",
+      "definition": "针对毒素的中和抗体(被动免疫)，如抗蛇毒血清。",
+      "category": "疫苗与免疫防治",
+      "notes": "被动免疫"
+    },
+    {
+      "serial": "294",
+      "abbreviation": "Adjuvant",
+      "englishName": "Adjuvant",
+      "chineseName": "佐剂",
+      "definition": "增强疫苗免疫应答的辅助物质，如铝佐剂。",
+      "category": "疫苗与免疫防治",
+      "notes": "提高免疫原性"
+    },
+    {
+      "serial": "295",
+      "abbreviation": "Herd immunity",
+      "englishName": "Herd Immunity",
+      "chineseName": "群体免疫",
+      "definition": "群体中足够多人免疫后，阻断病原传播、保护未免疫个体的效应。",
+      "category": "疫苗与免疫防治",
+      "notes": "群体保护"
+    },
+    {
+      "serial": "296",
+      "abbreviation": "Booster",
+      "englishName": "Booster Dose",
+      "chineseName": "加强免疫",
+      "definition": "在基础免疫后再次接种以增强免疫记忆和抗体水平。",
+      "category": "疫苗与免疫防治",
+      "notes": "加强针"
+    },
+    {
+      "serial": "297",
+      "abbreviation": "Seroconversion",
+      "englishName": "Seroconversion",
+      "chineseName": "血清阳转",
+      "definition": "接种疫苗或感染后血清中出现特异性抗体(由阴转阳)。",
+      "category": "疫苗与免疫防治",
+      "notes": "免疫应答证据"
+    },
+    {
+      "serial": "298",
+      "abbreviation": "Titer",
+      "englishName": "Antibody Titer",
+      "chineseName": "抗体效价/滴度",
+      "definition": "血清中抗体浓度的量度，即能检测到抗体的最高稀释倍数。",
+      "category": "疫苗与免疫防治",
+      "notes": "抗体浓度"
+    },
+    {
+      "serial": "299",
+      "abbreviation": "ELISA",
+      "englishName": "Enzyme-Linked Immunosorbent Assay",
+      "chineseName": "酶联免疫吸附试验",
+      "definition": "利用酶标抗体和显色反应定量检测抗原/抗体的常用技术。",
+      "category": "免疫学技术",
+      "notes": "定量检测"
+    },
+    {
+      "serial": "300",
+      "abbreviation": "ELISPOT",
+      "englishName": "Enzyme-Linked Immunospot Assay",
+      "chineseName": "酶联免疫斑点试验",
+      "definition": "检测单个细胞分泌细胞因子/抗体的技术，用于细胞免疫评估。",
+      "category": "免疫学技术",
+      "notes": "单细胞分泌检测"
+    },
+    {
+      "serial": "301",
+      "abbreviation": "WB",
+      "englishName": "Western Blot",
+      "chineseName": "免疫印迹",
+      "definition": "通过电泳分离蛋白并经抗体检测目标蛋白的技术。",
+      "category": "免疫学技术",
+      "notes": "蛋白检测"
+    },
+    {
+      "serial": "302",
+      "abbreviation": "IHC",
+      "englishName": "Immunohistochemistry",
+      "chineseName": "免疫组织化学",
+      "definition": "用抗体在原位检测组织切片中特定分子的技术。",
+      "category": "免疫学技术",
+      "notes": "组织定位"
+    },
+    {
+      "serial": "303",
+      "abbreviation": "IF",
+      "englishName": "Immunofluorescence",
+      "chineseName": "免疫荧光",
+      "definition": "用荧光标记抗体检测抗原(细胞/组织)的技术。",
+      "category": "免疫学技术",
+      "notes": "荧光标记"
+    },
+    {
+      "serial": "304",
+      "abbreviation": "FCM",
+      "englishName": "Flow Cytometry",
+      "chineseName": "流式细胞术",
+      "definition": "对悬浮细胞进行快速定量分析和分选的技术，检测细胞表型和功能。",
+      "category": "免疫学技术",
+      "notes": "细胞分析"
+    },
+    {
+      "serial": "305",
+      "abbreviation": "FACS",
+      "englishName": "Fluorescence-Activated Cell Sorting",
+      "chineseName": "荧光激活细胞分选",
+      "definition": "流式细胞术中按荧光标记分选目标细胞的技术。",
+      "category": "免疫学技术",
+      "notes": "细胞分选"
+    },
+    {
+      "serial": "306",
+      "abbreviation": "IP",
+      "englishName": "Immunoprecipitation",
+      "chineseName": "免疫沉淀",
+      "definition": "用抗体沉淀目标蛋白以纯化或研究互作的技术。",
+      "category": "免疫学技术",
+      "notes": "蛋白纯化"
+    },
+    {
+      "serial": "307",
+      "abbreviation": "Co-IP",
+      "englishName": "Co-Immunoprecipitation",
+      "chineseName": "免疫共沉淀",
+      "definition": "通过沉淀一个蛋白检测其互作蛋白的技术。",
+      "category": "免疫学技术",
+      "notes": "蛋白互作"
+    },
+    {
+      "serial": "308",
+      "abbreviation": "RIA",
+      "englishName": "Radioimmunoassay",
+      "chineseName": "放射免疫分析",
+      "definition": "用放射性标记的竞争性免疫分析技术，灵敏度高。",
+      "category": "免疫学技术",
+      "notes": "微量检测"
+    },
+    {
+      "serial": "309",
+      "abbreviation": "SRID",
+      "englishName": "Single Radial Immunodiffusion",
+      "chineseName": "单向免疫扩散",
+      "definition": "在含抗体凝胶中定量检测抗原的技术(如Ig定量)。",
+      "category": "免疫学技术",
+      "notes": "定量扩散"
+    },
+    {
+      "serial": "310",
+      "abbreviation": "IEP",
+      "englishName": "Immunoelectrophoresis",
+      "chineseName": "免疫电泳",
+      "definition": "电泳分离与免疫扩散结合的技术，分析蛋白组分。",
+      "category": "免疫学技术",
+      "notes": "血清蛋白分析"
+    },
+    {
+      "serial": "311",
+      "abbreviation": "CIE",
+      "englishName": "Countercurrent Immunoelectrophoresis",
+      "chineseName": "对流免疫电泳",
+      "definition": "抗原抗体相对泳动并在中间形成沉淀线的技术。",
+      "category": "免疫学技术",
+      "notes": "快速检测"
+    },
+    {
+      "serial": "312",
+      "abbreviation": "MLR",
+      "englishName": "Mixed Lymphocyte Reaction",
+      "chineseName": "混合淋巴细胞反应",
+      "definition": "两种异体淋巴细胞共培养检测 HLA 差异和增殖的技术，用于配型。",
+      "category": "免疫学技术",
+      "notes": "配型试验"
+    },
+    {
+      "serial": "313",
+      "abbreviation": "Hybridoma",
+      "englishName": "Hybridoma",
+      "chineseName": "杂交瘤",
+      "definition": "骨髓瘤细胞与 B 细胞融合产生的可无限传代并分泌单克隆抗体的细胞。",
+      "category": "免疫学技术",
+      "notes": "单抗生产技术"
+    },
+    {
+      "serial": "314",
+      "abbreviation": "Phage display",
+      "englishName": "Phage Display",
+      "chineseName": "噬菌体展示",
+      "definition": "将蛋白展示于噬菌体表面以筛选特异性结合分子的技术。",
+      "category": "免疫学技术",
+      "notes": "抗体筛选"
+    },
+    {
+      "serial": "315",
+      "abbreviation": "Tetramer",
+      "englishName": "MHC Tetramer",
+      "chineseName": "MHC四聚体",
+      "definition": "MHC-肽四聚体荧光标记物，用于检测和分选抗原特异性 T 细胞。",
+      "category": "免疫学技术",
+      "notes": "特异性T细胞检测"
+    },
+    {
+      "serial": "316",
+      "abbreviation": "Single-cell RNA-seq",
+      "englishName": "Single-cell RNA Sequencing",
+      "chineseName": "单细胞转录组测序",
+      "definition": "在单细胞水平测序基因表达，用于解析免疫细胞异质性。",
+      "category": "免疫学技术",
+      "notes": "细胞异质性"
+    },
+    {
+      "serial": "317",
+      "abbreviation": "Immunity",
+      "englishName": "Immunity",
+      "chineseName": "免疫",
+      "definition": "机体识别并清除抗原性异物、维持自身稳定的生理功能。",
+      "category": "基础概念与综合",
+      "notes": "免疫防御/监视/自稳"
+    },
+    {
+      "serial": "318",
+      "abbreviation": "Innate immunity",
+      "englishName": "Innate Immunity",
+      "chineseName": "固有免疫",
+      "definition": "生而具有的、非特异性的即时防御，包括屏障、吞噬、补体、NK等。",
+      "category": "基础概念与综合",
+      "notes": "天然免疫/第一道防线"
+    },
+    {
+      "serial": "319",
+      "abbreviation": "Adaptive immunity",
+      "englishName": "Adaptive Immunity",
+      "chineseName": "适应性免疫",
+      "definition": "后天获得的、抗原特异性的免疫，具记忆性，包括体液和细胞免疫。",
+      "category": "基础概念与综合",
+      "notes": "获得性免疫"
+    },
+    {
+      "serial": "320",
+      "abbreviation": "Antigen presentation",
+      "englishName": "Antigen Presentation",
+      "chineseName": "抗原提呈",
+      "definition": "APC 加工抗原并以 MHC-肽复合物形式呈递给 T 细胞的过程。",
+      "category": "基础概念与综合",
+      "notes": "T细胞活化前提"
+    },
+    {
+      "serial": "321",
+      "abbreviation": "Primary response",
+      "englishName": "Primary Immune Response",
+      "chineseName": "初次免疫应答",
+      "definition": "机体首次接触抗原产生的免疫应答，潜伏期长、强度低。",
+      "category": "基础概念与综合",
+      "notes": "初始应答"
+    },
+    {
+      "serial": "322",
+      "abbreviation": "Secondary response",
+      "englishName": "Secondary Immune Response",
+      "chineseName": "再次免疫应答",
+      "definition": "再次接触同一抗原的应答，快而强、以 IgG 为主。",
+      "category": "基础概念与综合",
+      "notes": "免疫记忆效应"
+    },
+    {
+      "serial": "323",
+      "abbreviation": "Humoral response",
+      "englishName": "Humoral Response",
+      "chineseName": "体液免疫应答",
+      "definition": "由抗体介导、主要针对胞外病原的免疫应答。",
+      "category": "基础概念与综合",
+      "notes": "B细胞介导"
+    },
+    {
+      "serial": "324",
+      "abbreviation": "Cellular response",
+      "englishName": "Cellular Immune Response",
+      "chineseName": "细胞免疫应答",
+      "definition": "由 T 细胞介导、针对胞内病原和肿瘤的免疫应答。",
+      "category": "基础概念与综合",
+      "notes": "T细胞介导"
+    },
+    {
+      "serial": "325",
+      "abbreviation": "Immune surveillance",
+      "englishName": "Immune Surveillance",
+      "chineseName": "免疫监视",
+      "definition": "免疫系统识别并清除突变细胞、防肿瘤发生与转移的功能。",
+      "category": "基础概念与综合",
+      "notes": "肿瘤免疫基础"
+    },
+    {
+      "serial": "326",
+      "abbreviation": "Immunoregulation",
+      "englishName": "Immunoregulation",
+      "chineseName": "免疫调节",
+      "definition": "免疫系统通过多种机制调节应答强度以维持稳态的过程。",
+      "category": "基础概念与综合",
+      "notes": "负向调节重要"
+    }
+  ]
+}

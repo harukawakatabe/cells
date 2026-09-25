@@ -1,0 +1,680 @@
+{
+  "meta": {
+    "cellConceptCount": 28,
+    "normalization": [
+      "CTL 与 Tc 合并",
+      "Mac 与 Mφ 合并",
+      "APC 作为功能集合而非单一细胞",
+      "HSC、CLP、CMP 作为谱系前体纳入图谱"
+    ]
+  },
+  "clusters": [
+    {
+      "id": "precursor",
+      "label": "造血前体",
+      "shortLabel": "前体",
+      "description": "免疫细胞的共同源头与两条主要祖细胞分支。",
+      "tone": "amber"
+    },
+    {
+      "id": "lymphoid",
+      "label": "淋巴系",
+      "shortLabel": "淋巴系",
+      "description": "以抗原特异性应答、细胞毒作用和免疫调节为主。",
+      "tone": "blue"
+    },
+    {
+      "id": "myeloid",
+      "label": "髓系",
+      "shortLabel": "髓系",
+      "description": "承担吞噬、炎症、抗原提呈和组织防御等功能。",
+      "tone": "teal"
+    },
+    {
+      "id": "specialized",
+      "label": "组织与特殊亚群",
+      "shortLabel": "特殊亚群",
+      "description": "具有特定组织定位、受体组成或免疫调节特征的细胞。",
+      "tone": "violet"
+    }
+  ],
+  "cells": [
+    {
+      "id": "hsc",
+      "abbreviation": "HSC",
+      "aliases": [],
+      "englishName": "Hematopoietic Stem Cell",
+      "chineseName": "造血干细胞",
+      "definition": "骨髓中能自我更新并分化为各系血细胞的干细胞，是一切免疫细胞的共同源头。",
+      "notes": "CD34+",
+      "sourceCategory": "免疫器官与组织",
+      "sourceSerials": [
+        "12"
+      ],
+      "clusterId": "precursor",
+      "kind": "precursor",
+      "imageId": "hematopoietic-stem-cell",
+      "imageMode": "exact"
+    },
+    {
+      "id": "clp",
+      "abbreviation": "CLP",
+      "aliases": [],
+      "englishName": "Common Lymphoid Progenitor",
+      "chineseName": "共同淋巴样祖细胞",
+      "definition": "由造血干细胞分化而来，可进一步分化为 T、B、NK 等淋巴细胞。",
+      "notes": "淋巴谱系祖细胞",
+      "sourceCategory": "免疫器官与组织",
+      "sourceSerials": [
+        "13"
+      ],
+      "clusterId": "precursor",
+      "kind": "precursor",
+      "imageId": "lymphoid-stem-cell",
+      "imageMode": "exact"
+    },
+    {
+      "id": "cmp",
+      "abbreviation": "CMP",
+      "aliases": [],
+      "englishName": "Common Myeloid Progenitor",
+      "chineseName": "共同髓样祖细胞",
+      "definition": "可分化为单核/巨噬、中性粒、树突状细胞等髓系免疫细胞。",
+      "notes": "髓系祖细胞",
+      "sourceCategory": "免疫器官与组织",
+      "sourceSerials": [
+        "14"
+      ],
+      "clusterId": "precursor",
+      "kind": "precursor",
+      "imageId": "myeloid-stem-cell",
+      "imageMode": "exact"
+    },
+    {
+      "id": "b-cell",
+      "abbreviation": "B cell",
+      "aliases": [],
+      "englishName": "B Lymphocyte",
+      "chineseName": "B 细胞",
+      "definition": "在骨髓发育成熟，表面表达 BCR，可分泌抗体，是体液免疫的主要效应细胞。",
+      "notes": "抗体产生细胞",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "15"
+      ],
+      "clusterId": "lymphoid",
+      "kind": "cell",
+      "imageId": "b-lymphocyte",
+      "imageMode": "exact"
+    },
+    {
+      "id": "plasma-cell",
+      "abbreviation": "PC",
+      "aliases": [],
+      "englishName": "Plasma Cell",
+      "chineseName": "浆细胞",
+      "definition": "终末分化的 B 细胞，大量分泌抗体。",
+      "notes": "抗体工厂",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "36"
+      ],
+      "clusterId": "lymphoid",
+      "kind": "cell",
+      "imageId": "plasma-cell",
+      "imageMode": "exact"
+    },
+    {
+      "id": "t-cell",
+      "abbreviation": "T cell",
+      "aliases": [],
+      "englishName": "T Lymphocyte",
+      "chineseName": "T 细胞",
+      "definition": "在胸腺发育成熟，通过 TCR 识别抗原肽-MHC 复合物，介导细胞免疫。",
+      "notes": "细胞免疫主力",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "16"
+      ],
+      "clusterId": "lymphoid",
+      "kind": "cell",
+      "imageId": "t-lymphocyte",
+      "imageMode": "exact"
+    },
+    {
+      "id": "th1",
+      "abbreviation": "Th1",
+      "aliases": [],
+      "englishName": "T helper type 1",
+      "chineseName": "1型辅助性T细胞",
+      "definition": "分泌 IFN-γ 等，促进细胞免疫，激活巨噬细胞抗胞内病原体。",
+      "notes": "与 Th2 相互拮抗",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "17"
+      ],
+      "clusterId": "lymphoid",
+      "kind": "cell",
+      "imageId": "t-lymphocyte",
+      "imageMode": "shared"
+    },
+    {
+      "id": "th2",
+      "abbreviation": "Th2",
+      "aliases": [],
+      "englishName": "T helper type 2",
+      "chineseName": "2型辅助性T细胞",
+      "definition": "分泌 IL-4、IL-5、IL-13 等，促进体液免疫，介导抗蠕虫及过敏反应。",
+      "notes": "辅助 B 细胞产生抗体",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "18"
+      ],
+      "clusterId": "lymphoid",
+      "kind": "cell",
+      "imageId": "t-lymphocyte",
+      "imageMode": "shared"
+    },
+    {
+      "id": "th17",
+      "abbreviation": "Th17",
+      "aliases": [],
+      "englishName": "T helper 17",
+      "chineseName": "17型辅助性T细胞",
+      "definition": "分泌 IL-17，募集中性粒细胞抗胞外菌和真菌，与自身免疫病相关。",
+      "notes": "与炎症和自身免疫有关",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "19"
+      ],
+      "clusterId": "lymphoid",
+      "kind": "cell",
+      "imageId": "t-lymphocyte",
+      "imageMode": "shared"
+    },
+    {
+      "id": "tfh",
+      "abbreviation": "Tfh",
+      "aliases": [],
+      "englishName": "T follicular helper cell",
+      "chineseName": "滤泡辅助性T细胞",
+      "definition": "定位于淋巴滤泡，辅助 B 细胞生发中心反应与抗体亲和力成熟。",
+      "notes": "表达 CXCR5、PD-1",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "20"
+      ],
+      "clusterId": "lymphoid",
+      "kind": "cell",
+      "imageId": "t-lymphocyte",
+      "imageMode": "shared"
+    },
+    {
+      "id": "treg",
+      "abbreviation": "Treg",
+      "aliases": [],
+      "englishName": "Regulatory T cell",
+      "chineseName": "调节性T细胞",
+      "definition": "分泌 IL-10、TGF-β，抑制免疫应答，维持免疫耐受和自身耐受。",
+      "notes": "CD4+CD25+Foxp3+",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "21"
+      ],
+      "clusterId": "lymphoid",
+      "kind": "cell",
+      "imageId": "t-lymphocyte",
+      "imageMode": "shared"
+    },
+    {
+      "id": "ctl",
+      "abbreviation": "CTL",
+      "aliases": [
+        "Tc"
+      ],
+      "englishName": "Cytotoxic T Lymphocyte",
+      "chineseName": "细胞毒性T细胞",
+      "definition": "即 CD8+ 杀伤性 T 细胞，通过穿孔素/颗粒酶等杀伤靶细胞。",
+      "notes": "Tc/CTL 抗病毒抗肿瘤；即CTL",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "22",
+        "23"
+      ],
+      "clusterId": "lymphoid",
+      "kind": "cell",
+      "imageId": "t-lymphocyte",
+      "imageMode": "shared"
+    },
+    {
+      "id": "nk",
+      "abbreviation": "NK",
+      "aliases": [],
+      "englishName": "Natural Killer Cell",
+      "chineseName": "自然杀伤细胞",
+      "definition": "固有免疫的淋巴细胞，无需抗原预先致敏即可杀伤靶细胞并分泌细胞因子。",
+      "notes": "识别MHC-I缺失细胞",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "24"
+      ],
+      "clusterId": "lymphoid",
+      "kind": "cell",
+      "imageId": "nk-cell",
+      "imageMode": "exact"
+    },
+    {
+      "id": "ilc",
+      "abbreviation": "ILC",
+      "aliases": [],
+      "englishName": "Innate Lymphoid Cell",
+      "chineseName": "固有淋巴样细胞",
+      "definition": "固有免疫中的淋巴样细胞，不表达重排抗原受体，分泌细胞因子发挥保护作用。",
+      "notes": "固有免疫的「T/B样」细胞",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "37"
+      ],
+      "clusterId": "lymphoid",
+      "kind": "cell",
+      "imageId": "nk-cell",
+      "imageMode": "shared"
+    },
+    {
+      "id": "nkt",
+      "abbreviation": "NKT",
+      "aliases": [],
+      "englishName": "Natural Killer T cell",
+      "chineseName": "自然杀伤T细胞",
+      "definition": "兼具 T 细胞与 NK 细胞特性，识别 CD1d 提呈的脂类抗原。",
+      "notes": "桥接固有与适应性免疫",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "25"
+      ],
+      "clusterId": "specialized",
+      "kind": "cell",
+      "imageId": "t-lymphocyte",
+      "imageMode": "shared"
+    },
+    {
+      "id": "inkt",
+      "abbreviation": "iNKT",
+      "aliases": [],
+      "englishName": "Invariant NKT cell",
+      "chineseName": "恒定自然杀伤T细胞",
+      "definition": "表达恒定 TCRα 链的 NKT 细胞，识别 CD1d-脂类复合物。",
+      "notes": "NKT 亚群",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "41"
+      ],
+      "clusterId": "specialized",
+      "kind": "cell",
+      "imageId": "t-lymphocyte",
+      "imageMode": "shared"
+    },
+    {
+      "id": "gamma-delta-t",
+      "abbreviation": "γδT",
+      "aliases": [],
+      "englishName": "γδ T Cell",
+      "chineseName": "γδT细胞",
+      "definition": "TCR 由 γ、δ 链组成的 T 细胞，主要分布于黏膜上皮，识别非肽类抗原。",
+      "notes": "桥接固有与适应性",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "40"
+      ],
+      "clusterId": "specialized",
+      "kind": "cell",
+      "imageId": "t-lymphocyte",
+      "imageMode": "shared"
+    },
+    {
+      "id": "dendritic-cell",
+      "abbreviation": "DC",
+      "aliases": [],
+      "englishName": "Dendritic Cell",
+      "chineseName": "树突状细胞",
+      "definition": "功能最强的专职抗原提呈细胞，启动初始 T 细胞活化。",
+      "notes": "最强的 APC",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "26"
+      ],
+      "clusterId": "myeloid",
+      "kind": "cell",
+      "imageId": "dendritic-cell",
+      "imageMode": "exact"
+    },
+    {
+      "id": "pdc",
+      "abbreviation": "pDC",
+      "aliases": [],
+      "englishName": "Plasmacytoid Dendritic Cell",
+      "chineseName": "浆细胞样树突状细胞",
+      "definition": "能大量分泌 I 型干扰素，在抗病毒感染中起关键作用。",
+      "notes": "IFN-α 主要来源",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "27"
+      ],
+      "clusterId": "specialized",
+      "kind": "cell",
+      "imageId": "dendritic-cell",
+      "imageMode": "shared"
+    },
+    {
+      "id": "cdc",
+      "abbreviation": "cDC",
+      "aliases": [],
+      "englishName": "Conventional Dendritic Cell",
+      "chineseName": "经典树突状细胞",
+      "definition": "主要承担抗原提呈与 T 细胞激活的常规树突状细胞。",
+      "notes": "区别于 pDC",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "28"
+      ],
+      "clusterId": "myeloid",
+      "kind": "cell",
+      "imageId": "dendritic-cell",
+      "imageMode": "shared"
+    },
+    {
+      "id": "langerhans-cell",
+      "abbreviation": "LC",
+      "aliases": [],
+      "englishName": "Langerhans Cell",
+      "chineseName": "朗格汉斯细胞",
+      "definition": "皮肤表皮中的树突状细胞，捕获皮肤抗原后迁移至淋巴结提呈。",
+      "notes": "皮肤内 DC",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "42"
+      ],
+      "clusterId": "specialized",
+      "kind": "cell",
+      "imageId": "langerhans-cell",
+      "imageMode": "exact"
+    },
+    {
+      "id": "monocyte",
+      "abbreviation": "Mo",
+      "aliases": [],
+      "englishName": "Monocyte",
+      "chineseName": "单核细胞",
+      "definition": "血液中的单核吞噬细胞，进入组织后分化为巨噬细胞或树突状细胞。",
+      "notes": "血液内循环",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "29"
+      ],
+      "clusterId": "myeloid",
+      "kind": "cell",
+      "imageId": "monocyte",
+      "imageMode": "exact"
+    },
+    {
+      "id": "macrophage",
+      "abbreviation": "Mac",
+      "aliases": [
+        "Mφ"
+      ],
+      "englishName": "Macrophage",
+      "chineseName": "巨噬细胞",
+      "definition": "组织中的吞噬细胞，吞噬病原、提呈抗原、分泌细胞因子并杀伤肿瘤。",
+      "notes": "Mφ；即Mac",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "30",
+        "38"
+      ],
+      "clusterId": "myeloid",
+      "kind": "cell",
+      "imageId": "macrophage",
+      "imageMode": "exact"
+    },
+    {
+      "id": "neutrophil",
+      "abbreviation": "Neu",
+      "aliases": [],
+      "englishName": "Neutrophil",
+      "chineseName": "中性粒细胞",
+      "definition": "血液中数量最多的白细胞，吞噬并杀灭细菌，是急性炎症的主要细胞。",
+      "notes": "第一反应吞噬细胞",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "31"
+      ],
+      "clusterId": "myeloid",
+      "kind": "cell",
+      "imageId": "neutrophil",
+      "imageMode": "exact"
+    },
+    {
+      "id": "eosinophil",
+      "abbreviation": "Eos",
+      "aliases": [],
+      "englishName": "Eosinophil",
+      "chineseName": "嗜酸性粒细胞",
+      "definition": "抗寄生虫感染的主要细胞，也参与过敏反应。",
+      "notes": "碱性染料不着色，染成红",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "32"
+      ],
+      "clusterId": "myeloid",
+      "kind": "cell",
+      "imageId": "eosinophil",
+      "imageMode": "exact"
+    },
+    {
+      "id": "basophil",
+      "abbreviation": "Bas",
+      "aliases": [],
+      "englishName": "Basophil",
+      "chineseName": "嗜碱性粒细胞",
+      "definition": "释放组胺等介质，参与速发型超敏反应。",
+      "notes": "与肥大细胞类似",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "33"
+      ],
+      "clusterId": "myeloid",
+      "kind": "cell",
+      "imageId": "basophil",
+      "imageMode": "exact"
+    },
+    {
+      "id": "mast-cell",
+      "abbreviation": "Mast",
+      "aliases": [],
+      "englishName": "Mast Cell",
+      "chineseName": "肥大细胞",
+      "definition": "分布于组织中的含组胺颗粒细胞，IgE 交联后脱颗粒引起过敏。",
+      "notes": "过敏反应关键效应细胞",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "34"
+      ],
+      "clusterId": "myeloid",
+      "kind": "cell",
+      "imageId": "mast-cell",
+      "imageMode": "exact"
+    },
+    {
+      "id": "mdsc",
+      "abbreviation": "MDSC",
+      "aliases": [],
+      "englishName": "Myeloid-Derived Suppressor Cell",
+      "chineseName": "髓源性抑制细胞",
+      "definition": "骨髓来源的抑制性细胞，抑制 T 细胞抗肿瘤免疫，与免疫逃逸相关。",
+      "notes": "肿瘤微环境中常见",
+      "sourceCategory": "免疫细胞",
+      "sourceSerials": [
+        "39"
+      ],
+      "clusterId": "specialized",
+      "kind": "cell",
+      "imageId": "monocyte",
+      "imageMode": "shared"
+    }
+  ],
+  "relations": [
+    {
+      "source": "hsc",
+      "target": "clp",
+      "label": "分化"
+    },
+    {
+      "source": "hsc",
+      "target": "cmp",
+      "label": "分化"
+    },
+    {
+      "source": "clp",
+      "target": "b-cell",
+      "label": "主要分支"
+    },
+    {
+      "source": "clp",
+      "target": "t-cell",
+      "label": "主要分支"
+    },
+    {
+      "source": "clp",
+      "target": "nk",
+      "label": "主要分支"
+    },
+    {
+      "source": "clp",
+      "target": "ilc",
+      "label": "主要分支"
+    },
+    {
+      "source": "b-cell",
+      "target": "plasma-cell",
+      "label": "终末分化"
+    },
+    {
+      "source": "t-cell",
+      "target": "th1",
+      "label": "功能亚群"
+    },
+    {
+      "source": "t-cell",
+      "target": "th2",
+      "label": "功能亚群"
+    },
+    {
+      "source": "t-cell",
+      "target": "th17",
+      "label": "功能亚群"
+    },
+    {
+      "source": "t-cell",
+      "target": "tfh",
+      "label": "功能亚群"
+    },
+    {
+      "source": "t-cell",
+      "target": "treg",
+      "label": "功能亚群"
+    },
+    {
+      "source": "t-cell",
+      "target": "ctl",
+      "label": "功能亚群"
+    },
+    {
+      "source": "t-cell",
+      "target": "gamma-delta-t",
+      "label": "受体亚群"
+    },
+    {
+      "source": "t-cell",
+      "target": "nkt",
+      "label": "特殊亚群"
+    },
+    {
+      "source": "nkt",
+      "target": "inkt",
+      "label": "亚群"
+    },
+    {
+      "source": "cmp",
+      "target": "monocyte",
+      "label": "主要分支"
+    },
+    {
+      "source": "cmp",
+      "target": "dendritic-cell",
+      "label": "教学简化"
+    },
+    {
+      "source": "cmp",
+      "target": "neutrophil",
+      "label": "主要分支"
+    },
+    {
+      "source": "cmp",
+      "target": "eosinophil",
+      "label": "主要分支"
+    },
+    {
+      "source": "cmp",
+      "target": "basophil",
+      "label": "主要分支"
+    },
+    {
+      "source": "cmp",
+      "target": "mast-cell",
+      "label": "教学简化"
+    },
+    {
+      "source": "cmp",
+      "target": "mdsc",
+      "label": "病理性扩增"
+    },
+    {
+      "source": "monocyte",
+      "target": "macrophage",
+      "label": "组织分化"
+    },
+    {
+      "source": "dendritic-cell",
+      "target": "cdc",
+      "label": "主要亚群"
+    },
+    {
+      "source": "dendritic-cell",
+      "target": "pdc",
+      "label": "教学归类"
+    },
+    {
+      "source": "dendritic-cell",
+      "target": "langerhans-cell",
+      "label": "组织亚群"
+    }
+  ],
+  "functionalGroups": [
+    {
+      "id": "apc",
+      "abbreviation": "APC",
+      "englishName": "Antigen Presenting Cell",
+      "chineseName": "抗原提呈细胞",
+      "definition": "能加工并提呈抗原给 T 细胞的细胞，包括 DC、巨噬细胞、B 细胞等。",
+      "notes": "专职 APC：DC/Mφ/B",
+      "sourceSerials": [
+        "35"
+      ],
+      "memberIds": [
+        "dendritic-cell",
+        "macrophage",
+        "b-cell"
+      ]
+    }
+  ]
+}
