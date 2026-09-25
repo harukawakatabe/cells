@@ -1,6 +1,12 @@
 {
   "repository": "https://github.com/duerrsimon/bioicons",
   "downloadedFrom": "https://raw.githubusercontent.com/duerrsimon/bioicons/main/",
+  "visualSystem": "Bioicons",
+  "coveragePolicy": {
+    "exact": "仓库中存在语义明确的对应细胞插图",
+    "shared": "仓库没有可靠的亚型专用图，复用同家族细胞插图并在界面标注",
+    "auditedSubtypes": ["Naive T", "Effector T", "Memory T", "Naive B", "Memory B", "Plasmablast", "cDC1", "cDC2", "MAIT"]
+  },
   "assets": [
     {"id":"b-lymphocyte","file":"/cells/b-lymphocyte.svg","name":"B lymphocyte","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Blood_Immunology/Servier/b-lymphocyte.svg"},
     {"id":"t-lymphocyte","file":"/cells/t-lymphocyte.svg","name":"T lymphocyte","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Blood_Immunology/Servier/t-lymphocyte.svg"},

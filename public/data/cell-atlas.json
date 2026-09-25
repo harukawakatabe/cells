@@ -1,11 +1,12 @@
 {
   "meta": {
-    "cellConceptCount": 28,
+    "cellConceptCount": 37,
     "normalization": [
       "CTL 与 Tc 合并",
       "Mac 与 Mφ 合并",
       "APC 作为功能集合而非单一细胞",
-      "HSC、CLP、CMP 作为谱系前体纳入图谱"
+      "HSC、CLP、CMP 作为谱系前体纳入图谱",
+      "新增 9 个 Cell Ontology 补充亚型，均明确标注为外部策展内容"
     ]
   },
   "clusters": [
@@ -54,7 +55,10 @@
       "clusterId": "precursor",
       "kind": "precursor",
       "imageId": "hematopoietic-stem-cell",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "clp",
@@ -71,7 +75,10 @@
       "clusterId": "precursor",
       "kind": "precursor",
       "imageId": "lymphoid-stem-cell",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "cmp",
@@ -88,7 +95,10 @@
       "clusterId": "precursor",
       "kind": "precursor",
       "imageId": "myeloid-stem-cell",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "b-cell",
@@ -105,7 +115,10 @@
       "clusterId": "lymphoid",
       "kind": "cell",
       "imageId": "b-lymphocyte",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "plasma-cell",
@@ -122,7 +135,10 @@
       "clusterId": "lymphoid",
       "kind": "cell",
       "imageId": "plasma-cell",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "t-cell",
@@ -139,7 +155,10 @@
       "clusterId": "lymphoid",
       "kind": "cell",
       "imageId": "t-lymphocyte",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "th1",
@@ -156,7 +175,10 @@
       "clusterId": "lymphoid",
       "kind": "cell",
       "imageId": "t-lymphocyte",
-      "imageMode": "shared"
+      "imageMode": "shared",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "th2",
@@ -173,7 +195,10 @@
       "clusterId": "lymphoid",
       "kind": "cell",
       "imageId": "t-lymphocyte",
-      "imageMode": "shared"
+      "imageMode": "shared",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "th17",
@@ -190,7 +215,10 @@
       "clusterId": "lymphoid",
       "kind": "cell",
       "imageId": "t-lymphocyte",
-      "imageMode": "shared"
+      "imageMode": "shared",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "tfh",
@@ -207,7 +235,10 @@
       "clusterId": "lymphoid",
       "kind": "cell",
       "imageId": "t-lymphocyte",
-      "imageMode": "shared"
+      "imageMode": "shared",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "treg",
@@ -224,7 +255,10 @@
       "clusterId": "lymphoid",
       "kind": "cell",
       "imageId": "t-lymphocyte",
-      "imageMode": "shared"
+      "imageMode": "shared",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "ctl",
@@ -244,7 +278,10 @@
       "clusterId": "lymphoid",
       "kind": "cell",
       "imageId": "t-lymphocyte",
-      "imageMode": "shared"
+      "imageMode": "shared",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "nk",
@@ -261,7 +298,10 @@
       "clusterId": "lymphoid",
       "kind": "cell",
       "imageId": "nk-cell",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "ilc",
@@ -278,7 +318,10 @@
       "clusterId": "lymphoid",
       "kind": "cell",
       "imageId": "nk-cell",
-      "imageMode": "shared"
+      "imageMode": "shared",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "nkt",
@@ -295,7 +338,10 @@
       "clusterId": "specialized",
       "kind": "cell",
       "imageId": "t-lymphocyte",
-      "imageMode": "shared"
+      "imageMode": "shared",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "inkt",
@@ -312,7 +358,10 @@
       "clusterId": "specialized",
       "kind": "cell",
       "imageId": "t-lymphocyte",
-      "imageMode": "shared"
+      "imageMode": "shared",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "gamma-delta-t",
@@ -329,7 +378,10 @@
       "clusterId": "specialized",
       "kind": "cell",
       "imageId": "t-lymphocyte",
-      "imageMode": "shared"
+      "imageMode": "shared",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "dendritic-cell",
@@ -346,7 +398,10 @@
       "clusterId": "myeloid",
       "kind": "cell",
       "imageId": "dendritic-cell",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "pdc",
@@ -363,7 +418,10 @@
       "clusterId": "specialized",
       "kind": "cell",
       "imageId": "dendritic-cell",
-      "imageMode": "shared"
+      "imageMode": "shared",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "cdc",
@@ -380,7 +438,10 @@
       "clusterId": "myeloid",
       "kind": "cell",
       "imageId": "dendritic-cell",
-      "imageMode": "shared"
+      "imageMode": "shared",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "langerhans-cell",
@@ -397,7 +458,10 @@
       "clusterId": "specialized",
       "kind": "cell",
       "imageId": "langerhans-cell",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "monocyte",
@@ -414,7 +478,10 @@
       "clusterId": "myeloid",
       "kind": "cell",
       "imageId": "monocyte",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "macrophage",
@@ -434,7 +501,10 @@
       "clusterId": "myeloid",
       "kind": "cell",
       "imageId": "macrophage",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "neutrophil",
@@ -451,7 +521,10 @@
       "clusterId": "myeloid",
       "kind": "cell",
       "imageId": "neutrophil",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "eosinophil",
@@ -468,7 +541,10 @@
       "clusterId": "myeloid",
       "kind": "cell",
       "imageId": "eosinophil",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "basophil",
@@ -485,7 +561,10 @@
       "clusterId": "myeloid",
       "kind": "cell",
       "imageId": "basophil",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "mast-cell",
@@ -502,7 +581,10 @@
       "clusterId": "myeloid",
       "kind": "cell",
       "imageId": "mast-cell",
-      "imageMode": "exact"
+      "imageMode": "exact",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
     },
     {
       "id": "mdsc",
@@ -519,7 +601,188 @@
       "clusterId": "specialized",
       "kind": "cell",
       "imageId": "monocyte",
-      "imageMode": "shared"
+      "imageMode": "shared",
+      "sourceType": "excel",
+      "externalId": "",
+      "externalUrl": ""
+    },
+    {
+      "id": "naive-t",
+      "abbreviation": "Naive T",
+      "aliases": [
+        "Tn"
+      ],
+      "englishName": "Naive T cell",
+      "chineseName": "初始T细胞",
+      "definition": "已经成熟但尚未接触其特异性抗原的 T 细胞，典型表型包括 CCR7、CD45RA 与 CD127 阳性。",
+      "notes": "抗原初次激活前的成熟 T 细胞状态",
+      "clusterId": "lymphoid",
+      "imageId": "t-lymphocyte",
+      "externalId": "CL:0000898",
+      "sourceCategory": "Cell Ontology 补充亚型",
+      "sourceSerials": [],
+      "kind": "subtype",
+      "imageMode": "shared",
+      "sourceType": "cell-ontology",
+      "externalUrl": "https://purl.obolibrary.org/obo/CL_0000898"
+    },
+    {
+      "id": "effector-t",
+      "abbreviation": "Teff",
+      "aliases": [
+        "Effector T"
+      ],
+      "englishName": "Effector T cell",
+      "chineseName": "效应T细胞",
+      "definition": "由抗原激活后分化形成，能够迁移到外周组织并执行特异性免疫效应的 T 细胞。",
+      "notes": "包括多种辅助性与细胞毒性效应亚群",
+      "clusterId": "lymphoid",
+      "imageId": "t-lymphocyte",
+      "externalId": "CL:0000911",
+      "sourceCategory": "Cell Ontology 补充亚型",
+      "sourceSerials": [],
+      "kind": "subtype",
+      "imageMode": "shared",
+      "sourceType": "cell-ontology",
+      "externalUrl": "https://purl.obolibrary.org/obo/CL_0000911"
+    },
+    {
+      "id": "memory-t",
+      "abbreviation": "Tmem",
+      "aliases": [
+        "Memory T"
+      ],
+      "englishName": "Memory T cell",
+      "chineseName": "记忆T细胞",
+      "definition": "长寿命、经历过抗原刺激的 T 细胞，再次遇到相同抗原时可更快形成效应应答。",
+      "notes": "可继续细分为中央记忆、效应记忆及组织驻留记忆等状态",
+      "clusterId": "lymphoid",
+      "imageId": "t-lymphocyte",
+      "externalId": "CL:0000813",
+      "sourceCategory": "Cell Ontology 补充亚型",
+      "sourceSerials": [],
+      "kind": "subtype",
+      "imageMode": "shared",
+      "sourceType": "cell-ontology",
+      "externalUrl": "https://purl.obolibrary.org/obo/CL_0000813"
+    },
+    {
+      "id": "naive-b",
+      "abbreviation": "Naive B",
+      "aliases": [
+        "Bn"
+      ],
+      "englishName": "Naive B cell",
+      "chineseName": "初始B细胞",
+      "definition": "已经成熟但尚未在外周被抗原激活的 B 细胞，典型表型为表面 IgD、IgM、CD20 阳性且 CD27 阴性。",
+      "notes": "抗原刺激后可进入浆母细胞、浆细胞或记忆 B 细胞方向",
+      "clusterId": "lymphoid",
+      "imageId": "b-lymphocyte",
+      "externalId": "CL:0000788",
+      "sourceCategory": "Cell Ontology 补充亚型",
+      "sourceSerials": [],
+      "kind": "subtype",
+      "imageMode": "shared",
+      "sourceType": "cell-ontology",
+      "externalUrl": "https://purl.obolibrary.org/obo/CL_0000788"
+    },
+    {
+      "id": "memory-b",
+      "abbreviation": "Bmem",
+      "aliases": [
+        "Memory B"
+      ],
+      "englishName": "Memory B cell",
+      "chineseName": "记忆B细胞",
+      "definition": "长寿命、经过抗原选择的成熟 B 细胞，再次遇到相同抗原时可迅速被激活并产生高亲和力抗体应答。",
+      "notes": "体液免疫记忆的重要载体",
+      "clusterId": "lymphoid",
+      "imageId": "b-lymphocyte",
+      "externalId": "CL:0000787",
+      "sourceCategory": "Cell Ontology 补充亚型",
+      "sourceSerials": [],
+      "kind": "subtype",
+      "imageMode": "shared",
+      "sourceType": "cell-ontology",
+      "externalUrl": "https://purl.obolibrary.org/obo/CL_0000787"
+    },
+    {
+      "id": "plasmablast",
+      "abbreviation": "PB",
+      "aliases": [
+        "Plasmablast"
+      ],
+      "englishName": "Plasmablast",
+      "chineseName": "浆母细胞",
+      "definition": "能够分泌免疫球蛋白的活化成熟 B 细胞，常见表型为 CD27、CD38 阳性且 CD138 阴性。",
+      "notes": "效应 B 细胞阶段，可继续向浆细胞分化",
+      "clusterId": "lymphoid",
+      "imageId": "b-lymphocyte",
+      "externalId": "CL:0000980",
+      "sourceCategory": "Cell Ontology 补充亚型",
+      "sourceSerials": [],
+      "kind": "subtype",
+      "imageMode": "shared",
+      "sourceType": "cell-ontology",
+      "externalUrl": "https://purl.obolibrary.org/obo/CL_0000980"
+    },
+    {
+      "id": "cdc1",
+      "abbreviation": "cDC1",
+      "aliases": [
+        "CD141+ DC"
+      ],
+      "englishName": "Conventional dendritic cell type 1",
+      "chineseName": "1型经典树突状细胞",
+      "definition": "常表达 CD141、XCR1 与 CLEC9A，擅长将外源抗原交叉提呈给 CD8 阳性 T 细胞。",
+      "notes": "采用 Cell Ontology 的人 CD141 阳性髓系树突状细胞概念",
+      "clusterId": "myeloid",
+      "imageId": "dendritic-cell",
+      "externalId": "CL:0002394",
+      "sourceCategory": "Cell Ontology 补充亚型",
+      "sourceSerials": [],
+      "kind": "subtype",
+      "imageMode": "shared",
+      "sourceType": "cell-ontology",
+      "externalUrl": "https://purl.obolibrary.org/obo/CL_0002394"
+    },
+    {
+      "id": "cdc2",
+      "abbreviation": "cDC2",
+      "aliases": [
+        "CD1c+ DC"
+      ],
+      "englishName": "Conventional dendritic cell type 2",
+      "chineseName": "2型经典树突状细胞",
+      "definition": "常表达 CD1c，是经典树突状细胞中的主要群体之一，擅长向 CD4 阳性 T 细胞呈递抗原。",
+      "notes": "采用 Cell Ontology 的人 CD1c 阳性髓系树突状细胞概念",
+      "clusterId": "myeloid",
+      "imageId": "dendritic-cell",
+      "externalId": "CL:0002399",
+      "sourceCategory": "Cell Ontology 补充亚型",
+      "sourceSerials": [],
+      "kind": "subtype",
+      "imageMode": "shared",
+      "sourceType": "cell-ontology",
+      "externalUrl": "https://purl.obolibrary.org/obo/CL_0002399"
+    },
+    {
+      "id": "mait",
+      "abbreviation": "MAIT",
+      "aliases": [],
+      "englishName": "Mucosal-associated invariant T cell",
+      "chineseName": "黏膜相关恒定T细胞",
+      "definition": "主要分布于黏膜组织、受 MR1 分子限制的先天样 αβ T 细胞，可快速响应微生物代谢物相关抗原。",
+      "notes": "兼具先天样快速反应与 TCR 介导识别特征",
+      "clusterId": "specialized",
+      "imageId": "t-lymphocyte",
+      "externalId": "CL:0000940",
+      "sourceCategory": "Cell Ontology 补充亚型",
+      "sourceSerials": [],
+      "kind": "subtype",
+      "imageMode": "shared",
+      "sourceType": "cell-ontology",
+      "externalUrl": "https://purl.obolibrary.org/obo/CL_0000940"
     }
   ],
   "relations": [
@@ -657,6 +920,66 @@
       "source": "dendritic-cell",
       "target": "langerhans-cell",
       "label": "组织亚群"
+    },
+    {
+      "source": "t-cell",
+      "target": "naive-t",
+      "label": "成熟状态"
+    },
+    {
+      "source": "naive-t",
+      "target": "effector-t",
+      "label": "抗原激活"
+    },
+    {
+      "source": "effector-t",
+      "target": "memory-t",
+      "label": "形成记忆"
+    },
+    {
+      "source": "memory-t",
+      "target": "effector-t",
+      "label": "再次刺激"
+    },
+    {
+      "source": "t-cell",
+      "target": "mait",
+      "label": "先天样亚群"
+    },
+    {
+      "source": "b-cell",
+      "target": "naive-b",
+      "label": "成熟状态"
+    },
+    {
+      "source": "naive-b",
+      "target": "plasmablast",
+      "label": "抗原激活"
+    },
+    {
+      "source": "b-cell",
+      "target": "memory-b",
+      "label": "形成记忆"
+    },
+    {
+      "source": "memory-b",
+      "target": "plasmablast",
+      "label": "再次刺激"
+    },
+    {
+      "source": "plasmablast",
+      "target": "plasma-cell",
+      "label": "终末分化"
+    },
+    {
+      "source": "cdc",
+      "target": "cdc1",
+      "label": "主要亚群"
+    },
+    {
+      "source": "cdc",
+      "target": "cdc2",
+      "label": "主要亚群"
     }
   ],
   "functionalGroups": [

@@ -7,6 +7,8 @@ import { Database, ExternalLink, Grid3X3, Info, Network, Search, Table2, X } fro
 import atlasData from "@/data/cell-atlas.json";
 import assetsData from "@/data/assets.json";
 import glossaryData from "@/data/glossary.json";
+import knowledgeGraphData from "@/data/knowledge-graph.json";
+import { KnowledgeGraph } from "@/components/knowledge-graph";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
@@ -42,12 +44,17 @@ function glossarySearchText(record: GlossaryRecord) {
 
 function CellCard({ cell, asset, tone, onSelect }: { cell: Cell; asset?: Asset; tone: string; onSelect: (cell: Cell) => void }) {
   const styles = toneStyles[tone] ?? toneStyles.blue;
+  const [previewOpen, setPreviewOpen] = useState(false);
+  const openDetails = () => {
+    setPreviewOpen(false);
+    onSelect(cell);
+  };
   return (
-    <HoverCard openDelay={240} closeDelay={90}>
+    <HoverCard open={previewOpen} onOpenChange={setPreviewOpen} openDelay={240} closeDelay={90}>
       <HoverCardTrigger asChild>
         <button
           type="button"
-          onClick={() => onSelect(cell)}
+          onClick={openDetails}
           className="group relative flex min-h-44 w-full flex-col overflow-hidden rounded-2xl border border-slate-200 bg-white p-4 text-left shadow-[0_8px_28px_rgba(15,23,42,0.05)] transition duration-200 hover:-translate-y-1 hover:border-slate-300 hover:shadow-[0_16px_40px_rgba(15,23,42,0.11)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-600 focus-visible:ring-offset-2"
           aria-label={`查看 ${cell.abbreviation} ${cell.chineseName} 详情`}
         >
@@ -73,10 +80,17 @@ function CellCard({ cell, asset, tone, onSelect }: { cell: Cell; asset?: Asset; 
       <HoverCardContent side="top" align="start" className="w-80 rounded-xl border-slate-200 p-4 shadow-xl">
         <div className="mb-2 flex items-center justify-between gap-3">
           <div className="font-semibold text-slate-950">{cell.abbreviation} · {cell.chineseName}</div>
-          <Badge variant="outline" className="font-normal">{cell.kind === "precursor" ? "谱系前体" : "免疫细胞"}</Badge>
+          <Badge variant="outline" className="font-normal">{cell.kind === "precursor" ? "谱系前体" : cell.kind === "subtype" ? "补充亚型" : "免疫细胞"}</Badge>
         </div>
         <p className="text-sm leading-6 text-slate-600">{cell.definition}</p>
-        <div className="mt-3 flex items-center gap-1.5 text-xs font-medium text-cyan-800">点击查看完整信息 <span aria-hidden="true">→</span></div>
+        <button
+          type="button"
+          onClick={openDetails}
+          className="mt-3 flex items-center gap-1.5 rounded-md text-xs font-semibold text-cyan-800 outline-none transition hover:text-cyan-950 focus-visible:ring-2 focus-visible:ring-cyan-600 focus-visible:ring-offset-2"
+          aria-label={`查看 ${cell.abbreviation} ${cell.chineseName} 的完整信息`}
+        >
+          点击查看完整信息 <span aria-hidden="true">→</span>
+        </button>
       </HoverCardContent>
     </HoverCard>
   );
@@ -85,7 +99,7 @@ function CellCard({ cell, asset, tone, onSelect }: { cell: Cell; asset?: Asset; 
 function MiniCell({ cell, onSelect }: { cell: Cell; onSelect: (cell: Cell) => void }) {
   const asset = assetsData.assets.find((item) => item.id === cell.imageId);
   return (
-    <button type="button" onClick={() => onSelect(cell)} className="flex items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-left shadow-sm transition hover:border-cyan-300 hover:bg-cyan-50/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-600">
+    <button type="button" onClick={() => onSelect(cell)} className="flex w-full items-center gap-2 rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-left shadow-sm transition hover:border-cyan-300 hover:bg-cyan-50/50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-600">
       {asset && <Image src={asset.file} alt="" width={36} height={36} className="h-9 w-9 shrink-0 object-contain" />}
       <span className="min-w-0"><span className="block font-mono text-sm font-bold text-slate-900">{cell.abbreviation}</span><span className="block truncate text-xs text-slate-500">{cell.chineseName}</span></span>
     </button>
@@ -95,7 +109,11 @@ function MiniCell({ cell, onSelect }: { cell: Cell; onSelect: (cell: Cell) => vo
 function LineageBranch({ title, cell, branchCells, tone, onSelect }: { title: string; cell: Cell; branchCells: Cell[]; tone: "blue" | "teal"; onSelect: (cell: Cell) => void }) {
   return (
     <div className={cn("rounded-2xl border p-4", tone === "blue" ? "border-blue-200 bg-blue-50/70" : "border-teal-200 bg-teal-50/70")}>
-      <div className="mx-auto max-w-sm"><MiniCell cell={cell} onSelect={onSelect} /><div className={cn("mx-auto h-6 w-px", tone === "blue" ? "bg-blue-300" : "bg-teal-300")} /></div>
+      <div className="mx-auto max-w-52">
+        <div aria-hidden="true" className={cn("mx-auto -mt-4 hidden h-4 w-0.5 md:block", tone === "blue" ? "bg-blue-400" : "bg-teal-400")} />
+        <MiniCell cell={cell} onSelect={onSelect} />
+        <div aria-hidden="true" className={cn("mx-auto h-6 w-0.5", tone === "blue" ? "bg-blue-400" : "bg-teal-400")} />
+      </div>
       <h3 className={cn("mb-3 text-xs font-bold uppercase tracking-[0.14em]", tone === "blue" ? "text-blue-800" : "text-teal-800")}>{title}分支</h3>
       <div className="grid gap-2 sm:grid-cols-2 xl:grid-cols-3">{branchCells.map((child) => <MiniCell key={child.id} cell={child} onSelect={onSelect} />)}</div>
     </div>
@@ -116,7 +134,20 @@ function LineageView({ cells, onSelect }: { cells: Cell[]; onSelect: (cell: Cell
         </div>
       </div>
       <div className="overflow-hidden rounded-3xl border border-slate-200 bg-[linear-gradient(180deg,#ffffff_0%,#f5f8fb_100%)] p-4 shadow-sm sm:p-7">
-        <div className="mx-auto max-w-sm"><MiniCell cell={byId.hsc} onSelect={onSelect} /><div className="mx-auto h-8 w-px bg-slate-300" /><div className="mx-auto h-px w-1/2 bg-slate-300" /></div>
+        <div className="mx-auto max-w-44"><MiniCell cell={byId.hsc} onSelect={onSelect} /></div>
+        <div aria-hidden="true" className="mx-auto h-8 w-0.5 bg-slate-400" />
+        <div aria-hidden="true" className="hidden md:block">
+          <div className="grid grid-cols-2 gap-5">
+            <div className="relative h-5">
+              <div className="absolute left-1/2 right-[-0.625rem] top-0 h-0.5 bg-slate-400" />
+              <div className="absolute left-1/2 top-0 h-5 w-0.5 -translate-x-1/2 bg-blue-400" />
+            </div>
+            <div className="relative h-5">
+              <div className="absolute left-[-0.625rem] right-1/2 top-0 h-0.5 bg-slate-400" />
+              <div className="absolute left-1/2 top-0 h-5 w-0.5 -translate-x-1/2 bg-teal-400" />
+            </div>
+          </div>
+        </div>
         <div className="grid gap-5 md:grid-cols-2">
           <LineageBranch title="共同淋巴样祖细胞" cell={byId.clp} branchCells={lymphoidIds.map((id) => byId[id]).filter(Boolean)} tone="blue" onSelect={onSelect} />
           <LineageBranch title="共同髓样祖细胞" cell={byId.cmp} branchCells={myeloidIds.map((id) => byId[id]).filter(Boolean)} tone="teal" onSelect={onSelect} />
@@ -159,8 +190,9 @@ function DetailSheet({ selection, setSelection }: { selection: Selection; setSel
             <SheetTitle className="pt-1 text-2xl tracking-tight text-slate-950">{cell.chineseName}</SheetTitle><SheetDescription className="text-sm text-slate-500">{cell.englishName}</SheetDescription>
           </SheetHeader>
           <div className="space-y-6 px-6 pb-10"><DetailBlock label="功能与释义" value={cell.definition} /><DetailBlock label="联想与备注" value={cell.notes || "原表未提供备注"} />
-            <div className="grid grid-cols-2 gap-3"><DataChip label="展示分类" value={cluster?.label ?? "—"} /><DataChip label="原表分类" value={cell.sourceCategory} /><DataChip label="来源序号" value={cell.sourceSerials.join("、")} /><DataChip label="图示方式" value={cell.imageMode === "exact" ? "对应图示" : "共享基础图示"} /></div>
+            <div className="grid grid-cols-2 gap-3"><DataChip label="展示分类" value={cluster?.label ?? "—"} /><DataChip label="内容分类" value={cell.sourceCategory} /><DataChip label="来源记录" value={cell.sourceSerials.length ? cell.sourceSerials.join("、") : cell.externalId || "外部策展"} /><DataChip label="图示方式" value={cell.imageMode === "exact" ? "对应图示" : "共享家族图示"} /></div>
             {cell.imageMode === "shared" && <div className="rounded-xl border border-amber-200 bg-amber-50 p-4 text-sm leading-6 text-amber-950">此亚群复用基础细胞图示。图形用于帮助记忆细胞家族，不表示能凭普通形态图区分该功能亚型。</div>}
+            {cell.externalUrl && <div className="rounded-xl border border-cyan-200 bg-cyan-50 p-4"><p className="text-xs font-bold uppercase tracking-[0.14em] text-cyan-800">外部概念来源</p><a href={cell.externalUrl} target="_blank" rel="noreferrer" className="mt-2 inline-flex items-center gap-1 text-sm font-semibold text-cyan-900 hover:underline">{cell.externalId} · Cell Ontology <ExternalLink className="size-3.5" /></a></div>}
             {asset && <div className="rounded-xl border border-slate-200 bg-white p-4"><p className="text-xs font-bold uppercase tracking-[0.14em] text-slate-400">图片来源与许可</p><p className="mt-2 text-sm font-semibold text-slate-900">{asset.name} · {asset.author}</p><div className="mt-3 flex flex-wrap gap-2"><a href={`${assetsData.repository}/blob/main/${asset.sourcePath}`} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-sm font-medium text-cyan-800 hover:underline">Bioicons 源文件 <ExternalLink className="size-3.5" /></a><span className="text-slate-300">·</span><a href={asset.licenseUrl} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 text-sm font-medium text-cyan-800 hover:underline">{asset.license} <ExternalLink className="size-3.5" /></a></div></div>}
           </div>
         </>}
@@ -196,13 +228,13 @@ export function ImmuneAtlasApp() {
       <header className="relative overflow-hidden bg-[#071b2b] text-white">
         <div className="absolute inset-0 opacity-25 [background-image:radial-gradient(circle_at_20%_20%,#22d3ee_0,transparent_25%),radial-gradient(circle_at_80%_10%,#818cf8_0,transparent_25%)]" />
         <div className="relative mx-auto max-w-[1500px] px-4 py-6 sm:px-7 sm:py-8 lg:px-10">
-          <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between"><div className="max-w-3xl"><div className="mb-3 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300"><span className="h-px w-7 bg-cyan-400" />Immunology Reference Atlas</div><h1 className="text-3xl font-bold tracking-[-0.035em] sm:text-4xl">免疫细胞交互图谱</h1><p className="mt-3 max-w-2xl text-sm leading-6 text-slate-300 sm:text-base">从缩写进入细胞功能、谱系关系与完整术语库。内容来自同一份速查表，图示来源与许可可逐项追溯。</p></div><div className="grid grid-cols-3 gap-2 sm:gap-3"><HeaderMetric value="28" label="细胞概念" /><HeaderMetric value="326" label="术语记录" /><HeaderMetric value="17" label="原始分类" /></div></div>
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between"><div className="max-w-3xl"><div className="mb-3 flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-cyan-300"><span className="h-px w-7 bg-cyan-400" />Immunology Reference Atlas</div><h1 className="text-3xl font-bold tracking-[-0.035em] sm:text-4xl">免疫术语与细胞知识图谱</h1><p className="mt-3 max-w-2xl text-sm leading-6 text-slate-300 sm:text-base">从缩写进入细胞功能、细分状态、谱系和跨主题关系。原表内容、外部本体与图片许可均可追溯。</p></div><div className="grid grid-cols-2 gap-2 sm:grid-cols-4 sm:gap-3"><HeaderMetric value={String(atlasData.meta.cellConceptCount)} label="细胞概念" /><HeaderMetric value={String(glossaryData.meta.recordCount)} label="术语记录" /><HeaderMetric value={String(knowledgeGraphData.meta.nodeCount)} label="知识节点" /><HeaderMetric value={String(knowledgeGraphData.meta.edgeCount)} label="关系记录" /></div></div>
           <div className="mt-6 max-w-2xl"><label htmlFor="global-search" className="sr-only">搜索缩写、名称或功能</label><div className="relative"><Search className="absolute left-3.5 top-1/2 size-4 -translate-y-1/2 text-slate-400" /><Input id="global-search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索缩写、中文名、英文名或功能…" className="h-12 rounded-xl border-white/15 bg-white/10 pl-10 pr-11 text-base text-white shadow-none placeholder:text-slate-400 focus-visible:border-cyan-400 focus-visible:ring-cyan-400/30" />{query && <Button type="button" variant="ghost" size="icon-sm" onClick={() => setQuery("")} aria-label="清空搜索" className="absolute right-2 top-1/2 -translate-y-1/2 text-slate-300 hover:bg-white/10 hover:text-white"><X /></Button>}</div></div>
         </div>
       </header>
       <div className="mx-auto max-w-[1500px] px-4 py-5 sm:px-7 sm:py-7 lg:px-10">
         <Tabs defaultValue="atlas" className="gap-5">
-          <div className="flex flex-col gap-3 rounded-2xl border border-slate-200 bg-white p-2 shadow-sm sm:flex-row sm:items-center sm:justify-between"><TabsList className="h-auto w-full justify-start gap-1 bg-slate-100 p-1 sm:w-auto"><TabsTrigger value="atlas" className="min-h-10 flex-1 gap-2 px-3 sm:flex-none"><Grid3X3 /> 细胞图谱</TabsTrigger><TabsTrigger value="lineage" className="min-h-10 flex-1 gap-2 px-3 sm:flex-none"><Network /> 谱系关系</TabsTrigger><TabsTrigger value="glossary" className="min-h-10 flex-1 gap-2 px-3 sm:flex-none"><Table2 /> 全部术语</TabsTrigger></TabsList><div className="flex items-center gap-2 px-2 pb-1 text-xs text-slate-500 sm:pb-0"><Database className="size-3.5" />Excel 静态转换 · 无需后端</div></div>
+          <div className="flex flex-col gap-3 rounded-2xl border border-slate-200 bg-white p-2 shadow-sm lg:flex-row lg:items-center lg:justify-between"><TabsList className="grid h-auto w-full grid-cols-2 gap-1 bg-slate-100 p-1 sm:grid-cols-4 lg:w-auto"><TabsTrigger value="atlas" className="min-h-10 gap-2 px-3"><Grid3X3 /> 细胞图谱</TabsTrigger><TabsTrigger value="lineage" className="min-h-10 gap-2 px-3"><Network /> 谱系关系</TabsTrigger><TabsTrigger value="knowledge" className="min-h-10 gap-2 px-3"><Network /> 知识网络</TabsTrigger><TabsTrigger value="glossary" className="min-h-10 gap-2 px-3"><Table2 /> 全部术语</TabsTrigger></TabsList><div className="flex items-center gap-2 px-2 pb-1 text-xs text-slate-500 lg:pb-0"><Database className="size-3.5" />版本化数据 · 证据可追溯</div></div>
           <TabsContent value="atlas">
             <section aria-labelledby="atlas-title" className="space-y-5">
               <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between"><div><h2 id="atlas-title" className="text-xl font-bold tracking-tight text-slate-950">按免疫家族浏览</h2><p className="mt-1 text-sm text-slate-500">悬停快速看功能，点击打开完整释义、来源行和图片许可。</p></div><div className="flex flex-wrap gap-2" aria-label="细胞分类筛选"><FilterButton active={activeCluster === "all"} onClick={() => setActiveCluster("all")} label={`全部 ${atlasData.cells.length}`} />{atlasData.clusters.map((cluster) => <FilterButton key={cluster.id} active={activeCluster === cluster.id} onClick={() => setActiveCluster(cluster.id)} label={`${cluster.shortLabel} ${atlasData.cells.filter((cell) => cell.clusterId === cluster.id).length}`} tone={cluster.tone} />)}</div></div>
@@ -210,15 +242,25 @@ export function ImmuneAtlasApp() {
             </section>
           </TabsContent>
           <TabsContent value="lineage"><LineageView cells={atlasData.cells} onSelect={(value) => setSelection({ kind: "cell", value })} /></TabsContent>
+          <TabsContent value="knowledge"><KnowledgeGraph /></TabsContent>
           <TabsContent value="glossary">
-            <section aria-labelledby="glossary-title" className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+            <section aria-labelledby="glossary-title" className="overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm [&_[data-slot=table-container]]:overflow-x-visible">
               <div className="flex flex-col gap-4 border-b border-slate-200 p-5 sm:flex-row sm:items-end sm:justify-between"><div><h2 id="glossary-title" className="text-lg font-bold tracking-tight text-slate-950">完整术语库</h2><p className="mt-1 text-sm text-slate-500">显示 {filteredTerms.length} / {glossaryData.meta.recordCount} 条；点击任意行查看完整内容。</p></div><label className="text-xs font-semibold text-slate-500">所属分类<select value={activeCategory} onChange={(event) => setActiveCategory(event.target.value)} className="mt-1.5 block h-10 min-w-56 rounded-lg border border-slate-200 bg-white px-3 text-sm font-medium text-slate-800 outline-none focus:border-cyan-600 focus:ring-2 focus:ring-cyan-600/20"><option value="all">全部分类（{glossaryData.categories.length}）</option>{glossaryData.categories.map((category) => <option key={category} value={category}>{category}</option>)}</select></label></div>
-              {filteredTerms.length === 0 ? <div className="p-5"><EmptyState onClear={() => { setQuery(""); setActiveCategory("all"); }} /></div> : <Table><TableHeader className="sticky top-0 z-10 bg-slate-50"><TableRow><TableHead className="w-28 pl-5">缩写</TableHead><TableHead className="min-w-48">中文名称</TableHead><TableHead className="min-w-64">英文全称</TableHead><TableHead className="min-w-[420px]">释义</TableHead><TableHead className="min-w-48 pr-5">所属分类</TableHead></TableRow></TableHeader><TableBody>{filteredTerms.map((record) => <TableRow key={record.serial} onClick={() => setSelection({ kind: "term", value: record })} tabIndex={0} onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") setSelection({ kind: "term", value: record }); }} className="cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-cyan-600"><TableCell className="pl-5 font-mono font-bold text-cyan-900">{record.abbreviation}</TableCell><TableCell className="font-medium text-slate-800">{record.chineseName}</TableCell><TableCell className="text-slate-500">{record.englishName}</TableCell><TableCell className="whitespace-normal leading-6 text-slate-600">{record.definition}</TableCell><TableCell className="pr-5"><Badge variant="secondary" className="font-normal">{record.category}</Badge></TableCell></TableRow>)}</TableBody></Table>}
+              {filteredTerms.length === 0 ? <div className="p-5"><EmptyState onClear={() => { setQuery(""); setActiveCategory("all"); }} /></div> : <>
+                <div className="space-y-3 p-4 md:hidden">{filteredTerms.map((record) => <button key={record.serial} type="button" onClick={() => setSelection({ kind: "term", value: record })} className="w-full rounded-xl border border-slate-200 bg-white p-4 text-left shadow-sm transition hover:border-cyan-300 hover:bg-cyan-50/30 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-600"><span className="flex flex-wrap items-start justify-between gap-2"><span><span className="block font-mono font-bold text-cyan-900">{record.abbreviation}</span><span className="mt-1 block font-semibold text-slate-800">{record.chineseName}</span></span><Badge variant="secondary" className="max-w-[55%] whitespace-normal text-right font-normal leading-4">{record.category}</Badge></span><span className="mt-3 block break-words text-sm text-slate-500">{record.englishName}</span><span className="mt-2 line-clamp-3 block text-sm leading-6 text-slate-600">{record.definition}</span></button>)}</div>
+                <div className="hidden md:block">
+                  <Table className="table-fixed">
+                    <colgroup><col className="w-[10%]" /><col className="w-[18%]" /><col className="w-[27%]" /><col className="w-[33%]" /><col className="w-[12%]" /></colgroup>
+                    <TableHeader className="sticky top-0 z-10 bg-slate-50"><TableRow><TableHead className="whitespace-normal pl-5">缩写</TableHead><TableHead className="whitespace-normal">中文名称</TableHead><TableHead className="whitespace-normal">英文全称</TableHead><TableHead className="whitespace-normal">释义</TableHead><TableHead className="whitespace-normal pr-5">所属分类</TableHead></TableRow></TableHeader>
+                    <TableBody>{filteredTerms.map((record) => <TableRow key={record.serial} onClick={() => setSelection({ kind: "term", value: record })} tabIndex={0} onKeyDown={(event) => { if (event.key === "Enter" || event.key === " ") setSelection({ kind: "term", value: record }); }} className="cursor-pointer focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-cyan-600"><TableCell className="whitespace-normal break-words pl-5 font-mono font-bold text-cyan-900">{record.abbreviation}</TableCell><TableCell className="whitespace-normal break-words font-medium text-slate-800">{record.chineseName}</TableCell><TableCell className="whitespace-normal break-words leading-6 text-slate-500">{record.englishName}</TableCell><TableCell className="whitespace-normal break-words leading-6 text-slate-600">{record.definition}</TableCell><TableCell className="whitespace-normal break-words pr-5"><Badge variant="secondary" className="max-w-full whitespace-normal text-center font-normal leading-4">{record.category}</Badge></TableCell></TableRow>)}</TableBody>
+                  </Table>
+                </div>
+              </>}
             </section>
           </TabsContent>
         </Tabs>
       </div>
-      <footer className="border-t border-slate-200 bg-white"><div className="mx-auto flex max-w-[1500px] flex-col gap-3 px-4 py-6 text-xs leading-5 text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-7 lg:px-10"><p>内容源：免疫学核心术语与缩写速查表 · 图片：Bioicons（逐图标注 CC BY 许可）</p><a href={assetsData.repository} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 font-semibold text-cyan-800 hover:underline">查看 Bioicons 仓库 <ExternalLink className="size-3.5" /></a></div></footer>
+      <footer className="border-t border-slate-200 bg-white"><div className="mx-auto flex max-w-[1500px] flex-col gap-3 px-4 py-6 text-xs leading-5 text-slate-500 sm:flex-row sm:items-center sm:justify-between sm:px-7 lg:px-10"><p>内容源：免疫学核心术语速查表与 Cell Ontology · 统一图片系统：Bioicons（逐图记录许可）</p><div className="flex flex-wrap gap-3"><a href="https://obophenotype.github.io/cell-ontology/" target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 font-semibold text-cyan-800 hover:underline">Cell Ontology <ExternalLink className="size-3.5" /></a><a href={assetsData.repository} target="_blank" rel="noreferrer" className="inline-flex items-center gap-1 font-semibold text-cyan-800 hover:underline">Bioicons <ExternalLink className="size-3.5" /></a></div></div></footer>
       <DetailSheet selection={selection} setSelection={setSelection} />
     </main>
   );
