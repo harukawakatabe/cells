@@ -2,7 +2,8 @@ FROM node:24-alpine AS build
 
 WORKDIR /app
 COPY package.json package-lock.json ./
-RUN npm ci --ignore-scripts
+ARG NPM_REGISTRY=https://registry.npmjs.org
+RUN npm ci --ignore-scripts --registry="$NPM_REGISTRY"
 COPY . .
 RUN npm run graph:build && npm run build
 
