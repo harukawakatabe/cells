@@ -1,0 +1,21 @@
+{
+  "repository": "https://github.com/duerrsimon/bioicons",
+  "downloadedFrom": "https://raw.githubusercontent.com/duerrsimon/bioicons/main/",
+  "assets": [
+    {"id":"b-lymphocyte","file":"/cells/b-lymphocyte.svg","name":"B lymphocyte","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Blood_Immunology/Servier/b-lymphocyte.svg"},
+    {"id":"t-lymphocyte","file":"/cells/t-lymphocyte.svg","name":"T lymphocyte","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Blood_Immunology/Servier/t-lymphocyte.svg"},
+    {"id":"nk-cell","file":"/cells/nk-cell.svg","name":"NK cell","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Blood_Immunology/Servier/nk-cell.svg"},
+    {"id":"dendritic-cell","file":"/cells/dendritic-cell.svg","name":"Dendritic cell","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Blood_Immunology/Servier/dendritic-cell-1.svg"},
+    {"id":"monocyte","file":"/cells/monocyte.svg","name":"Monocyte","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Blood_Immunology/Servier/monocyte.svg"},
+    {"id":"macrophage","file":"/cells/macrophage.svg","name":"Macrophage","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Blood_Immunology/Servier/macrophage.svg"},
+    {"id":"neutrophil","file":"/cells/neutrophil.svg","name":"Neutrophil granulocyte","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Blood_Immunology/Servier/neutrophil-granulocyte.svg"},
+    {"id":"eosinophil","file":"/cells/eosinophil.svg","name":"Eosinophil granulocyte","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Blood_Immunology/Servier/eosinophil-granulocyte.svg"},
+    {"id":"basophil","file":"/cells/basophil.svg","name":"Basophil granulocyte","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Blood_Immunology/Servier/basophil-granulocyte.svg"},
+    {"id":"hematopoietic-stem-cell","file":"/cells/hematopoietic-stem-cell.svg","name":"Hematopoietic stem cell","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Blood_Immunology/Servier/hematopoetic-stem-cell.svg"},
+    {"id":"lymphoid-stem-cell","file":"/cells/lymphoid-stem-cell.svg","name":"Lymphoid stem cell","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Blood_Immunology/Servier/lymphoid-stem-cell.svg"},
+    {"id":"myeloid-stem-cell","file":"/cells/myeloid-stem-cell.svg","name":"Myeloid stem cell","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Blood_Immunology/Servier/myeloid-stem-cell.svg"},
+    {"id":"langerhans-cell","file":"/cells/langerhans-cell.svg","name":"Langerhans cell","author":"Servier","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/","sourcePath":"static/icons/cc-by-3.0/Human_physiology/Servier/langerhans-cell.svg"},
+    {"id":"plasma-cell","file":"/cells/plasma-cell.svg","name":"Plasma cell","author":"El-Jayawant","license":"CC BY 4.0","licenseUrl":"https://creativecommons.org/licenses/by/4.0/","sourcePath":"static/icons/cc-by-4.0/Blood_Immunology/El-Jayawant/plasma_cell.svg"},
+    {"id":"mast-cell","file":"/cells/mast-cell.svg","name":"Mast cell","author":"Sebastian Reinig","license":"CC BY 4.0","licenseUrl":"https://creativecommons.org/licenses/by/4.0/","sourcePath":"static/icons/cc-by-4.0/Blood_Immunology/Sebastian-Reinig/mast_cell_1.svg"}
+  ]
+}

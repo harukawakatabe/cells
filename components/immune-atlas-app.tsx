@@ -4,9 +4,9 @@ import { useMemo, useState } from "react";
 import Image from "next/image";
 import { Database, ExternalLink, Grid3X3, Info, Network, Search, Table2, X } from "lucide-react";
 
-import atlasData from "@/public/data/cell-atlas.json";
-import assetsData from "@/public/data/assets.json";
-import glossaryData from "@/public/data/glossary.json";
+import atlasData from "@/data/cell-atlas.json";
+import assetsData from "@/data/assets.json";
+import glossaryData from "@/data/glossary.json";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { HoverCard, HoverCardContent, HoverCardTrigger } from "@/components/ui/hover-card";
