@@ -1,0 +1,14 @@
+services:
+  cells:
+    container_name: cells
+    image: cells:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: unless-stopped
+    environment:
+      HOST: 0.0.0.0
+      NODE_ENV: production
+      PORT: 3000
+    ports:
+      - "127.0.0.1:${CELLS_PORT:-28100}:3000"

@@ -107,8 +107,6 @@ export function KnowledgeGraph() {
 
   useEffect(() => {
     let active = true;
-    setLoading(true);
-    setError("");
     fetch(`/api/graph?center=${encodeURIComponent(centerId)}&depth=${depth}`, { cache: "no-store" })
       .then((response) => {
         if (!response.ok) throw new Error("graph request failed");
@@ -128,10 +126,7 @@ export function KnowledgeGraph() {
 
   useEffect(() => {
     const value = query.trim();
-    if (!value) {
-      setResults([]);
-      return;
-    }
+    if (!value) return;
     const controller = new AbortController();
     const timeout = window.setTimeout(() => {
       fetch(`/api/concepts?query=${encodeURIComponent(value)}`, { cache: "no-store", signal: controller.signal })
@@ -254,11 +249,23 @@ export function KnowledgeGraph() {
   const assetsById = useMemo(() => Object.fromEntries(assetsData.assets.map((asset) => [asset.id, asset])), []);
   const selectedAsset = selected?.imageId ? assetsById[selected.imageId] : undefined;
 
+  const beginGraphLoad = () => {
+    setLoading(true);
+    setError("");
+  };
+
+  const changeDepth = (nextDepth: 1 | 2) => {
+    if (nextDepth === depth) return;
+    beginGraphLoad();
+    setDepth(nextDepth);
+  };
+
   const navigateToCenter = (nodeId: string) => {
     if (nodeId === centerId) {
       setSelectedId(nodeId);
       return;
     }
+    beginGraphLoad();
     setCenterHistory((history) => [...history, centerId].slice(-20));
     setCenterId(nodeId);
     setSelectedId(nodeId);
@@ -267,12 +274,14 @@ export function KnowledgeGraph() {
   const goBack = () => {
     const previous = centerHistory.at(-1);
     if (!previous) return;
+    beginGraphLoad();
     setCenterHistory((history) => history.slice(0, -1));
     setCenterId(previous);
     setSelectedId(previous);
   };
 
   const returnToStart = () => {
+    beginGraphLoad();
     setCenterHistory([]);
     setCenterId(INITIAL_CENTER_ID);
     setSelectedId(INITIAL_CENTER_ID);
@@ -296,15 +305,15 @@ export function KnowledgeGraph() {
         <div className="flex flex-wrap gap-2">
           <Button type="button" size="sm" variant="outline" disabled={centerHistory.length === 0} onClick={goBack} className="gap-1.5"><ArrowLeft className="size-3.5" />返回上一步</Button>
           <Button type="button" size="sm" variant="outline" disabled={centerId === INITIAL_CENTER_ID} onClick={returnToStart} className="gap-1.5"><RotateCcw className="size-3.5" />回到起点</Button>
-          <Button type="button" size="sm" variant={depth === 1 ? "default" : "outline"} onClick={() => setDepth(1)}>一跳关系</Button>
-          <Button type="button" size="sm" variant={depth === 2 ? "default" : "outline"} onClick={() => setDepth(2)}>二跳展开</Button>
+          <Button type="button" size="sm" variant={depth === 1 ? "default" : "outline"} onClick={() => changeDepth(1)}>一跳关系</Button>
+          <Button type="button" size="sm" variant={depth === 2 ? "default" : "outline"} onClick={() => changeDepth(2)}>二跳展开</Button>
         </div>
       </div>
 
       <div className="relative max-w-xl">
         <Search className="absolute left-3 top-1/2 z-10 size-4 -translate-y-1/2 text-slate-400" />
-        <Input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索细胞、分子、疾病、技术或缩写…" className="h-11 bg-white pl-9" />
-        {results.length > 0 && (
+        <Input value={query} onChange={(event) => { setQuery(event.target.value); setResults([]); }} placeholder="搜索细胞、分子、疾病、技术或缩写…" className="h-11 bg-white pl-9" />
+        {query.trim() && results.length > 0 && (
           <div className="absolute left-0 right-0 top-12 z-30 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-xl">
             {results.map((node) => (
               <button key={node.id} type="button" onClick={() => chooseResult(node)} className="flex w-full items-center gap-3 border-b border-slate-100 px-4 py-3 text-left last:border-0 hover:bg-cyan-50 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-cyan-600">

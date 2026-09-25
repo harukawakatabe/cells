@@ -2,11 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "免疫细胞交互图谱",
+  title: "免疫术语与细胞知识图谱",
   description: "从缩写进入细胞功能、谱系关系与完整免疫学术语库。",
-  other: {
-    "codex-preview": "development",
-  },
   icons: {
     icon: "/favicon.svg",
     shortcut: "/favicon.svg",
