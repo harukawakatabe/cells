@@ -3,7 +3,7 @@ Description=Poll GitHub for cells updates
 
 [Timer]
 OnBootSec=90s
-OnUnitActiveSec=120s
+OnUnitActiveSec=300s
 RandomizedDelaySec=15s
 Persistent=true
 Unit=cells-update.service

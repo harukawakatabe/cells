@@ -26,9 +26,9 @@ npm start
 - 生产域名：`https://cells.shawlab.top`
 - 服务目录：`~/apps/cells`
 - 容器端口：`127.0.0.1:28100`
-- 部署命令：`bash scripts/deploy-mainland.sh main`
+- 部署命令：`bash ~/apps/cells/deploy-mainland.sh main`
 - 容器构建默认使用 `registry.npmmirror.com`；可通过 `NPM_REGISTRY` 覆盖，依赖版本仍由 `package-lock.json` 锁定。
-- 自动更新：mainland 上的 `cells-update.timer` 每两分钟检查 GitHub `main`；拉取步骤会对公网瞬断进行有限重试，发现新提交后进行快进更新、Docker 构建、启动和健康检查。
+- 自动更新：mainland 上的 `cells-update.timer` 每五分钟读取 GitHub `main` 的提交 SHA；发现新版本后，从 GitHub 官方 codeload 下载该提交的不可变源码包，再进行 Docker 构建、启动和健康检查。网络请求带有限重试，不依赖不稳定的 Git smart-HTTP 长连接。
 
 GitHub Actions 负责验证数据生成结果和生产构建；实际发布由 mainland 主动拉取完成，因此不需要把 mainland 私钥存入 GitHub。
 

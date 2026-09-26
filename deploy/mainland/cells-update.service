@@ -8,5 +8,5 @@ Requires=docker.service
 Type=oneshot
 User=ubuntu
 WorkingDirectory=/home/ubuntu/apps/cells
-ExecStart=/home/ubuntu/apps/cells/scripts/deploy-mainland.sh main
+ExecStart=/home/ubuntu/apps/cells/deploy-mainland.sh main
 TimeoutStartSec=1800

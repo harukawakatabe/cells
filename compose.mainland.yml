@@ -1,7 +1,7 @@
 services:
   cells:
     container_name: cells
-    image: cells:latest
+    image: cells:${CELLS_IMAGE_TAG:-latest}
     build:
       context: .
       dockerfile: Dockerfile
