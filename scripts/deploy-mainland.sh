@@ -29,17 +29,18 @@ if ! flock -n 9; then
   exit 0
 fi
 
-github_curl() {
+github_api_curl() {
   curl --fail --location --silent --show-error \
-    --connect-timeout 10 --max-time 90 \
-    --retry 3 --retry-all-errors --retry-delay 3 \
+    --connect-timeout 10 --max-time 30 \
+    --retry 2 --retry-all-errors --retry-delay 3 \
     "$@"
 }
 
-TARGET_SHA="$(github_curl \
-  -H "Accept: application/vnd.github.sha" \
+TARGET_SHA="$(github_api_curl \
+  -H "Accept: application/vnd.github+json" \
   -H "X-GitHub-Api-Version: 2022-11-28" \
-  "https://api.github.com/repos/$REPOSITORY/commits/$BRANCH")"
+  "https://api.github.com/repos/$REPOSITORY/git/ref/heads/$BRANCH" \
+  | node -e 'let input=""; process.stdin.on("data", (chunk) => { input += chunk; }); process.stdin.on("end", () => { const data = JSON.parse(input); if (!data.object?.sha) process.exit(1); process.stdout.write(data.object.sha); });')"
 
 if [[ ! "$TARGET_SHA" =~ ^[0-9a-f]{40}$ ]]; then
   echo "GitHub returned an invalid commit SHA: $TARGET_SHA" >&2
@@ -71,7 +72,9 @@ if [[ ! -d "$RELEASE_DIR" ]]; then
   ARCHIVE="$INCOMING_DIR/source.tar.gz"
   SOURCE_DIR="$INCOMING_DIR/source"
   mkdir -p "$SOURCE_DIR"
-  github_curl \
+  curl --fail --location --silent --show-error \
+    --connect-timeout 10 --max-time 300 \
+    --retry 3 --retry-all-errors --retry-delay 3 --continue-at - \
     -o "$ARCHIVE" \
     "https://codeload.github.com/$REPOSITORY/tar.gz/$TARGET_SHA"
   tar -xzf "$ARCHIVE" --strip-components=1 -C "$SOURCE_DIR"
