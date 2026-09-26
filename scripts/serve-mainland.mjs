@@ -99,7 +99,12 @@ const server = createServer(async (incoming, outgoing) => {
       duplex: "half",
     });
     const waitUntilTasks = [];
-    const response = await worker.fetch(
+    let response;
+    if (["GET", "HEAD"].includes(request.method)) {
+      const assetResponse = await serveAsset(request);
+      if (assetResponse.status !== 404) response = assetResponse;
+    }
+    response ??= await worker.fetch(
       request,
       { ASSETS: { fetch: serveAsset } },
       {

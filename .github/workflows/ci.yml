@@ -22,3 +22,9 @@ jobs:
       - name: Verify generated graph is committed
         run: git diff --exit-code -- data/knowledge-graph.json public/data/knowledge-graph.json
       - run: npm run build
+      - name: Smoke-test mainland production adapter
+        run: |
+          npm start > /tmp/cells-mainland.log 2>&1 &
+          server_pid=$!
+          trap 'kill "$server_pid"' EXIT
+          npm run smoke:mainland

@@ -10,6 +10,7 @@
     "dev": "node scripts/run-framework.mjs dev",
     "build": "node scripts/run-framework.mjs build",
     "graph:build": "node scripts/build-knowledge-graph.mjs",
+    "smoke:mainland": "node scripts/smoke-mainland.mjs",
     "start": "node scripts/serve-mainland.mjs",
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate"
